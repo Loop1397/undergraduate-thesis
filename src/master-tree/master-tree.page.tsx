@@ -21,6 +21,7 @@ const TreeRow = styled.div`
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
+  min-height: 50px;
 `;
 
 function MasterTree() {
@@ -104,10 +105,65 @@ function MasterTree() {
     },
   ];
 
-  const [parantTree, setParentTree] = useState([[6, 7], [8]]);
+  const [parentTree, setParentTree] = useState<number[][][]>();
+  const [parentCols, setParentCols] = useState<number>(0);
+
+  // ParentTreeを表すlistを作る関数
+  const searchParentTree = (id: number, length: number) => {
+    const parentTree: number[][][] = Array.from({ length: length }, () => [] as number[][]);
+    const researcher = data.find((d) => d.id === id);
+
+    // 検索する研究者が間違っている時のエラー
+    if (!researcher) {
+      console.error(`researcher ${id} is not founded!`);
+      return;
+    }
+
+    // 検索する研究者の師匠を先に入れる
+    parentTree[0].push(researcher.parent);
+
+    // parentColsのmaxを計算するための変数max
+    // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
+    let max = researcher.parent.length;
+
+    // 検索する研究者の師匠に基づいてparentTreeを作っていく
+    for (let i = 0; i < length - 1; i++) {
+      parentTree[i].forEach((row) => {
+        // 現在のループのcolsを計算するための変数
+        let current = 0;
+
+        // parentのidを一つずつ検索し、listに入れていく
+        row.forEach((researcherId) => {
+          const parent = data.find((d) => d.id === researcherId);
+          // もしデータを見つからなかったとき、dummyのデータ(-1)を入れる。
+          if (parent) {
+            parentTree[i + 1].push(parent.parent);
+            // 師匠の数をcurrentに足していく
+            current += parent.parent.length;
+          } else {
+            parentTree[i + 1].push([-1]);
+          }
+        });
+
+        // maxとcurrentを比較し、より大きい値をmaxに入れる
+        max = Math.max(max, current);
+      });
+    }
+
+    // 順番を師匠からにするためreverseさせる
+    parentTree.reverse();
+
+    // console.log(max);
+    // console.log(parentTree);
+
+    // 検索結果をparentTreeとparentColsに入れる
+    setParentCols(max);
+    setParentTree(parentTree);
+  };
 
   return (
     <>
+      <button onClick={() => searchParentTree(8, 2)}>test</button>
       <TreeWrapper>
         <ParentTree style={{ ["--cols" as any]: Math.max(1, parantTree.length) }}>
           <TreeRow>1</TreeRow>
