@@ -128,9 +128,9 @@ function MasterTree() {
 
     // 検索する研究者の師匠に基づいてparentTreeを作っていく
     for (let i = 0; i < length - 1; i++) {
+      // 現在のループのcolsを計算するための変数
+      let current = 0;
       parentTree[i].forEach((row) => {
-        // 現在のループのcolsを計算するための変数
-        let current = 0;
 
         // parentのidを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
@@ -142,19 +142,17 @@ function MasterTree() {
             current += parent.parent.length;
           } else {
             parentTree[i + 1].push([-1]);
+            current += 1;
           }
         });
 
-        // maxとcurrentを比較し、より大きい値をmaxに入れる
-        max = Math.max(max, current);
       });
+      // maxとcurrentを比較し、より大きい値をmaxに入れる
+      max = Math.max(max, current);
     }
 
     // 順番を師匠からにするためreverseさせる
     parentTree.reverse();
-
-    // console.log(max);
-    // console.log(parentTree);
 
     // 検索結果をparentTreeとparentColsに入れる
     setParentCols(max);
