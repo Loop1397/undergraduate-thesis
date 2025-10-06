@@ -1,0 +1,9 @@
+.container {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.parent {
+  display: grid;
+  gap: 16px;
+}
