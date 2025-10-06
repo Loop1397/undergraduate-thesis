@@ -1,0 +1,12 @@
+:root {
+    --node-w: 260px;
+    --node-px: 14px;
+    --row-gap: 80px;
+    --column-gap: 28px;
+    --bg: #e0e0e0;
+    --line: #c9c9c9;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
