@@ -30,26 +30,27 @@ function MasterTree() {
     parent: number[];
   };
 
+  // parent: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
       id: 1,
-      parent: [],
+      parent: [0],
     },
     {
       id: 2,
-      parent: [],
+      parent: [0],
     },
     {
       id: 3,
-      parent: [],
+      parent: [0],
     },
     {
       id: 4,
-      parent: [],
+      parent: [0],
     },
     {
       id: 5,
-      parent: [],
+      parent: [0],
     },
     {
       id: 6,
@@ -97,7 +98,7 @@ function MasterTree() {
     },
     {
       id: 899,
-      parent: [],
+      parent: [0],
     },
     {
       id: 900,
@@ -107,6 +108,7 @@ function MasterTree() {
 
   const [parentTree, setParentTree] = useState<number[][][]>();
   const [parentCols, setParentCols] = useState<number>(0);
+  const [spans, setSpans] = useState<number[][]>();
 
   // ParentTreeを表すlistを作る関数
   const searchParentTree = (id: number, length: number) => {
@@ -157,7 +159,31 @@ function MasterTree() {
     // 検索結果をparentTreeとparentColsに入れる
     setParentCols(max);
     setParentTree(parentTree);
+    setSpans(computeTreeSpans(parentTree));
   };
+
+  // 各nodeが持つ広さ(span)を求めるためのメッソド
+  const computeTreeSpans = (tree: number[][][]): number[][] => {
+    const spans: number[][] = [];
+
+    // 一行目は
+    spans[0] = tree[0].map((group) => group.length);
+
+    for (let r = 1; r < tree.length; r++) {
+      const prev = spans[r - 1];
+      const groupSizes = tree[r].map((group) => group.length); // 이번 행에서 몇 개의 이전 그룹을 합치는가
+      const rowSpans: number[] = [];
+
+      let i = 0;
+      for (const size of groupSizes) {
+        rowSpans.push(prev.slice(i, i + size).reduce((acc, cur) => acc + cur, 0));
+        i += size;
+      }
+      spans[r] = rowSpans;
+    }
+
+    return spans;
+  }
 
   return (
     <>
