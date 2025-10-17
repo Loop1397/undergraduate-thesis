@@ -44,6 +44,8 @@ function MasterTree() {
     parent: number[];
   };
 
+  type Direction = 'ancestors' | 'descendants';
+
   // parent: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
@@ -125,12 +127,17 @@ function MasterTree() {
   ];
 
   const [parentTree, setParentTree] = useState<number[][][]>();
-  const [parentCols, setParentCols] = useState<number>(0);
+  const [parentMaxCols, setParentMaxCols] = useState<number>(0);
   const [spans, setSpans] = useState<number[][]>();
 
-  // ParentTreeを表すlistを作る関数
-  const buildParentTree = (rootId: number, maxDepth: number) => {
-    const parentTree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
+  /**
+   * Treeを表すlistを作る関数
+   * rootId: Treeのrootとなる研究者のid
+   * maxDepth: 作られるTreeの深さ
+   * direction: 作られるTreeが上(ancestors)か、下(descendants)かを決める
+   * */
+  const buildMasterTree = (rootId: number, maxDepth: number, direction: Direction) => {
+    const tree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
     const rootResearcher = data.find((d) => d.id === rootId);
 
     // 検索する研究者が間違っている時のエラー
@@ -139,41 +146,57 @@ function MasterTree() {
       return;
     }
 
-    // 検索する研究者の師匠を先に入れる
-    parentTree[0].push(rootResearcher.parent);
-
-    // parentColsのmaxを計算するための変数max
-    // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
-    let max = rootResearcher.parent.length;
-
-    // 検索する研究者の師匠に基づいてparentTreeを作っていく
-    for (let i = 0; i < maxDepth - 1; i++) {
-      // 現在のループのcolsを計算するための変数
-      let current = 0;
-      parentTree[i].forEach((row) => {
-
-        // parentのidを一つずつ検索し、listに入れていく
-        row.forEach((researcherId) => {
-          const parent: Researcher | undefined = data.find((d) => d.id === researcherId);
-          // もしデータを見つからなかったとき、dummy(空)のデータ(0)を入れる。
-          const parentNode = parent ? parent.parent : [0];
-          parentTree[i + 1].push(parentNode);
-          // 師匠の数をcurrentに足していく
-          current += parentNode.length;
-        });
-
-      });
-      // maxとcurrentを比較し、より大きい値をmaxに入れる
-      max = Math.max(max, current);
+    // depth=1のところを初期化する
+    if (direction === 'ancestors') {
+      // ancestorsのときにはrootの師匠を探す
+      tree[0].push(rootResearcher.parent);
+    } else {
+      // descendantsのときにはrootの弟子を探す
+      const children = data.filter(d => d.parent.includes(rootId)).map(d => d.id);
+      tree[0].push(children);
     }
 
-    // 順番を師匠からにするためreverseさせる
-    parentTree.reverse();
+    // maxColsのmaxを計算するための変数maxCount
+    // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
+    let maxCount = rootResearcher.parent.length;
 
-    // 検索結果をparentTreeとparentColsに入れる
-    setParentCols(max);
-    setParentTree(parentTree);
-    setSpans(computeTreeSpans(parentTree));
+    // 検索する研究者の師匠もしくは弟子に基づいてTreeを作っていく
+    for (let i = 0; i < maxDepth - 1; i++) {
+      // 現在のループのcolsを計算するための変数
+      let currentRowCount = 0;
+
+      tree[i].forEach((row) => {
+        // 各idを一つずつ検索し、listに入れていく
+        row.forEach((researcherId) => {
+          if (direction === 'ancestors') {
+            const parent = data.find((d) => d.id === researcherId);
+            // もしデータを見つからなかったとき、dummy(空)のデータ(0)を入れる。
+            const parentNode = parent ? parent.parent : [0];
+            tree[i + 1].push(parentNode);
+            // 師匠の数をcurrentに足していく
+            currentRowCount += parentNode.length;
+          } else {
+            const child = data.filter(d => d.parent.includes(researcherId)).map(d => d.id);
+            tree[i + 1].push(child.length !== 0 ? child : [0]);
+            currentRowCount += child.length !== 0 ? child.length : 1;
+          }
+        });
+      });
+      // maxCountとcurrentを比較し、より大きい値をmaxCountに入れる
+      maxCount = Math.max(maxCount, currentRowCount);
+    }
+
+    // direction === 'ancestors'の場合、順番をreverseさせる
+    if (direction === 'ancestors') {
+      tree.reverse();
+    }
+
+    console.log(tree);
+
+    // 検索結果をTreeとMaxColsに入れる
+    setParentMaxCols(maxCount);
+    setParentTree(tree);
+    setSpans(computeTreeSpans(tree));
   };
 
   // 各nodeが持つ広さ(span)を求めるためのメッソド
@@ -201,9 +224,9 @@ function MasterTree() {
 
   return (
     <>
-      <button onClick={() => buildParentTree(8, 2)}>test</button>
+      <button onClick={() => buildMasterTree(8, 2, 'ancestors')}>test</button>
       <TreeWrapper>
-        <ParentTree style={{ ["--cols" as any]: parentCols }}>
+        <ParentTree style={{ ["--cols" as any]: parentMaxCols }}>
           {parentTree?.map((row, rowIdx) => {
             // spansから各nodeのspan(広さ)情報を持ってくる
             // ただし、rowIdx===0のときのnodeの大きさは全て1にする
