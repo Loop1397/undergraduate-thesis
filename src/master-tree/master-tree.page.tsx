@@ -49,10 +49,6 @@ function MasterTree() {
   // parent: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
-      id: 0,
-      parent: [0]
-    },
-    {
       id: 1,
       parent: [0],
     },
@@ -174,14 +170,14 @@ function MasterTree() {
         row.forEach((researcherId) => {
           if (direction === 'ancestors') {
             const parent = data.find((d) => d.id === researcherId);
-            // もしデータを見つからなかったとき、dummy(空)のデータ(0)を入れる。
+            // もしデータを見つからなかったとき、dummy(空)のデータ(-1)を入れる。
             const parentNode = parent ? parent.parent : [0];
             tree[i + 1].push(parentNode);
             // 師匠の数をcurrentに足していく
             currentRowCount += parentNode.length;
           } else {
             const child = data.filter(d => d.parent.includes(researcherId)).map(d => d.id);
-            tree[i + 1].push(child.length !== 0 ? child : [0]);
+            tree[i + 1].push(child.length !== 0 ? child : [-1]);
             currentRowCount += child.length !== 0 ? child.length : 1;
           }
         });
@@ -193,9 +189,9 @@ function MasterTree() {
     // direction === 'ancestors'の場合、Treeをreverseさせる
     if (direction === 'ancestors') {
       tree.reverse();
-    // 検索結果をTreeとMaxColsに入れる
-    setParentMaxCols(maxCount);
-    setParentTree(tree);
+      // 検索結果をTreeとMaxColsに入れる
+      setParentMaxCols(maxCount);
+      setParentTree(tree);
       setParentSpans(computeTreeSpans(tree, direction));
     } else {
       setChildMaxCols(maxCount);
@@ -276,6 +272,35 @@ function MasterTree() {
           <TreeRow>
             <TreeNode key={`searchIdx`} $start={1} $end={-1}>idx</TreeNode>
           </TreeRow>
+        </ParentTree>
+        <ParentTree style={{ ["--cols" as any]: childMaxCols, marginTop: '16px' }}>
+          {childTree?.map((row, rowIdx) => {
+            // spansから各nodeのspan(広さ)情報を持ってくる
+            // ただし、rowIdx===0のときのnodeの大きさは全て1にする
+            const spansForNodes = rowIdx === childTree.length - 1 ? row.flat().map(() => 1) : childSpans![rowIdx + 1].slice();
+
+            let curStart = 1;
+            return (
+              <TreeRow key={`child-${rowIdx}`}>
+                {
+                  row.flat().map((id: any, idx: number) => {
+                    // nodeが始まるところ
+                    const start = curStart;
+                    // nodeが終わるところ(start + span)
+                    const end = start + spansForNodes[idx];
+                    // 次のnodeが始まるところ
+                    curStart += spansForNodes[idx];
+
+                    return (
+                      <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                        {id}
+                      </TreeNode>
+                    );
+                  })
+                }
+              </TreeRow>
+            );
+          })}
         </ParentTree>
       </TreeWrapper>
     </>
