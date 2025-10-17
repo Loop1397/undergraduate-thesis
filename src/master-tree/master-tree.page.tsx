@@ -47,6 +47,10 @@ function MasterTree() {
   // parent: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
+      id: 0,
+      parent: [0]
+    },
+    {
       id: 1,
       parent: [0],
     },
@@ -151,15 +155,11 @@ function MasterTree() {
         // parentのidを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
           const parent: Researcher | undefined = data.find((d) => d.id === researcherId);
-          // もしデータを見つからなかったとき、dummyのデータ(-1)を入れる。
-          if (parent) {
-            parentTree[i + 1].push(parent.parent);
-            // 師匠の数をcurrentに足していく
-            current += parent.parent.length;
-          } else {
-            parentTree[i + 1].push([-1]);
-            current += 1;
-          }
+          // もしデータを見つからなかったとき、dummy(空)のデータ(0)を入れる。
+          const parentNode = parent ? parent.parent : [0];
+          parentTree[i + 1].push(parentNode);
+          // 師匠の数をcurrentに足していく
+          current += parentNode.length;
         });
 
       });
