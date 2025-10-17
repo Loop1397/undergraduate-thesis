@@ -11,7 +11,7 @@ const TreeWrapper = styled.div`
 // --colsは下で計算する
 const ParentTree = styled.div`
   display: grid;
-  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr));
   gap: 16px;
 `;
 
@@ -22,6 +22,20 @@ const TreeRow = styled.div`
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
   min-height: 50px;
+`;
+
+const TreeNode = styled.div<{
+  $start?: number;
+  $end?: number;
+  $span?: number;
+}>`
+  background-color:rgb(171, 128, 211);
+  min-width: 50px;
+  grid-column: ${({ $start, $end, $span }) => {
+    if ($start != null && $end != null) return `${$start} / ${$end}`;
+    if ($start != null && $span != null) return `${$start} / span ${$span}`;
+    return 'auto';
+  }};
 `;
 
 function MasterTree() {
@@ -166,7 +180,7 @@ function MasterTree() {
   const computeTreeSpans = (tree: number[][][]): number[][] => {
     const spans: number[][] = [];
 
-    // 一行目は
+    // 1行目は2行目からの準備であるため先に計算する
     spans[0] = tree[0].map((group) => group.length);
 
     for (let r = 1; r < tree.length; r++) {
@@ -189,9 +203,38 @@ function MasterTree() {
     <>
       <button onClick={() => buildParentTree(8, 2)}>test</button>
       <TreeWrapper>
-        <ParentTree style={{ ["--cols" as any]: Math.max(1, parantTree.length) }}>
-          <TreeRow>1</TreeRow>
-          <TreeRow>2</TreeRow>
+        <ParentTree style={{ ["--cols" as any]: parentCols }}>
+          {parentTree?.map((row, rowIdx) => {
+            // spansから各nodeのspan(広さ)情報を持ってくる
+            // ただし、rowIdx===0のときのnodeの大きさは全て1にする
+            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : spans![rowIdx - 1].slice();
+
+            let curStart = 1;
+            return (
+              <TreeRow key={`parent-${rowIdx}`}>
+                {
+                  row.flat().map((id: any, idx: number) => {
+                    // nodeが始まるところ
+                    const start = curStart;
+                    // nodeが終わるところ(start + span)
+                    const end = start + spansForNodes[idx];
+                    // 次のnodeが始まるところ
+                    curStart += spansForNodes[idx];
+
+                    return (
+                      <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                        {id}
+                      </TreeNode>
+                    );
+                  })
+                }
+              </TreeRow>
+            );
+          })}
+          {/* 検索を行った研究者のrow */}
+          <TreeRow>
+            <TreeNode key={`searchIdx`} $start={1} $end={-1}>idx</TreeNode>
+          </TreeRow>
         </ParentTree>
       </TreeWrapper>
     </>
