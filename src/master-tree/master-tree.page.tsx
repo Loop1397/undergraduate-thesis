@@ -128,7 +128,11 @@ function MasterTree() {
 
   const [parentTree, setParentTree] = useState<number[][][]>();
   const [parentMaxCols, setParentMaxCols] = useState<number>(0);
-  const [spans, setSpans] = useState<number[][]>();
+  const [parentSpans, setParentSpans] = useState<number[][]>();
+
+  const [childTree, setChildTree] = useState<number[][][]>();
+  const [childMaxCols, setChildMaxCols] = useState<number>(0);
+  const [childSpans, setChildSpans] = useState<number[][]>();
 
   /**
    * Treeを表すlistを作る関数
@@ -186,29 +190,40 @@ function MasterTree() {
       maxCount = Math.max(maxCount, currentRowCount);
     }
 
-    // direction === 'ancestors'の場合、順番をreverseさせる
+    // direction === 'ancestors'の場合、Treeをreverseさせる
     if (direction === 'ancestors') {
       tree.reverse();
-    }
-
-    console.log(tree);
-
     // 検索結果をTreeとMaxColsに入れる
     setParentMaxCols(maxCount);
     setParentTree(tree);
-    setSpans(computeTreeSpans(tree));
+      setParentSpans(computeTreeSpans(tree, direction));
+    } else {
+      setChildMaxCols(maxCount);
+      setChildTree(tree);
+      setChildSpans(computeTreeSpans(tree, direction));
+    }
+
+
   };
 
   // 各nodeが持つ広さ(span)を求めるためのメッソド
-  const computeTreeSpans = (tree: number[][][]): number[][] => {
+  const computeTreeSpans = (tree: number[][][], direction: Direction): number[][] => {
     const spans: number[][] = [];
+    // descendantsの場合、Treeをreverseさせる必要があるが、reverseは元のlistを変更させてしまう。
+    // そのため、先にコピーすることで元のlistに影響を与えないようにする
+    const tempTree = [...tree];
+
+    // direction === 'descendants'の場合、Treeをreverseさせる
+    if (direction === 'descendants') tempTree.reverse();
+
+    console.log(tree);
 
     // 1行目は2行目からの準備であるため先に計算する
-    spans[0] = tree[0].map((group) => group.length);
+    spans[0] = tempTree[0].map((group) => group.length);
 
-    for (let r = 1; r < tree.length; r++) {
+    for (let r = 1; r < tempTree.length; r++) {
       const prev = spans[r - 1];
-      const groupSizes = tree[r].map((group) => group.length); // 이번 행에서 몇 개의 이전 그룹을 합치는가
+      const groupSizes = tempTree[r].map((group) => group.length); // 이번 행에서 몇 개의 이전 그룹을 합치는가
       const rowSpans: number[] = [];
 
       let i = 0;
@@ -219,18 +234,21 @@ function MasterTree() {
       spans[r] = rowSpans;
     }
 
+    if (direction === 'descendants') spans.reverse();
+
     return spans;
   }
 
   return (
     <>
-      <button onClick={() => buildMasterTree(8, 2, 'ancestors')}>test</button>
+      <button onClick={() => buildMasterTree(8, 2, 'ancestors')}>test1</button>
+      <button onClick={() => buildMasterTree(8, 2, 'descendants')}>test2</button>
       <TreeWrapper>
         <ParentTree style={{ ["--cols" as any]: parentMaxCols }}>
           {parentTree?.map((row, rowIdx) => {
             // spansから各nodeのspan(広さ)情報を持ってくる
             // ただし、rowIdx===0のときのnodeの大きさは全て1にする
-            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : spans![rowIdx - 1].slice();
+            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : parentSpans![rowIdx - 1].slice();
 
             let curStart = 1;
             return (
