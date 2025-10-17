@@ -125,9 +125,9 @@ function MasterTree() {
   const [spans, setSpans] = useState<number[][]>();
 
   // ParentTreeを表すlistを作る関数
-  const searchParentTree = (id: number, length: number) => {
-    const parentTree: number[][][] = Array.from({ length: length }, () => [] as number[][]);
-    const researcher = data.find((d) => d.id === id);
+  const buildParentTree = (rootId: number, maxDepth: number) => {
+    const parentTree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
+    const rootResearcher = data.find((d) => d.id === rootId);
 
     // 検索する研究者が間違っている時のエラー
     if (!researcher) {
@@ -136,21 +136,21 @@ function MasterTree() {
     }
 
     // 検索する研究者の師匠を先に入れる
-    parentTree[0].push(researcher.parent);
+    parentTree[0].push(rootResearcher.parent);
 
     // parentColsのmaxを計算するための変数max
     // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
-    let max = researcher.parent.length;
+    let max = rootResearcher.parent.length;
 
     // 検索する研究者の師匠に基づいてparentTreeを作っていく
-    for (let i = 0; i < length - 1; i++) {
+    for (let i = 0; i < maxDepth - 1; i++) {
       // 現在のループのcolsを計算するための変数
       let current = 0;
       parentTree[i].forEach((row) => {
 
         // parentのidを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
-          const parent = data.find((d) => d.id === researcherId);
+          const parent: Researcher | undefined = data.find((d) => d.id === researcherId);
           // もしデータを見つからなかったとき、dummyのデータ(-1)を入れる。
           if (parent) {
             parentTree[i + 1].push(parent.parent);
@@ -201,7 +201,7 @@ function MasterTree() {
 
   return (
     <>
-      <button onClick={() => searchParentTree(8, 2)}>test</button>
+      <button onClick={() => buildParentTree(8, 2)}>test</button>
       <TreeWrapper>
         <ParentTree style={{ ["--cols" as any]: parentCols }}>
           {parentTree?.map((row, rowIdx) => {
