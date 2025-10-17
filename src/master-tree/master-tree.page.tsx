@@ -130,8 +130,8 @@ function MasterTree() {
     const rootResearcher = data.find((d) => d.id === rootId);
 
     // 検索する研究者が間違っている時のエラー
-    if (!researcher) {
-      console.error(`researcher ${id} is not founded!`);
+    if (!rootResearcher) {
+      console.error(`researcher ${rootId} is not founded!`);
       return;
     }
 
