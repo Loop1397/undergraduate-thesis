@@ -9,13 +9,13 @@ const TreeWrapper = styled.div`
 
 // grid=template-columnsにより各rowを何個で分けるかを決める
 // --colsは下で計算する
-const ParentTree = styled.div`
+const AdvisorTree = styled.div`
   display: grid;
   grid-template-columns: repeat(var(--cols, 1), minmax(0, 1fr));
   gap: 16px;
 `;
 
-// grid-template-columns: subgrid;でParentTree, ChildTreeのgrid-template-columnsの値を取ってくる
+// grid-template-columns: subgrid;でAdvisorTree, AdviseeTreeのgrid-template-columnsの値を取ってくる
 const TreeRow = styled.div`
   background-color: #574b90;
   display: grid;
@@ -29,106 +29,106 @@ const TreeNode = styled.div<{
   $end?: number;
   $span?: number;
 }>`
-  background-color:rgb(171, 128, 211);
+  background-color: rgb(171, 128, 211);
   min-width: 50px;
   grid-column: ${({ $start, $end, $span }) => {
     if ($start != null && $end != null) return `${$start} / ${$end}`;
     if ($start != null && $span != null) return `${$start} / span ${$span}`;
-    return 'auto';
+    return "auto";
   }};
 `;
 
 function MasterTree() {
   type Researcher = {
     id: number;
-    parent: number[];
+    advisor: number[];
   };
 
-  type Direction = 'ancestors' | 'descendants';
+  type Direction = "ancestors" | "descendants";
 
-  // parent: [0] -> 師匠がいない
+  // advisor: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
       id: 1,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 2,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 3,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 4,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 5,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 6,
-      parent: [1, 2, 3, 4],
+      advisor: [1, 2, 3, 4],
     },
     {
       id: 7,
-      parent: [5],
+      advisor: [5],
     },
     {
       id: 8,
-      parent: [6, 7],
+      advisor: [6, 7],
     },
     {
       id: 9,
-      parent: [8, 900],
+      advisor: [8, 900],
     },
     {
       id: 10,
-      parent: [8, 900],
+      advisor: [8, 900],
     },
     {
       id: 11,
-      parent: [8],
+      advisor: [8],
     },
     {
       id: 12,
-      parent: [9],
+      advisor: [9],
     },
     {
       id: 13,
-      parent: [9],
+      advisor: [9],
     },
     {
       id: 14,
-      parent: [9],
+      advisor: [9],
     },
     {
       id: 15,
-      parent: [11],
+      advisor: [11],
     },
     {
       id: 16,
-      parent: [11],
+      advisor: [11],
     },
     {
       id: 899,
-      parent: [0],
+      advisor: [0],
     },
     {
       id: 900,
-      parent: [899],
+      advisor: [899],
     },
   ];
 
-  const [parentTree, setParentTree] = useState<number[][][]>();
-  const [parentMaxCols, setParentMaxCols] = useState<number>(0);
-  const [parentSpans, setParentSpans] = useState<number[][]>();
+  const [advisorTree, setAdvisorTree] = useState<number[][][]>();
+  const [advisorMaxCols, setAdvisorMaxCols] = useState<number>(0);
+  const [advisorSpans, setAdvisorSpans] = useState<number[][]>();
 
-  const [childTree, setChildTree] = useState<number[][][]>();
-  const [childMaxCols, setChildMaxCols] = useState<number>(0);
-  const [childSpans, setChildSpans] = useState<number[][]>();
+  const [adviseeTree, setAdviseeTree] = useState<number[][][]>();
+  const [adviseeMaxCols, setAdviseeMaxCols] = useState<number>(0);
+  const [adviseeSpans, setAdviseeSpans] = useState<number[][]>();
 
   /**
    * Treeを表すlistを作る関数
@@ -147,18 +147,18 @@ function MasterTree() {
     }
 
     // depth=1のところを初期化する
-    if (direction === 'ancestors') {
+    if (direction === "ancestors") {
       // ancestorsのときにはrootの師匠を探す
-      tree[0].push(rootResearcher.parent);
+      tree[0].push(rootResearcher.advisor);
     } else {
       // descendantsのときにはrootの弟子を探す
-      const children = data.filter(d => d.parent.includes(rootId)).map(d => d.id);
-      tree[0].push(children);
+      const advisees = data.filter((d) => d.advisor.includes(rootId)).map((d) => d.id);
+      tree[0].push(advisees);
     }
 
     // maxColsのmaxを計算するための変数maxCount
     // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
-    let maxCount = rootResearcher.parent.length;
+    let maxCount = rootResearcher.advisor.length;
 
     // 検索する研究者の師匠もしくは弟子に基づいてTreeを作っていく
     for (let i = 0; i < maxDepth - 1; i++) {
@@ -168,17 +168,17 @@ function MasterTree() {
       tree[i].forEach((row) => {
         // 各idを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
-          if (direction === 'ancestors') {
-            const parent = data.find((d) => d.id === researcherId);
+          if (direction === "ancestors") {
+            const advisor = data.find((d) => d.id === researcherId);
             // もしデータを見つからなかったとき、dummy(空)のデータ(-1)を入れる。
-            const parentNode = parent ? parent.parent : [0];
-            tree[i + 1].push(parentNode);
+            const advisorNode = advisor ? advisor.advisor : [0];
+            tree[i + 1].push(advisorNode);
             // 師匠の数をcurrentに足していく
-            currentRowCount += parentNode.length;
+            currentRowCount += advisorNode.length;
           } else {
-            const child = data.filter(d => d.parent.includes(researcherId)).map(d => d.id);
-            tree[i + 1].push(child.length !== 0 ? child : [-1]);
-            currentRowCount += child.length !== 0 ? child.length : 1;
+            const advisee = data.filter((d) => d.advisor.includes(researcherId)).map((d) => d.id);
+            tree[i + 1].push(advisee.length !== 0 ? advisee : [-1]);
+            currentRowCount += advisee.length !== 0 ? advisee.length : 1;
           }
         });
       });
@@ -187,19 +187,17 @@ function MasterTree() {
     }
 
     // direction === 'ancestors'の場合、Treeをreverseさせる
-    if (direction === 'ancestors') {
+    if (direction === "ancestors") {
       tree.reverse();
       // 検索結果をTreeとMaxColsに入れる
-      setParentMaxCols(maxCount);
-      setParentTree(tree);
-      setParentSpans(computeTreeSpans(tree, direction));
+      setAdvisorMaxCols(maxCount);
+      setAdvisorTree(tree);
+      setAdvisorSpans(computeTreeSpans(tree, direction));
     } else {
-      setChildMaxCols(maxCount);
-      setChildTree(tree);
-      setChildSpans(computeTreeSpans(tree, direction));
+      setAdviseeMaxCols(maxCount);
+      setAdviseeTree(tree);
+      setAdviseeSpans(computeTreeSpans(tree, direction));
     }
-
-
   };
 
   // 各nodeが持つ広さ(span)を求めるためのメッソド
@@ -210,7 +208,7 @@ function MasterTree() {
     const tempTree = [...tree];
 
     // direction === 'descendants'の場合、Treeをreverseさせる
-    if (direction === 'descendants') tempTree.reverse();
+    if (direction === "descendants") tempTree.reverse();
 
     console.log(tree);
 
@@ -230,78 +228,76 @@ function MasterTree() {
       spans[r] = rowSpans;
     }
 
-    if (direction === 'descendants') spans.reverse();
+    if (direction === "descendants") spans.reverse();
 
     return spans;
-  }
+  };
 
   return (
     <>
-      <button onClick={() => buildMasterTree(8, 2, 'ancestors')}>test1</button>
-      <button onClick={() => buildMasterTree(8, 2, 'descendants')}>test2</button>
+      <button onClick={() => buildMasterTree(8, 2, "ancestors")}>test1</button>
+      <button onClick={() => buildMasterTree(8, 2, "descendants")}>test2</button>
       <TreeWrapper>
-        <ParentTree style={{ ["--cols" as any]: parentMaxCols }}>
-          {parentTree?.map((row, rowIdx) => {
+        <AdvisorTree style={{ ["--cols" as any]: advisorMaxCols }}>
+          {advisorTree?.map((row, rowIdx) => {
             // spansから各nodeのspan(広さ)情報を持ってくる
             // ただし、rowIdx===0のときのnodeの大きさは全て1にする
-            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : parentSpans![rowIdx - 1].slice();
+            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : advisorSpans![rowIdx - 1].slice();
 
             let curStart = 1;
             return (
-              <TreeRow key={`parent-${rowIdx}`}>
-                {
-                  row.flat().map((id: any, idx: number) => {
-                    // nodeが始まるところ
-                    const start = curStart;
-                    // nodeが終わるところ(start + span)
-                    const end = start + spansForNodes[idx];
-                    // 次のnodeが始まるところ
-                    curStart += spansForNodes[idx];
+              <TreeRow key={`advisor-${rowIdx}`}>
+                {row.flat().map((id: any, idx: number) => {
+                  // nodeが始まるところ
+                  const start = curStart;
+                  // nodeが終わるところ(start + span)
+                  const end = start + spansForNodes[idx];
+                  // 次のnodeが始まるところ
+                  curStart += spansForNodes[idx];
 
-                    return (
-                      <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                        {id}
-                      </TreeNode>
-                    );
-                  })
-                }
+                  return (
+                    <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                      {id}
+                    </TreeNode>
+                  );
+                })}
               </TreeRow>
             );
           })}
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode key={`searchIdx`} $start={1} $end={-1}>idx</TreeNode>
+            <TreeNode key={`searchIdx`} $start={1} $end={-1}>
+              idx
+            </TreeNode>
           </TreeRow>
-        </ParentTree>
-        <ParentTree style={{ ["--cols" as any]: childMaxCols, marginTop: '16px' }}>
-          {childTree?.map((row, rowIdx) => {
+        </AdvisorTree>
+        <AdvisorTree style={{ ["--cols" as any]: adviseeMaxCols, marginTop: "16px" }}>
+          {adviseeTree?.map((row, rowIdx) => {
             // spansから各nodeのspan(広さ)情報を持ってくる
             // ただし、rowIdx===0のときのnodeの大きさは全て1にする
-            const spansForNodes = rowIdx === childTree.length - 1 ? row.flat().map(() => 1) : childSpans![rowIdx + 1].slice();
+            const spansForNodes = rowIdx === adviseeTree.length - 1 ? row.flat().map(() => 1) : adviseeSpans![rowIdx + 1].slice();
 
             let curStart = 1;
             return (
-              <TreeRow key={`child-${rowIdx}`}>
-                {
-                  row.flat().map((id: any, idx: number) => {
-                    // nodeが始まるところ
-                    const start = curStart;
-                    // nodeが終わるところ(start + span)
-                    const end = start + spansForNodes[idx];
-                    // 次のnodeが始まるところ
-                    curStart += spansForNodes[idx];
+              <TreeRow key={`advisee-${rowIdx}`}>
+                {row.flat().map((id: any, idx: number) => {
+                  // nodeが始まるところ
+                  const start = curStart;
+                  // nodeが終わるところ(start + span)
+                  const end = start + spansForNodes[idx];
+                  // 次のnodeが始まるところ
+                  curStart += spansForNodes[idx];
 
-                    return (
-                      <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                        {id}
-                      </TreeNode>
-                    );
-                  })
-                }
+                  return (
+                    <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                      {id}
+                    </TreeNode>
+                  );
+                })}
               </TreeRow>
             );
           })}
-        </ParentTree>
+        </AdvisorTree>
       </TreeWrapper>
     </>
   );
