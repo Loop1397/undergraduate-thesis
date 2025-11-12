@@ -1,0 +1,131 @@
+[
+  {
+    "name": "今野 陽子",
+    "advisors": [
+      "鈴木 恵二",
+      "川村 秀憲"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "Structured Approach for Local Clustering Organization（局所クラスタリング組織化法の構造化アプローチ）",
+    "category": "基礎・理論（最適化）",
+    "keywords": [
+      "local clustering organization",
+      "self-organization map",
+      "metaheuristic"
+    ],
+    "award_date": "2015-03"
+  },
+  {
+    "name": "大岩 秀和",
+    "advisors": [
+      "中川 裕志"
+    ],
+    "affiliation": "東京大学大学院情報理工学系研究科 数理情報学専攻",
+    "title": "Subgradient-based Online and Stochastic Learning with Biases（劣勾配ベースのバイアス考慮型オンライン学習および確率的学習）",
+    "category": "機械学習・データマイニング（分類学習）",
+    "keywords": [
+      "機械学習",
+      "オンライン学習",
+      "確率的最適化",
+      "スパース正則化"
+    ],
+    "award_date": "2015-03"
+  },
+  {
+    "name": "川久保 佐記",
+    "advisors": [
+      "和泉 潔"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "連成型人工市場モデルの構築によるデリバティブ市場の構造分析",
+    "category": "エージェント",
+    "keywords": [
+      "人工市場",
+      "エージェントシミュレーション",
+      "オプション市場",
+      "市場間連成"
+    ],
+    "award_date": "2015-09"
+  },
+  {
+    "name": "松山 洋一",
+    "advisors": [
+      "小林 哲則"
+    ],
+    "affiliation": "早稲田大学大学院基幹理工学研究科",
+    "title": "Multiparty Conversation Facilitation Robots",
+    "category": "エージェント（ヒューマンエージェントインタラクション／自然言語処理／対話処理）",
+    "keywords": [
+      "多人数会話",
+      "ファシリテーション戦略",
+      "自然言語生成",
+      "会話ロボット・エージェント",
+      "マルチモーダル情報処理"
+    ],
+    "award_date": "2015-02"
+  },
+  {
+    "name": "吉田 孝志",
+    "advisors": [
+      "倉橋 節也"
+    ],
+    "affiliation": "筑波大学大学院ビジネス科学研究科 博士後期課程企業科学専攻",
+    "title": "スノーボール調査とネットワーク分析に基づくエージェントベース普及モデル",
+    "category": "エージェント（エージェントシミュレーション）",
+    "keywords": [
+      "エージェントベースモデル",
+      "普及モデル",
+      "マーケットメイブン",
+      "クチコミ",
+      "社会ネットワーク"
+    ],
+    "award_date": "2015-03"
+  },
+  {
+    "name": "小野 良太",
+    "advisors": [
+      "鈴木 恵二"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "Service Aspect Oriented Recommender Systems（サービスの特徴を考慮した推薦システム）",
+    "category": "ヒューマンインタフェース・教育支援（推薦システム）",
+    "keywords": [
+      "推薦システム",
+      "サービス工学",
+      "シミュレーション"
+    ],
+    "award_date": "2015-03"
+  },
+  {
+    "name": "長谷川 達人",
+    "advisors": [
+      "木村 春彦"
+    ],
+    "affiliation": "金沢大学大学院自然科学研究科",
+    "title": "操作性や利用者行動改善のためのインテリジェントスマートフォンに関する研究",
+    "category": "ヒューマンインタフェース・教育支援（知的インタフェース）",
+    "keywords": [
+      "スマートフォン",
+      "コンテキストアウェアネス",
+      "機械学習"
+    ],
+    "award_date": "2015-09"
+  },
+  {
+    "name": "武 博",
+    "advisors": [
+      "金 群"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "サイバースペースにおけるユーザのソーシャルロール解析と情報行動支援への適用",
+    "category": "ヒューマンインタフェース・教育支援（その他）",
+    "keywords": [
+      "social roles",
+      "SNS",
+      "data mining",
+      "information search & recommendation",
+      "collective decision making"
+    ],
+    "award_date": "2015-07"
+  }
+]

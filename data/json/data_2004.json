@@ -1,0 +1,435 @@
+[
+  {
+    "name": "皆月 昭則",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "ユーザの主観や価値判断を利用した経路決定の研究",
+    "category": "基礎・理論",
+    "keywords": [
+      "最短経路問題",
+      "AHP",
+      "ファジィショケ積分",
+      "ANP",
+      "マルコフ過程"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "中津川 雅史",
+    "advisors": [
+      "大内 東"
+    ],
+    "affiliation": "北海道大学 大学院工学研究科 システム情報工学専攻",
+    "title": "Study of Mahalanobis-Taguchi Strategy for Defect Inspection of Industrial Products（工業製品の欠陥検査を行うマハラノビス・タグチ法に関する研究）",
+    "category": "基礎・理論",
+    "keywords": [
+      "Mahalanobis-Taguchi strategy",
+      "マハラノビス距離",
+      "多変量解析",
+      "品質管理"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "高村 大也",
+    "advisors": [
+      "松本 裕治"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+    "title": "Clustering Approaches to Text Categorization",
+    "category": "学習と発見",
+    "keywords": [
+      "text categorization",
+      "clustering",
+      "support vector machines",
+      "kernel method"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "下方 拓",
+    "advisors": [
+      "寺野 隆雄"
+    ],
+    "affiliation": "筑波大学大学院 ビジネス科学研究科 企業科学専攻",
+    "title": "World Wide Webアクセスにおける探索構造 ーインターネット探索行動圏概念構築に向けた研究ー",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "Web探索コスト",
+      "スモールワールド",
+      "情報採餌行動"
+    ],
+    "award_date": "2003-07"
+  },
+  {
+    "name": "伊藤 禎宣",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "知的触発を伴う協調的活動を支援するアウェアネスシステムに関する研究",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "協調的活動支援",
+      "アウェアネス",
+      "実世界指向インタフェース"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "加藤 義清",
+    "advisors": [
+      "堀 浩一"
+    ],
+    "affiliation": "東京大学 大学院工学系研究科 先端学際工学専攻",
+    "title": "A System for Enabling Evolutionary Knowledge Management Process across the Life Cycle of Complex Engineering Systems",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "knowledge management",
+      "capture bottleneck",
+      "design rationale",
+      "fault diagnosis",
+      "ontology",
+      "time-series retrieval"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "松村 真宏",
+    "advisors": [
+      "石塚 満"
+    ],
+    "affiliation": "東京大学 大学院工学系研究科",
+    "title": "チャンス発見のためのコミュニティマイニングに関する研究",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "チャンス発見",
+      "コミュニティマイニング",
+      "テキストマイニング"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "大平 雅雄",
+    "advisors": [
+      "中小路 久美代"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+    "title": "対面異文化間コミュニケーションにおける相互理解構築とアイデア創発の支援に関する研究",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "協調作業支援",
+      "相互理解構築支援",
+      "発想支援",
+      "ブレークダウン",
+      "境界オブジェクト",
+      "アソシエーションの可視化"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "坂本 竜基",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "図によるコンテキストの継時的表現及び共有手法に関する研究",
+    "category": "知識情報インフラストラクチャ",
+    "keywords": [
+      "情報デザイン",
+      "コンテキストアウェア",
+      "グラフ自動描画",
+      "状況意味論"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "北越 大輔",
+    "advisors": [
+      "栗原 正仁"
+    ],
+    "affiliation": "北海道大学 大学院工学研究科 システム情報工学専攻",
+    "title": "ベイジアンネットによるエージェントの確率的知識表現に関する研究",
+    "category": "エージェント・分散人工知能",
+    "keywords": [
+      "ベイジアンネット",
+      "確率的知識表現",
+      "方策改善",
+      "利益共有法",
+      "焼なまし法"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "松井 藤五郎",
+    "advisors": [
+      "世木 博久"
+    ],
+    "affiliation": "名古屋工業大学",
+    "title": "自律型エージェントの行動学習に関する研究",
+    "category": "エージェント・分散人工知能",
+    "keywords": [
+      "強化学習",
+      "profit sharing",
+      "概念学習",
+      "決定木学習",
+      "帰納論理プログラミング"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "森山 甲一",
+    "advisors": [
+      "沼尾 正行"
+    ],
+    "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+    "title": "自己評価により学習するエージェントに関する研究",
+    "category": "エージェント・分散人工知能",
+    "keywords": [
+      "強化学習",
+      "マルチエージェントシステム",
+      "ゲーム理論"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "今井 順一",
+    "advisors": [
+      "栗原 正仁"
+    ],
+    "affiliation": "北海道大学 大学院工学研究科 システム情報工学専攻",
+    "title": "遺伝的アルゴリズムの混合システム的モデリングに関する研究",
+    "category": "創発システム",
+    "keywords": [
+      "遺伝的アルゴリズム",
+      "混合モデル",
+      "学習によるモデリング"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "鈴木 麗璽",
+    "advisors": [
+      "有田 隆也"
+    ],
+    "affiliation": "名古屋大学 大学院人間情報学研究科 物質・生命情報学専攻",
+    "title": "個体間相互作用に基づく創発的ダイナミクスに関するエージェントベースモデリング",
+    "category": "創発システム",
+    "keywords": [
+      "進化と学習",
+      "Baldwin効果",
+      "協調行動の進化",
+      "空間的局所性",
+      "情報共有",
+      "多様性",
+      "人工生命"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "Fumihide Tanaka",
+    "advisors": [
+      "Masayuki Yamamura"
+    ],
+    "affiliation": "Tokyo Institute of Technology, Interdisciplinary Graduate School of Science and Engineering, Department of Computational Intelligence and Systems Science",
+    "title": "Multi task Reinforcement Learning with Value Statistics",
+    "category": "創発システム",
+    "keywords": [
+      "reinforcement learning",
+      "transfer of knowledge",
+      "value statistics"
+    ],
+    "award_date": "2003-09"
+  },
+  {
+    "name": "渡邉 真也",
+    "advisors": [
+      "三木 光範"
+    ],
+    "affiliation": "同志社大学 大学院工学研究科",
+    "title": "近傍個体の交叉に基づく多目的遺伝的アルゴリズムとその応用に関する研究",
+    "category": "創発システム",
+    "keywords": [
+      "多目的最適化",
+      "遺伝的アルゴリズム",
+      "多目的意思決定",
+      "並列分散",
+      "レイアウト",
+      "スケジューリング"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "小島 篤博",
+    "advisors": [
+      "福永 邦雄"
+    ],
+    "affiliation": "大阪府立大学 大学院工学研究科",
+    "title": "映像中の人物行動の認識とその自然言語記述に関する研究",
+    "category": "自然言語",
+    "keywords": [
+      "動画像処理",
+      "動作認識",
+      "自然言語生成",
+      "概念階層",
+      "意味素性",
+      "格フレーム"
+    ],
+    "award_date": "2003-09"
+  },
+  {
+    "name": "駒谷 和範",
+    "advisors": [
+      "奥乃 博",
+      "河原 達也"
+    ],
+    "affiliation": "京都大学 大学院情報学研究科",
+    "title": "Spoken Dialogue Systems for Information Retrieval with Domain-Independent Dialogue Strategies（ドメイン非依存な対話戦略を備えた情報検索音声対話システム）",
+    "category": "自然言語",
+    "keywords": [
+      "音声対話システム",
+      "対話戦略",
+      "確認発話",
+      "言語モデル"
+    ],
+    "award_date": "2002-11"
+  },
+  {
+    "name": "松下 光範",
+    "advisors": [
+      "田村 坦之"
+    ],
+    "affiliation": "大阪大学 大学院基礎工学研究科",
+    "title": "自然言語要求に基づく大量情報からの対話的情報提供技術に関する研究",
+    "category": "自然言語",
+    "keywords": [
+      "自然言語インタフェース",
+      "情報統合",
+      "情報可視化",
+      "インタラクションデザイン"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "柳井 啓司",
+    "advisors": [
+      "武市 正人"
+    ],
+    "affiliation": "東京大学 大学院工学系研究科 情報工学専攻",
+    "title": "実世界画像に対する画像認識の研究",
+    "category": "パターン理解",
+    "keywords": [
+      "実世界画像認識",
+      "マルチエージェント画像理解",
+      "WWW画像収集",
+      "画像分類",
+      "Web画像マイニング"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "林 秀彦",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "生体計測技術を用いた視知覚認知計測に関する基礎的研究",
+    "category": "認知と身体性",
+    "keywords": [
+      "脳波",
+      "視覚誘発電位",
+      "眼球運動",
+      "高品位映像",
+      "パターンリバーサル刺激",
+      "ESL"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "中臺 一博",
+    "advisors": [
+      "田中 英彦"
+    ],
+    "affiliation": "東京大学工学部",
+    "title": "アクティブオーディションによる自然なヒューマン・ロボットインターフェースの実現に関する研究",
+    "category": "認知と身体性",
+    "keywords": [
+      "ロボット聴覚",
+      "アクティブオーディション",
+      "ヒューマノイド",
+      "視聴覚統合",
+      "音源分離",
+      "音源定位",
+      "音声認識",
+      "実環境認識"
+    ],
+    "award_date": "2003-07"
+  },
+  {
+    "name": "岡本 昌之",
+    "advisors": [
+      "石田 亨"
+    ],
+    "affiliation": "京都大学大学院情報学研究科社会情報学専攻",
+    "title": "Design and Applications of Learning Conversational Agents（学習対話エージェントの設計と応用）",
+    "category": "ヒューマンインタフェース・知的学習支援システム",
+    "keywords": [
+      "対話エージェント",
+      "対話モデル",
+      "機械学習",
+      "コミュニケーション支援システム"
+    ],
+    "award_date": "2003-03"
+  },
+  {
+    "name": "石西 正幸",
+    "advisors": [
+      "出口 弘"
+    ],
+    "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+    "title": "通信資源配分のための市場指向モデルの検討",
+    "category": "AI応用",
+    "keywords": [
+      "市場指向モデル",
+      "エージェントベースドシミュレーション",
+      "不動点探索アルゴリズム",
+      "板寄せ",
+      "先物市場"
+    ],
+    "award_date": "2003-09"
+  },
+  {
+    "name": "勝又 勇治",
+    "advisors": [
+      "寺野 隆雄"
+    ],
+    "affiliation": "筑波大学大学院ビジネス科学研究科企業科学専攻",
+    "title": "遺伝的アルゴリズムによる多様解の探求と実問題への適用に関する研究 ―発電所内電気回路最適設計―",
+    "category": "AI応用",
+    "keywords": [
+      "遺伝的アルゴリズム",
+      "ベイジアン最適化アルゴリズム",
+      "タブー探索",
+      "多様解",
+      "発電所内電気回路",
+      "最適設計"
+    ],
+    "award_date": "2003-07"
+  },
+  {
+    "name": "柴田 博仁",
+    "advisors": [
+      "堀 浩一"
+    ],
+    "affiliation": "東京大学大学院工学系研究科先端学際工学専攻",
+    "title": "創発的文章作成プロセスの実現に向けた研究",
+    "category": "AI応用",
+    "keywords": [
+      "創造的デザイン",
+      "文章作成"
+    ],
+    "award_date": "2003-03"
+  }
+]

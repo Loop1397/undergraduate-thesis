@@ -1,0 +1,389 @@
+[
+  {
+    "name": "Yanan Wang (王 亜楠)",
+    "advisors": [
+      "栗原 聡"
+    ],
+    "affiliation": "慶應義塾大学大学院理工学研究科 開放環境科学専攻",
+    "title": "Performance Efficiency in Multimodal Representation Learning",
+    "category": "機械学習／深層学習",
+    "keywords": [
+      "multimodal representation learning",
+      "affective computing"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "マムン マリハ ビンテ",
+    "advisors": [
+      "綱川 隆志"
+    ],
+    "affiliation": "静岡大学大学院 総合科学技術研究科 情報科学技術専攻",
+    "title": "Sarcasm-Aware Hate Speech Detection Using Rationales",
+    "category": "機械学習／深層学習",
+    "keywords": [
+      "hate speech detection",
+      "sarcasm",
+      "natural language processing",
+      "machine learning",
+      "deep learning",
+      "rationale"
+    ],
+    "award_date": "2024-09"
+  },
+  {
+    "name": "菅原 聖太",
+    "advisors": [
+      "植野 真臣"
+    ],
+    "affiliation": "電気通信大学大学院 情報理工学研究科 情報・ネットワーク工学専攻",
+    "title": "Exact Learning of Augmented Naive Bayes Classifiers",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "Bayesian network",
+      "classifier",
+      "probabilistic graphical model"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "劉 庶",
+    "advisors": [
+      "鳥海 不二夫"
+    ],
+    "affiliation": "東京大学大学院 工学系研究科 システム創成学専攻",
+    "title": "複雑ネットワークにおける構造的埋め込み表現の学習（Structural Representation Learning in Complex Networks）",
+    "category": "機械学習／表現学習（エンベディング）",
+    "keywords": [
+      "複雑ネットワーク",
+      "構造的特徴",
+      "表現学習"
+    ],
+    "award_date": "2024-09"
+  },
+  {
+    "name": "Pavasant Nat",
+    "advisors": [
+      "福井 健一"
+    ],
+    "affiliation": "大阪大学大学院 情報科学研究科 情報数理学専攻",
+    "title": "Causal Inference on Spatio-temporal Point Process Data Based on Granger Causality",
+    "category": "機械学習／その他",
+    "keywords": [
+      "clustering",
+      "causal inference",
+      "spatio-temporal point-process"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "Thanapol Phungtua-eng",
+    "advisors": [
+      "山本 泰生"
+    ],
+    "affiliation": "静岡大学 創造科学技術大学院 情報科学専攻",
+    "title": "Research on Time Series Decomposition for Real-time Analysis of Dynamic and Stable Behaviors in Streaming Data",
+    "category": "知識の利用と共有／データマイニング",
+    "keywords": [
+      "time series data mining",
+      "time series decomposition",
+      "streaming data"
+    ],
+    "award_date": "2024-09"
+  },
+  {
+    "name": "須賀 聖",
+    "advisors": [
+      "栗原 聡"
+    ],
+    "affiliation": "慶應義塾大学大学院 理工学研究科",
+    "title": "環境の動的変化に適応可能な交通情報補間に関する研究",
+    "category": "エージェント／群知能",
+    "keywords": [
+      "群知能",
+      "高度道路交通システム（ITS）",
+      "アリコロニー最適化（ACO）",
+      "マルチエージェントシミュレーション"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "松木 彰",
+    "advisors": [
+      "畑山 満則"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科 社会情報学専攻",
+    "title": "災害対応ガバナンス醸成のためのシミュレーション型プラットフォームの開発",
+    "category": "エージェント／シミュレーション",
+    "keywords": [
+      "disaster response",
+      "geospatial information",
+      "digital twins",
+      "multi-agent system",
+      "simulation"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "朝倉 卓人",
+    "advisors": [
+      "宮尾 祐介"
+    ],
+    "affiliation": "東京大学大学院 情報理工学系研究科 コンピュータ科学専攻",
+    "title": "Intra-document Disambiguation of Math Identifiers for Formula Grounding",
+    "category": "言語メディア処理／意味理解",
+    "keywords": [
+      "数式グラウンディング",
+      "自然言語処理",
+      "情報抽出",
+      "共参照解析",
+      "entity linking"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "髙橋 啓吾",
+    "advisors": [
+      "高間 康史",
+      "小町 守"
+    ],
+    "affiliation": "東京都立大学大学院 システムデザイン研究科",
+    "title": "Context Analysis with Large Language Models",
+    "category": "言語メディア処理／会話・談話・意図理解",
+    "keywords": [
+      "context analysis",
+      "large language model",
+      "natural language processing"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "伊藤 滉一朗",
+    "advisors": [
+      "松原 茂樹"
+    ],
+    "affiliation": "名古屋大学大学院 情報学研究科 知能システム学専攻",
+    "title": "語りに傾聴を示す応答の生成に関する研究",
+    "category": "言語メディア処理／会話・談話・意図理解",
+    "keywords": [
+      "聴き手",
+      "会話エージェント",
+      "応答コーパス",
+      "応答タイミング"
+    ],
+    "award_date": "2024-04"
+  },
+  {
+    "name": "山本 賢太",
+    "advisors": [
+      "河原 達也"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科 知能情報学専攻",
+    "title": "Character Expression of a Conversational Robot for Adapting to User Personality",
+    "category": "言語メディア処理／対話処理・対話システム",
+    "keywords": [
+      "conversational robot",
+      "user adaptation",
+      "character",
+      "personality"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "安道 健一郎",
+    "advisors": [
+      "小町 守"
+    ],
+    "affiliation": "東京都立大学大学院 システムデザイン研究科 情報科学域",
+    "title": "Automatic Discharge Summary Generation Using Neural Network Models",
+    "category": "言語メディア処理／要約",
+    "keywords": [
+      "natural language processing",
+      "discharge summary generation"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "影山 雄太",
+    "advisors": [
+      "佐藤 宏介"
+    ],
+    "affiliation": "大阪大学大学院 基礎工学研究科",
+    "title": "Neural Projector Deblurring",
+    "category": "画像音声メディア処理／コンピュータビジョン",
+    "keywords": [
+      "projector deblurring",
+      "projection mapping",
+      "deep learning"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "吉田 尚人",
+    "advisors": [
+      "國吉 康夫"
+    ],
+    "affiliation": "東京大学大学院 情報理工学系研究科 知能機械情報学専攻",
+    "title": "恒常性に基づく自律エージェントの行動創発に関する構成論的研究",
+    "category": "ロボットと実世界／知能ロボティクス",
+    "keywords": [
+      "恒常性",
+      "深層強化学習",
+      "計算論的神経科学",
+      "自律エージェント",
+      "行動創発"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "Oskar Natan",
+    "advisors": [
+      "三浦 純"
+    ],
+    "affiliation": "豊橋技術科学大学大学院 工学研究科 情報・知能工学専攻",
+    "title": "Deep Perception-Action Coupling and Sensor Fusion for End-to-end Autonomous Driving",
+    "category": "ロボットと実世界／知能ロボティクス",
+    "keywords": [
+      "sensor fusion",
+      "deep learning",
+      "end-to-end systems",
+      "autonomous vehicles"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "松﨑 成道",
+    "advisors": [
+      "三浦 純"
+    ],
+    "affiliation": "豊橋技術科学大学大学院 工学研究科 情報・知能工学専攻",
+    "title": "Scene Recognition for Mobile Robots in Plant-rich Environments Considering Traversable Plants",
+    "category": "ロボットと実世界／知能ロボティクス",
+    "keywords": [
+      "知能ロボティクス",
+      "移動ロボット",
+      "環境認識"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Pinkie Anggia",
+    "advisors": [
+      "角 薫"
+    ],
+    "affiliation": "公立はこだて未来大学 システム情報科学研究科",
+    "title": "Effectiveness of Emotional Appeals in Digital Marketing: Cross-cultural and Individual Differences in Consumer Persuasion",
+    "category": "ヒューマンインタフェース／行動変容",
+    "keywords": [
+      "説得技術",
+      "行動変容",
+      "ヒューマンコンピュータインタラクション"
+    ],
+    "award_date": "2024-09"
+  },
+  {
+    "name": "峯岸 朋弥",
+    "advisors": [
+      "大澤 博隆"
+    ],
+    "affiliation": "筑波大学大学院 理工情報生命学術院 システム情報工学研究群",
+    "title": "裸眼立体ディスプレイを用いたバーチャルヘッドの対人距離と視線推定に関する研究",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "対人距離",
+      "視線推定",
+      "バーチャルエージェント",
+      "ヒューマンエージェントインタラクション"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "佐賀 健志",
+    "advisors": [
+      "中村 哲"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 先端科学技術研究科 先端科学技術専攻",
+    "title": "Automated Social Skills Training System Based on Multimodal Analysis of Neurodevelopmental and Psychiatric Disorders",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "multimodal analysis",
+      "automated social skills training",
+      "schizophrenia",
+      "autism spectrum disorder",
+      "formal thought disorder",
+      "adaptive behavior generation"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "津村 賢宏",
+    "advisors": [
+      "山田 誠二"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科 情報学専攻",
+    "title": "Influence of Empathy on Human-agent Coexistence Relationship",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "human-agent interaction",
+      "empathy agent",
+      "empathy"
+    ],
+    "award_date": "2024-03"
+  },
+  {
+    "name": "中村 優太",
+    "advisors": [
+      "阿部 修"
+    ],
+    "affiliation": "東京大学大学院 医学系研究科 生体物理医学専攻",
+    "title": "自然言語処理の日本語画像診断報告書への応用による画像診断業務支援",
+    "category": "AI応用／医療・ケア応用",
+    "keywords": [
+      "自然言語処理",
+      "医療言語処理",
+      "画像診断",
+      "放射線科",
+      "読影レポート"
+    ],
+    "award_date": "2023-04"
+  },
+  {
+    "name": "奥田 聡",
+    "advisors": [
+      "内平 直志"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 先端科学技術研究科",
+    "title": "DXにおける機械学習応用システムの深化プロセスと人間・機械協働型マネジメント",
+    "category": "AI応用／マネジメント応用",
+    "keywords": [
+      "human-machine collaboration",
+      "software engineering for machine learning applications",
+      "digital transformation",
+      "business model innovation",
+      "project management",
+      "technology and innovation management"
+    ],
+    "award_date": "2024-09"
+  },
+  {
+    "name": "坂井 優介",
+    "advisors": [
+      "渡辺 太郎"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 先端科学技術研究科",
+    "title": "Large Language Model Evaluation",
+    "category": "AIと社会／AI信頼性",
+    "keywords": [
+      "natural language processing",
+      "language model",
+      "evaluation",
+      "inference capability",
+      "dataset construction",
+      "instruction templates",
+      "knowledge graph completion",
+      "data leakage",
+      "multilingual"
+    ],
+    "award_date": "2024-09"
+  }
+]

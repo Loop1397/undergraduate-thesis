@@ -1,0 +1,317 @@
+[
+  {
+    "name": "奥戸 嵩登",
+    "advisors": [
+      "山田 誠二"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "Reward Shaping with Human Subgoals",
+    "category": "機械学習／強化学習",
+    "keywords": [
+      "reinforcement learning",
+      "reward shaping",
+      "human subgoals"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "高橋 大志",
+    "advisors": [
+      "鹿島 久嗣"
+    ],
+    "affiliation": "京都大学大学院情報学研究科知能情報学専攻",
+    "title": "Improving Variational Autoencoders on Robustness, Regularization, and Task-Invariance",
+    "category": "機械学習／深層学習",
+    "keywords": [
+      "variational autoencoder",
+      "deep generative model",
+      "unsupervised learning",
+      "representation learning",
+      "deep learning"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "ガラムカリ 和",
+    "advisors": [
+      "杉山 麿人"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "Convex Manifold Approximation for Tensors",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "テンソル分解",
+      "情報幾何学"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "原田 将之介",
+    "advisors": [
+      "鹿島 久嗣"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Causal Inference from Small Observational Data",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "機械学習",
+      "因果推論",
+      "介入効果推定"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Lu Yuxun",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科",
+    "title": "Representation Learning for Knowledge Graph Completion and Meta-learning Recommender System",
+    "category": "機械学習／表現学習（エンベディング）",
+    "keywords": [
+      "machine learning",
+      "representation learning"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Rumana Ferdous Munne",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "Graduate University for Advanced Studies, SOKENDAI, School of Multidisciplinary Sciences",
+    "title": "Entity Alignment and Attribute Enhancement between Knowledge Graphs",
+    "category": "知識の共有と利用／知識グラフ",
+    "keywords": [
+      "knowledge graph",
+      "entity alignment",
+      "attribute",
+      "enhancement"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Esrat Farjana Rupu",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "The Graduate University for Advanced Studies, SOKENDAI, School of Multidisciplinary Sciences",
+    "title": "Knowledge Extraction for Open Knowledge Graph under Open World Assumption",
+    "category": "知識の共有と利用／知識グラフ",
+    "keywords": [
+      "open knowledge graph",
+      "competent triple extraction",
+      "open world assumption"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "平野 正徳",
+    "advisors": [
+      "和泉 潔"
+    ],
+    "affiliation": "東京大学大学院工学系研究科システム創成学専攻",
+    "title": "金融市場におけるマルチエージェントシミュレーションとデータマイニングの融合",
+    "category": "エージェント／シミュレーション",
+    "keywords": [
+      "マルチエージェントシミュレーション",
+      "データマイニング",
+      "金融市場",
+      "人工市場",
+      "深層学習",
+      "敵対的生成ネットワーク",
+      "強化学習"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "奥村 圭祐",
+    "advisors": [
+      "Défago Xavier"
+    ],
+    "affiliation": "東京工業大学情報理工学院",
+    "title": "Planning, Execution, Representation, and Their Integration for Multiple Moving Agents",
+    "category": "エージェント／マルチエージェント",
+    "keywords": [
+      "multi-agent path finding",
+      "planning with uncertainties",
+      "multi-robot motion planning"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "篠田 一聡",
+    "advisors": [
+      "相澤 彰子"
+    ],
+    "affiliation": "東京大学大学院情報理工学系研究科",
+    "title": "分布外汎化に向けた読解モデルのバイアス除去",
+    "category": "言語メディア処理／意味理解",
+    "keywords": [
+      "reading comprehension",
+      "spurious correlation",
+      "shortcut learning",
+      "out-of-distribution"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Zhao Yuting",
+    "advisors": [
+      "小町 守"
+    ],
+    "affiliation": "東京都立大学大学院システムデザイン研究科",
+    "title": "Multimodal Neural Machine Translation based on Image-Text Semantic Correspondence",
+    "category": "言語メディア処理／機械翻訳",
+    "keywords": [
+      "natural language processing",
+      "multimodal",
+      "machine translation"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "田中 翔平",
+    "advisors": [
+      "中村 哲"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学先端科学技術研究科先端科学技術専攻",
+    "title": "Reflective Response of Dialogue System Focusing on User’s Event",
+    "category": "言語メディア処理／対話処理・対話システム",
+    "keywords": [
+      "dialogue system",
+      "event",
+      "causality",
+      "ambiguous request",
+      "reflective response",
+      "reflective action"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "Jie Zeng (曽 傑)",
+    "advisors": [
+      "中野 有紀子"
+    ],
+    "affiliation": "成蹊大学大学院理工学研究科理工学専攻",
+    "title": "対話システムにおける知識グラフと発話意味内容予測に基づく質問生成 ─ 食に関する嗜好獲得インタビュー対話システムに向けて─",
+    "category": "言語メディア処理／対話処理・対話システム",
+    "keywords": [
+      "dialogue systems",
+      "knowledge graph",
+      "question generation",
+      "semantic content"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "小杉 哲",
+    "advisors": [
+      "山崎 俊彦"
+    ],
+    "affiliation": "東京大学大学院情報理工学系研究科",
+    "title": "Photo Enhancement with Little Human Effort",
+    "category": "画像音声メディア処理／コンピュータビジョン",
+    "keywords": [
+      "写真品質向上",
+      "教師ペアなし学習",
+      "能動学習",
+      "個人適応"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "望月 典樹",
+    "advisors": [
+      "中村 壮亮"
+    ],
+    "affiliation": "法政大学大学院理工学研究科電気電子工学専攻",
+    "title": "Motion-Less VRの提案と基礎評価",
+    "category": "ヒューマンインタフェース／バーチャルリアリティ（VR）",
+    "keywords": [
+      "Motion-Less VR",
+      "バーチャルリアリティ",
+      "ヒューマンコンピュータインタラクション"
+    ],
+    "award_date": "2022-09"
+  },
+  {
+    "name": "福地 庸介",
+    "advisors": [
+      "今井 倫太"
+    ],
+    "affiliation": "慶應義塾大学大学院理工学研究科",
+    "title": "AIエージェントの挙動に関する共通認識の構築に向けた人とのコミュニケーションモデルの研究",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "説明可能 AI",
+      "心の理論",
+      "human-AI interaction"
+    ],
+    "award_date": "2023-03"
+  },
+  {
+    "name": "鷹見 竣希",
+    "advisors": [
+      "大西 正輝"
+    ],
+    "affiliation": "筑波大学大学院システム情報工学研究科社会工学専攻",
+    "title": "Framework Construction for Implementation of Large-Scale Social Simulation",
+    "category": "AI応用／計算社会科学",
+    "keywords": [
+      "experiment management",
+      "social simulation",
+      "meta-level control",
+      "modularization"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "岡崎 孝太郎",
+    "advisors": [
+      "井上 克巳"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "Uncovering Dynamics and Viewers’ Attitudes from Over-the-Top Media Service",
+    "category": "AI応用／マネジメント応用",
+    "keywords": [
+      "decision intelligence",
+      "XAI",
+      "customer journey mapping"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "小林 良輔",
+    "advisors": [
+      "山口 利恵"
+    ],
+    "affiliation": "東京大学大学院情報理工学系研究科電子情報学専攻",
+    "title": "ライフスタイル認証：人の生活習慣を活用した第4の認証手法",
+    "category": "AI応用／その他",
+    "keywords": [
+      "個人認証",
+      "行動認証",
+      "ライフスタイル認証",
+      "位置情報",
+      "Wi-Fi情報"
+    ],
+    "award_date": "2023-09"
+  },
+  {
+    "name": "北田 俊輔",
+    "advisors": [
+      "彌冨 仁"
+    ],
+    "affiliation": "法政大学大学院理工学研究科応用情報工学専攻",
+    "title": "Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives",
+    "category": "AIと社会／AI説明可能性",
+    "keywords": [
+      "natural language processing",
+      "computational advertising",
+      "attention mechanism",
+      "interpretability"
+    ],
+    "award_date": "2023-03"
+  }
+]

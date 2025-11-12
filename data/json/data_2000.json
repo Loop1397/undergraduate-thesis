@@ -1,0 +1,1736 @@
+[
+    {
+        "name": "林 健太郎",
+        "advisors": [
+            "久野 義徳",
+            "島田 伸敬",
+            "三浦 純",
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学大学院 工学研究科 電子制御機械工学専攻",
+        "title": "動的キャリブレーションによる人体の姿勢復元とジェスチャ認識に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "ヒューマンインタフェース",
+            "アフィン不変量",
+            "事前知識",
+            "モーションキャプチャ",
+            "CG"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "岡田 隆三",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学大学院 工学研究科 電子制御機械工学専攻",
+        "title": "オプティカルフローと距離情報に基づく移動物体の追跡に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "3次元物体追跡",
+            "センサ統合",
+            "領域分割",
+            "オプティカルフロー",
+            "距離情報"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "角田 篤泰",
+        "advisors": [
+            "原 辰次"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 システム科学専攻",
+        "title": "ゴールに依存した抽象化に基づく法的類推",
+        "category": "推論と計算",
+        "keywords": [
+            "法的推論",
+            "抽象化",
+            "ゴール指向の類推",
+            "オーダーソート論理",
+            "ハイブリッド知識表現"
+        ],
+        "award_date": "1997-06"
+    },
+    {
+        "name": "金井 貴",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 知識工学講座",
+        "title": "アブダクションとインダクションの統合に関する研究",
+        "category": "推論と計算",
+        "keywords": [
+            "アブダクション",
+            "帰納論理プログラミング",
+            "仮説論理プログラミング",
+            "法的推論"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "呉 甲錫",
+        "advisors": [
+            "廣田 薫"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 システム科学専攻",
+        "title": "ファジィルールに基づいたマルチメディア情報獲得支援システム",
+        "category": "推論と計算",
+        "keywords": [
+            "マルチメディア",
+            "ファジィ推論",
+            "情報獲得",
+            "実時間処理"
+        ],
+        "award_date": "1998-09"
+    },
+    {
+        "name": "徐 明強",
+        "advisors": [
+            "廣田 薫"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 知能システム専攻",
+        "title": "Similarity-Based Fuzzy Legal Reasoning and Its Applications to the CISG（類似性に基づくファジィ法的推論とその国連売買条約への応用）",
+        "category": "推論と計算",
+        "keywords": [
+            "Legal Reasoning",
+            "Fuzzy Theory",
+            "Case-based Reasoning",
+            "Similarity Measure",
+            "CISG"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "石 岩 (Shi Yan)",
+        "advisors": [
+            "水本 雅晴"
+        ],
+        "affiliation": "大阪電気通信大学大学院 工学研究科 情報工学専攻",
+        "title": "Studies on Interpolative Fuzzy Reasoning and Fuzzy Rule Generation（補間型ファジィ推論とファジィ規則生成に関する研究）",
+        "category": "推論と計算",
+        "keywords": [
+            "疎なファジィルールベース",
+            "補間型ファジィ推論",
+            "ニューロ・ファジィ学習アルゴリズム",
+            "ファジィ規則表",
+            "ファジィクラスタリング"
+        ],
+        "award_date": "1997-03"
+    },
+    {
+        "name": "南保 英孝",
+        "advisors": [
+            "木村 春彦"
+        ],
+        "affiliation": "金沢大学大学院 自然科学研究科 システム科学専攻",
+        "title": "ジョイン演算の最適順序と高コストルール対処法によるプロダクションシステムの高速化",
+        "category": "推論と計算",
+        "keywords": [
+            "プロダクションシステム",
+            "高コストルール",
+            "Reteアルゴリズム",
+            "条件照合アルゴリズム"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "兪 文偉 (Wenwei Yu)",
+        "advisors": [
+            "嘉数 侑昇"
+        ],
+        "affiliation": "北海道大学大学院 工学研究科 システム情報工学専攻",
+        "title": "Studies on Inductive Learning Theories for Real World Computing（実世界計算のための帰納的学習理論に関する研究）",
+        "category": "学習と発見",
+        "keywords": [
+            "帰納学習",
+            "適応",
+            "実世界計算",
+            "ロボット制御",
+            "情報処理"
+        ],
+        "award_date": "1997-12"
+    },
+    {
+        "name": "安村 禎明",
+        "advisors": [
+            "北橋 忠宏"
+        ],
+        "affiliation": "大阪大学大学院 基礎工学研究科 物理系専攻 情報工学分野",
+        "title": "超二次関数表現された部品への分割に基づく3次元形状のモデル獲得",
+        "category": "学習と発見",
+        "keywords": [
+            "モデル獲得",
+            "3次元形状",
+            "部品分割",
+            "超二次関数",
+            "定量的モデル",
+            "定性的モデル"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "寺尾 敦",
+        "advisors": [
+            "楠見 孝"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 システム科学専攻",
+        "title": "数学的問題解決における転移を促進する抽象的知識の獲得について",
+        "category": "学習と発見",
+        "keywords": [
+            "転移",
+            "抽象化",
+            "数学的問題解決",
+            "EBL(Explanation-based learning)"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "西崎 誠",
+        "advisors": [
+            "大森 隆司"
+        ],
+        "affiliation": "東京農工大学大学院 工学研究科 電子情報工学専攻",
+        "title": "連想記憶モデルPATONによるインクリメンタルな知識獲得",
+        "category": "学習と発見",
+        "keywords": [
+            "PATON",
+            "連想記憶",
+            "語彙獲得",
+            "脳型コンピュータ",
+            "インクリメンタルな知識獲得",
+            "発達"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "張 暁龍 (Xiaolong Zhang)",
+        "advisors": [
+            "沼尾 正行"
+        ],
+        "affiliation": "東京工業大学大学院 情報理工学研究科 計算工学専攻",
+        "title": "Knowledge Acquisition and Revision with First Order Logic Induction（帰納論理プログラミングを用いた知識の獲得および洗練）",
+        "category": "学習と発見",
+        "keywords": [
+            "Machine learning",
+            "Inductive logic programming",
+            "Knowledge discovery in databases",
+            "Data Mining"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "田近 一郎",
+        "advisors": [
+            "丸岡 章"
+        ],
+        "affiliation": "東北大学大学院 情報科学研究科 情報基礎科学専攻",
+        "title": "実時間学習過程に関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "計算学習理論",
+            "PAC学習モデル",
+            "相互情報量",
+            "ブースティング",
+            "実時間予測モデル",
+            "エキスパート",
+            "重み付き多数決アルゴリズム",
+            "実時間決定モデル",
+            "分散投資"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "佐野 彰",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "神経細胞の局所変数モデルとカオスによる神経回路モジュールの統合",
+        "category": "学習と発見",
+        "keywords": [
+            "シナプス相互作用",
+            "カルシウムバッファリング",
+            "モジュール統合",
+            "カオス",
+            "相互作用に基づく内部表現"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "鳥居 鉱太郎",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "神経細胞の情報伝達機構に基づくシナプス可塑性モデル",
+        "category": "学習と発見",
+        "keywords": [
+            "素量解析",
+            "EMアルゴリズム",
+            "ノイズデコンボリューション",
+            "時間コーディング",
+            "シナプス可塑性"
+        ],
+        "award_date": "1997-09"
+    },
+    {
+        "name": "吉井 伸一郎",
+        "advisors": [
+            "嘉数 侑昇"
+        ],
+        "affiliation": "北海道大学大学院 工学研究科 システム情報工学専攻",
+        "title": "Evolving Dynamics for Emergent Systems Engineering（創発的システム工学のための進化するダイナミクス）",
+        "category": "創発システム",
+        "keywords": [
+            "自己創出",
+            "進化",
+            "自己組織化",
+            "チューリングマシン",
+            "ダイナミクス",
+            "ハイパーサイクル"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "小野 功",
+        "advisors": [
+            "小林 重信"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 知能科学専攻",
+        "title": "形質遺伝を重視した遺伝的アルゴリズムによる最適化",
+        "category": "創発システム",
+        "keywords": [
+            "遺伝的アルゴリズム",
+            "コード化／交叉",
+            "形質遺伝",
+            "関数最適化",
+            "ジョブショップスケジューリング問題",
+            "レンズ設計"
+        ],
+        "award_date": "1997-09"
+    },
+    {
+        "name": "大崎 美穂",
+        "advisors": [
+            "津村 尚志",
+            "高木 英行"
+        ],
+        "affiliation": "九州芸術工科大学 芸術工学研究科 情報伝達専攻",
+        "title": "進化的計算手法を用いた聴覚障害補償に関する研究",
+        "category": "創発システム",
+        "keywords": [
+            "soft computing",
+            "interactive evolutionary computation",
+            "human interface",
+            "hearing aid fitting",
+            "topdown approach"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "中西 泰人",
+        "advisors": [
+            "月尾 嘉男"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 産業機械工学専攻",
+        "title": "進化計算を応用したデザイン支援システムおよび感性情報獲得システムの研究",
+        "category": "創発システム",
+        "keywords": [
+            "感性情報処理",
+            "遺伝的プログラミング",
+            "設計支援",
+            "対話型進化計算"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "蜷川 繁",
+        "advisors": [
+            "米田 政明"
+        ],
+        "affiliation": "富山大学大学院 工学研究科 システム生産工学専攻",
+        "title": "スペクトル解析を用いたセルオートマトンの振舞いに関する研究",
+        "category": "創発システム",
+        "keywords": [
+            "セルオートマトン",
+            "複雑系",
+            "スペクトル解析",
+            "ライフゲーム",
+            "自己組織化臨界性",
+            "1/fゆらぎ"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "吉田 哲也",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 先端学際工学専攻",
+        "title": "A Study on the Cooperative Problem Solving System Which Exploits the Pluralistic Management of Meaning（多元論的な意味の扱いを用いる協調問題解決システムに関する研究）",
+        "category": "創発システム",
+        "keywords": [
+            "マルチエージェントシステム",
+            "協調問題解決",
+            "コメント",
+            "強化学習",
+            "人工衛星設計"
+        ],
+        "award_date": "1997-03"
+    },
+    {
+        "name": "荒井 幸代",
+        "advisors": [
+            "小林 重信"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 知能科学専攻",
+        "title": "Profit Sharingによるマルチエージェント強化学習とその応用",
+        "category": "創発システム",
+        "keywords": [
+            "マルチエージェントシステム",
+            "強化学習",
+            "ダイナミックプログラミング",
+            "モンテカルロ法",
+            "追跡問題",
+            "Profit Sharing",
+            "Q-learning",
+            "競合解消問題"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "奥村 明俊",
+        "advisors": [
+            "田中 穂積",
+            "徳永 健伸"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+        "title": "Translingual Information Management by Natural Language Processing（自然言語処理による異言語間情報管理）",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "異言語間情報管理",
+            "等位接続",
+            "クロス言語情報検索",
+            "情報分類",
+            "情報ナビゲーション",
+            "情報抽出"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "高間 康史",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 電子情報工学専攻",
+        "title": "概念体系に基づく視点情報を用いた文書整理支援システムに関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "情報整理支援",
+            "視点抽出",
+            "ベクトル空間モデル",
+            "概念体系",
+            "WWW空間",
+            "発想支援"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "加藤 直孝",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "合意形成プロセスにおける参加者の視点情報の共有に基づくグループ意思決定支援システムの研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "合意形成",
+            "グループ意思決定支援",
+            "グループウェア",
+            "AHP"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "角 薫",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 先端学際工学専攻",
+        "title": "個人の概念空間を利用したコミュニケーション支援に関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "コミュニケーション支援",
+            "情報提供の個人化",
+            "ユーザ適応",
+            "興味の獲得／モデル化",
+            "概念空間"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "村川 賀彦",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "エージェント間コミュニケーションの論理的形式化に関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "コミュニケーションエージェント",
+            "様相オペレータ",
+            "状況理論",
+            "情報フロー",
+            "アロー論理"
+        ],
+        "award_date": "1998-12"
+    },
+    {
+        "name": "藤田 邦彦",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "創造的な討論を行う会議を支援するシステムに関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "グループウェア",
+            "発想支援システム",
+            "発散的思考",
+            "収束的思考",
+            "情報可視化"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "門脇 千恵",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "組織情報の共有過程分析に基づく情報共有促進支援法の研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "CSCW",
+            "組織情報共有",
+            "アウェアネス"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "前田 茂則",
+        "advisors": [
+            "池田 克夫"
+        ],
+        "affiliation": "京都大学大学院 情報学研究科 知能情報学専攻",
+        "title": "A Study on Communication Methods for Image Retrieval by Visual Contents（視覚的な内容により画像検索を行うための内容伝達手法に関する研究）",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "内容に基づく画像検索",
+            "視覚的クエリの曖昧さ",
+            "イメージコミュニケーション",
+            "ヒューマンインタフェース",
+            "対話機構"
+        ],
+        "award_date": "1999-09"
+    },
+    {
+        "name": "北本 朝展",
+        "advisors": [
+            "高木 幹雄"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 電子工学専攻",
+        "title": "領域・空間情報を表現するグラフ構造を用いた類似画像検索",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "類似画像検索",
+            "グラフ構造",
+            "統計的画像分類",
+            "遺伝的アルゴリズム",
+            "衛星画像"
+        ],
+        "award_date": "1997-03"
+    },
+    {
+        "name": "椋木 雅之",
+        "advisors": [
+            "池田 克夫"
+        ],
+        "affiliation": "京都大学大学院 情報学研究科 知能情報学専攻",
+        "title": "Outdoor Image Retrieval with Object Sketch Using Automatically Generated Index（自動生成したインデックスを用いた対象物スケッチによる風景画像検索）",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "画像検索",
+            "インデックス生成",
+            "風景画像",
+            "画像認識",
+            "対象物スケッチ"
+        ],
+        "award_date": "1999-07"
+    },
+    {
+        "name": "蓮井 洋志",
+        "advisors": [
+            "小倉 久和"
+        ],
+        "affiliation": "福井大学大学院 工学研究科 システム設計工学専攻",
+        "title": "日本語文書作成支援のための入力補助・推敲支援システム",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "仮名漢字変換システム",
+            "付属語連鎖",
+            "短縮形",
+            "入力補助システム",
+            "推敲支援システム"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "岩爪 道昭",
+        "advisors": [
+            "西田 豊明",
+            "武田 英明"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "オントロジーを利用した情報の共有化に関する研究",
+        "category": "知識処理",
+        "keywords": [
+            "オントロジー",
+            "WWW",
+            "情報収集",
+            "インターネット",
+            "イントラネット",
+            "現場技術情報"
+        ],
+        "award_date": "1998-09"
+    },
+    {
+        "name": "瀬田 和久",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子工学専攻",
+        "title": "問題解決オントロジーの構成と利用に関する研究",
+        "category": "知識処理",
+        "keywords": [
+            "オントロジー構成論",
+            "問題解決オントロジー",
+            "概念レベルプログラミング環境 CLEPE",
+            "知識モデリング",
+            "知識ベース構築方法論"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "前田 晴美 (現姓 村上)",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "日常記憶の共有支援に関する研究",
+        "category": "知識処理",
+        "keywords": [
+            "弱い情報構造",
+            "連想構造",
+            "日常記憶",
+            "情報共有",
+            "CoMeMo"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "鷹合 基行",
+        "advisors": [
+            "西田 豊明",
+            "植村 俊亮"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "知識共有アーキテクチャに基づく設計者支援環境に関する研究",
+        "category": "知識処理",
+        "keywords": [
+            "設計",
+            "オントロジー",
+            "知識メディア",
+            "知識の共有と再利用"
+        ],
+        "award_date": "1998-12"
+    },
+    {
+        "name": "工藤 隆司",
+        "advisors": [
+            "堀 浩一",
+            "中須賀 真一"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 先端学際工学専攻",
+        "title": "ソフトウェア開発上流工程における詳細化過程の支援に関する研究 ——構造化分析を中心として——",
+        "category": "知識処理",
+        "keywords": [
+            "ソフトウェア開発上流工程",
+            "システム分析",
+            "段階的詳細化",
+            "事例ベース推論",
+            "仕様の再利用"
+        ],
+        "award_date": "1999-02"
+    },
+    {
+        "name": "坂尾 知彦",
+        "advisors": [
+            "冨山 哲男"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 精密機械工学専攻",
+        "title": "細胞型機械の設計方法論",
+        "category": "知識処理",
+        "keywords": [
+            "設計方法論",
+            "自律分散型機械",
+            "機能演算",
+            "ソフトウェア設計"
+        ],
+        "award_date": "1998-05"
+    },
+    {
+        "name": "上市 秀雄",
+        "advisors": [
+            "楠見 孝"
+        ],
+        "affiliation": "東京工業大学大学院 社会理工学研究科 人間行動システム専攻",
+        "title": "個人的リスク志向・回避行動の個人差を規定する要因の分析",
+        "category": "知識処理",
+        "keywords": [
+            "リスク志向・回避行動",
+            "意思決定",
+            "リスク認知",
+            "後悔",
+            "共分散構造分析"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "Wide R. Hogenhout",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 自然言語処理学講座",
+        "title": "Supervised Learning of Syntactic Structure（構文構造の教師付き学習）",
+        "category": "自然言語処理",
+        "keywords": [
+            "Syntactic Analysis",
+            "Grammar Learning",
+            "Machine Learning",
+            "Syntactic Disambiguation",
+            "Stochastic Grammar",
+            "Hidden Markov Model"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "竹内 孔ー",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科情報処理学専攻",
+        "title": "Building Morphology-Based Statistical Models for Japanese Language（日本語に対する形態素ベースの統計的言語モデルの構築）",
+        "category": "自然言語処理",
+        "keywords": [
+            "隠れマルコフモデル",
+            "統計的言語モデル",
+            "形態素解析",
+            "OCR誤り訂正",
+            "タグ付ぎコーパス",
+            "学習"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "今ー 修",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "An Integrated Robust Parsing Using Multiple Knowledge Sources（複数の知識源を統合的に用いた頑健な自然言語処理）",
+        "category": "自然言語処理",
+        "keywords": [
+            "自然言語処理",
+            "不適格性",
+            "頑健性",
+            "統合",
+            "コストと報酬",
+            "統計情報"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "松原 茂樹",
+        "advisors": [
+            "稲垣 康善"
+        ],
+        "affiliation": "名古屋大学大学院 工学研究科 情報工学専攻",
+        "title": "自然言語の漸進的解釈とその応用に関する研究",
+        "category": "自然言語処理",
+        "keywords": [
+            "自然言語処理",
+            "話し言葉処理",
+            "機械翻訳",
+            "音声翻訳",
+            "音声対話",
+            "マルチモーダルインタフェース",
+            "漸進的解釈"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "藤井 敦",
+        "advisors": [
+            "田中 穂積"
+        ],
+        "affiliation": "東京工業大学大学院 情報理工学研究科 計算工学専攻",
+        "title": "Corpus-Based Word Sense Disambiguation（コーパスに基づく多義性解消）",
+        "category": "自然言語処理",
+        "keywords": [
+            "多義性解消",
+            "コーパス",
+            "選択的事例収集",
+            "辞書",
+            "シソーラス",
+            "意味的類似度",
+            "語の共起"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "白井 清昭",
+        "advisors": [
+            "徳永 健伸"
+        ],
+        "affiliation": "東京工業大学大学院 情報理工学研究科 計算工学専攻",
+        "title": "統計情報を利用した統合的自然言語解析",
+        "category": "自然言語処理",
+        "keywords": [
+            "統計的構文解析",
+            "構文的統計情報",
+            "語彙的統計情報",
+            "確率モデルの推定",
+            "言語資源からの知識の自動獲得"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "大石 亨",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "Semantic Structures of Japanese Verb Phrases - Acquisition, Representation and Use（日本語動詞句の意味構造＿獲得，表現，利用―-）",
+        "category": "自然言語処理",
+        "keywords": [
+            "言語知識獲得",
+            "知識表現",
+            "語彙概念構造",
+            "アスペクト",
+            "連接関係"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "Kang-Hyun Jo",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学大学院 工学研究科 電子制御機械工学",
+        "title": "Hand Gesture Recognition Using Human-Centered Frame and Task Knowledge for Smooth Human-Computer Interaction（円滑な人間とコンピュータの相互作用のための人間中心基準系とタスク知識を用いた人のジェスチャーの認識）",
+        "category": "ターン処理",
+        "keywords": [
+            "Computer Vision",
+            "World-Fixed Frame",
+            "Human Centered Frame",
+            "Human Interface",
+            "Human Computer Interaction"
+        ],
+        "award_date": "1997-09"
+    },
+    {
+        "name": "太田 寛志",
+        "advisors": [
+            "中谷 広正"
+        ],
+        "affiliation": "静岡大学大学院 理工学研究科 システム科学専攻",
+        "title": "顔面構造に基づいた顔動作解析と表情認識に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "画像処理",
+            "表情認識",
+            "顔モデル",
+            "顔面筋"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "平石 広典",
+        "advisors": [
+            "溝ロ 文雄"
+        ],
+        "affiliation": "東京理科大学大学院 理工学研究科 経営工学専攻",
+        "title": "時間制約付きヒューリスティック探索とナビゲーションシステムヘの応用に関する研究",
+        "category": "問題解決",
+        "keywords": [
+            "ヒューリスティック探索",
+            "ナビゲーションシステム",
+            "経路探索間題",
+            "時間制約",
+            "ブラウザ設計"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "高田 修",
+        "advisors": [
+            "渡邉 豊英"
+        ],
+        "affiliation": "名占屋大学大学院 工学研究科 情報工学専攻",
+        "title": "設計•生産分野における知識処理システム構築に関する研究",
+        "category": "問題解決",
+        "keywords": [
+            "知識モデリング",
+            "知識表現",
+            "推論",
+            "探索",
+            "設計・生産"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "神原 利彦",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械工学専攻",
+        "title": "移動ロボットの移動と視覚の不確かさを考慮した行動計画",
+        "category": "パターン処理",
+        "keywords": [
+            "移動ロボット",
+            "経路計画",
+            "観測の計画",
+            "不確かな地図",
+            "不確かさ"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "石川 哲",
+        "advisors": [
+            "米田 政明"
+        ],
+        "affiliation": "富山大学 大学院工学研究科 システム生産工学専攻",
+        "title": "高精度オプティカルフロー推定に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "こう配法",
+            "マッチング",
+            "オプティカルフロー",
+            "動画像処理",
+            "奥行き情報"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "前 泰志",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械工学専攻",
+        "title": "オプティカルフローとエッジを用いた移動物体の追跡に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "物体追跡",
+            "3次元運動",
+            "オプティカルフロー",
+            "エッジ",
+            "複雑背景"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "滝沢 穂高",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械工学専攻",
+        "title": "認識の不確実性を考慮した自律移動ロボットの観測と移動の計画に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "3-D scene description",
+            "attentive observation",
+            "interpretation of road intersection scenes",
+            "uncertainty of interpretation",
+            "probability"
+        ],
+        "award_date": "1998-03"
+    },
+    {
+        "name": "文 仁赫 (Inhyuk Moon)",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械専攻",
+        "title": "On-Line Selection of Landmarks and Viewpoints for a Mobile Robot under Uncertainty of Vision and Motion（移動ロボットの移動と視覚の不確かさを考慮したランドマークと観測地点のオンライン選択）",
+        "category": "パターン処理",
+        "keywords": [
+            "観測位置計画",
+            "ランドマーク選択",
+            "オンライン計画",
+            "移動ロボット",
+            "ステレオビジョン"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "亀田 能成",
+        "advisors": [
+            "池田 克夫"
+        ],
+        "affiliation": "京都大学 大学院工学研究科",
+        "title": "Human Pose and Motion Estimation with a Three Dimensional Articulated Object Model（三次元関節モデルを用いた人体の姿勢・位置推定）",
+        "category": "パターン処理",
+        "keywords": [
+            "姿勢推定",
+            "動作推定",
+            "関節物体モデル",
+            "モデルマッチング"
+        ],
+        "award_date": "1999-07"
+    },
+    {
+        "name": "中山 收文",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械工学専攻",
+        "title": "高信頼ステレオ視と複雑シーンの記述作成に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "ステレオ視",
+            "セルフキャリブレーション",
+            "オクルージョン",
+            "シーン記述",
+            "解像度制御"
+        ],
+        "award_date": "1997-12"
+    },
+    {
+        "name": "田中 恭治",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学 大学院工学研究科 電子制御機械工学専攻",
+        "title": "非一様テクスチャを持つ物体群の品質推定に関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "品質推定",
+            "ニューラルネットワーク",
+            "ウェーブレット階層化",
+            "選択的自己抑制学習"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "堀 貴明",
+        "advisors": [
+            "好田 正紀"
+        ],
+        "affiliation": "山形大学 大学院工学研究科 システム情報工学専攻",
+        "title": "大語彙連続音声認識の研究",
+        "category": "パターン処理",
+        "keywords": [
+            "大語彙連続音声認識",
+            "隠れマルコフモデル",
+            "音素決定木",
+            "状態クラスタリング",
+            "探索アルゴリズム",
+            "音素グラフ"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "伊藤 孝行",
+        "advisors": [
+            "新谷 虎松"
+        ],
+        "affiliation": "名古屋工業大学 工学研究科 電気情報工学専攻",
+        "title": "意思決定支援のためのマルチエージェントの協調機構とその応用に関する研究",
+        "category": "エージェント系",
+        "keywords": [
+            "マルチエージェント",
+            "協調",
+            "合意形成",
+            "グループ意思決定支援",
+            "電子商取引支援",
+            "会議スケジューリング"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "幡鎌 博",
+        "advisors": [
+            "寺野 隆雄"
+        ],
+        "affiliation": "筑波大学 大学院 経営・政策科学研究科 企業科学専攻",
+        "title": "分散知能論による組織のナレッジマネジメントに関する研究",
+        "category": "エージェント系",
+        "keywords": [
+            "ナレッジマネジメント",
+            "組織学習",
+            "意思決定理論",
+            "ロジスティクス",
+            "適応",
+            "マルチエージェント学習",
+            "計算組織理論",
+            "制約理論(TOC)"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "川村 秀憲",
+        "advisors": [
+            "大内 東"
+        ],
+        "affiliation": "北海道大学 大学院工学研究科 システム情報系",
+        "title": "Design Method of Pheromone Communication for Coordinated Agents Systems（協調的エージェントシステムの為のフェロモン型コミュニケーションの設計法）",
+        "category": "エージェント系",
+        "keywords": [
+            "マルチエージェントシステム",
+            "エージェントコミュケーション",
+            "フェロモンコミュニケーション",
+            "アントアルゴリズム",
+            "組み合わせ最適化問題"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "千葉 一博",
+        "advisors": [
+            "平石 邦彦"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科",
+        "title": "繰り返し連続化囚人のジレンマゲームによるマルチエージェント系の解析",
+        "category": "エージェント系",
+        "keywords": [
+            "分散人工知能",
+            "マルチエージェント",
+            "エージェント間インタラクション",
+            "ゲーム理論",
+            "囚人のジレンマ"
+        ],
+        "award_date": "1999-09"
+    },
+    {
+        "name": "伊藤 暢浩",
+        "advisors": [
+            "石井 直宏"
+        ],
+        "affiliation": "名古屋工業大学大学院 工学研究科 電気情報工学専攻",
+        "title": "エージェントモデルとその記述処理系に関する研究",
+        "category": "エージェント系",
+        "keywords": [
+            "多面的オブジェクト",
+            "マルチエージェントシステム",
+            "動的環境",
+            "サッカー",
+            "記述処理系",
+            "自律エージェント"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "西山 裕之",
+        "advisors": [
+            "溝口 文雄"
+        ],
+        "affiliation": "東京理科大学大学院 理工学研究科 経営工学専攻",
+        "title": "マルチエージェントの提案とその実装言語の設計に関する研究",
+        "category": "エージェント系",
+        "keywords": [
+            "マルチエージェント",
+            "エージェント間交渉",
+            "オフィスロボットシステム",
+            "協調作業",
+            "競合解消",
+            "エージェント言語"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "栗原 聡",
+        "advisors": [
+            "土居 範久"
+        ],
+        "affiliation": "慶應義塾大学 大学院理工学研究科 計算機科学専攻",
+        "title": "動的で複雑な環境下での柔軟な行動選択のためのプランニング・学習に関する研究",
+        "category": "エージェント系",
+        "keywords": [
+            "マルチエージェントプランニング",
+            "即応",
+            "熟考",
+            "強化学習",
+            "経験強化",
+            "環境同定",
+            "活性伝搬"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "石野 洋子",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 先端学際工学専攻",
+        "title": "製品概念形成支援に関する研究 ―連想に着目したブランド・アイデンティティ構造化技法に基づく戦略的アプローチ―",
+        "category": "学習と発見",
+        "keywords": [
+            "概念形成支援",
+            "発想支援",
+            "対話型進化計算法",
+            "トップダウン戦略",
+            "ボトムアップ戦略",
+            "マーケティング",
+            "ブランド・アイデンティティ"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "市瀬 龍太郎",
+        "advisors": [
+            "沼尾 正行"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+        "title": "関係知識獲得のための統合化された学習手法に関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "機械学習",
+            "多戦略学習",
+            "帰納論理プログラミング",
+            "遺伝的プログラミング",
+            "知識発見",
+            "連続的な例からの帰納概念学晋"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "坂本 比呂志",
+        "advisors": [
+            "有川 節夫"
+        ],
+        "affiliation": "九州大学 大学院システム情報科学研究科 情報理学専攻",
+        "title": "Studies on the Learnability of Formal Languages via Queries（質問を通じた形式言語の学習可能性に関する研究）",
+        "category": "学習と発見",
+        "keywords": [
+            "機械学習",
+            "例からの学習",
+            "質問学習",
+            "形式言語",
+            "計算量理論",
+            "有限オートマトン",
+            "文脈自由言語"
+        ],
+        "award_date": "1999-12"
+    },
+    {
+        "name": "Oscar Ortega Lobo",
+        "advisors": [
+            "沼尾 正行"
+        ],
+        "affiliation": "東京工業大学大学院 情報理工学研究科 計算工学専攻",
+        "title": "Dealing with Imperfections in the Data for Propositional Learning",
+        "category": "学習と発見",
+        "keywords": [
+            "機械学習",
+            "命令学習",
+            "欠損値",
+            "ordered attribute tree"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "Raymund C. Sison",
+        "advisors": [
+            "沼尾 正行"
+        ],
+        "affiliation": "東京工業大学大学院 情報理工学研究科 計算工学専攻",
+        "title": "Multistrategy Discovery and Detection of Novice Programmer Errors",
+        "category": "学習と発見",
+        "keywords": [
+            "student modeling",
+            "machine learning",
+            "conceptual clustering",
+            "multistrategy learning",
+            "causality"
+        ],
+        "award_date": "1998-09"
+    },
+    {
+        "name": "松尾 衛",
+        "advisors": [
+            "森 辰則"
+        ],
+        "affiliation": "横浜国立大学 大学院工学研究科 電子情報工学専攻",
+        "title": "テキストからの情報抽出に関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "情報抽出",
+            "自然言語処理",
+            "ゼロ主語同定",
+            "固有表現抽出"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "矢入 健久",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 航空宇宙工学専攻",
+        "title": "自律エージェントの行動獲得における状態と行為の抽象化に関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "ロボット学習",
+            "状態・行為一般化",
+            "概念獲得",
+            "ベイズ分類器",
+            "情報エントロピー"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "片山 晋",
+        "advisors": [
+            "小林 重信"
+        ],
+        "affiliation": "東京工業大学 大学院総合理工学研究科 知能システム科学専攻",
+        "title": "オンライン強化学習における満足化と高速化および汎化",
+        "category": "学習と発見",
+        "keywords": [
+            "強化学習",
+            "探索戦略",
+            "TD学習",
+            "汎化",
+            "Haar基底"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "伊東 秀夫",
+        "advisors": [
+            "田中 穂積"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+        "title": "文字列索引法とその自然言語処理への応用",
+        "category": "自然言語処理",
+        "keywords": [
+            "文字列照合",
+            "索引",
+            "接尾配列",
+            "suffix array",
+            "文字列ソートアルゴリズム",
+            "言語モデル",
+            "テキスト圧縮"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "Christoph Neumann",
+        "advisors": [
+            "田中 穂積",
+            "野口 徹"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算機科学系",
+        "title": "Formal Languages for Fuzzy Subjects — Modality, Metaphor and Machine Translation",
+        "category": "自然言語処理",
+        "keywords": [
+            "machine translation",
+            "modality",
+            "metaphor",
+            "interlingua",
+            "formal language",
+            "機械翻訳",
+            "モダリティ",
+            "比喩",
+            "中間は語",
+            "形式言語"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "鈴木 泰山",
+        "advisors": [
+            "徳永 健伸"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+        "title": "事例に基づく演奏表情の生成に関する研究",
+        "category": "推論と計算",
+        "keywords": [
+            "演奏表情",
+            "自動演奏",
+            "事例ベース",
+            "旋律の類似性",
+            "楽曲検索"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "斎藤 逸郎",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 電子情報工学専攻",
+        "title": "単体法の反復適用による不完全制約充足問題の解法の研究",
+        "category": "推論と計算",
+        "keywords": [
+            "制約充足問題",
+            "不完全制約充足問題",
+            "不完全制約最適化問題",
+            "単体法",
+            "反復適応"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "桂田 浩一",
+        "advisors": [
+            "北橋 忠宏"
+        ],
+        "affiliation": "大阪大学 大学院基礎工学研究科 情報数理系",
+        "title": "例外に着目した知識ベースの変換メカニズムの形式化",
+        "category": "推論と計算",
+        "keywords": [
+            "例外",
+            "非単調推論",
+            "知識ベース",
+            "知識コンバージョン"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "川本 真一",
+        "advisors": [
+            "伊藤 貴康"
+        ],
+        "affiliation": "東北大学大学院 情報科学研究科 情報基礎科学専攻",
+        "title": "スティール評価方式を備えた並列Lispシステムに関する研究",
+        "category": "推論と計算",
+        "keywords": [
+            "並列Lisp言語PaiLisp",
+            "インタプリタ",
+            "コンパイラ",
+            "マルチスレッド実装",
+            "プロセス過剰生成問題",
+            "eager task creation",
+            "lazy task creation",
+            "スティール評価法"
+        ],
+        "award_date": "1998-07"
+    },
+    {
+        "name": "石原 彰人",
+        "advisors": [
+            "臼井 支朗"
+        ],
+        "affiliation": "豊橋技術科学大学 大学院工学研究科 電子・情報工学専攻",
+        "title": "網膜双極細胞の情報伝達特性に関する生理工学的研究",
+        "category": "生体工学",
+        "keywords": [
+            "網膜",
+            "双極細胞",
+            "視覚情報処理",
+            "計算機シミュレーション"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "有田 正規",
+        "advisors": [
+            "高木 利久"
+        ],
+        "affiliation": "東京大学 大学院理学系研究科 情報科学専攻",
+        "title": "代謝系の再構築",
+        "category": "生体工学",
+        "keywords": [
+            "代謝",
+            "化学構造",
+            "グラフアルゴリズム",
+            "知識表現"
+        ],
+        "award_date": "1999-07"
+    },
+    {
+        "name": "賈 縉",
+        "advisors": [
+            "阿部 圭一"
+        ],
+        "affiliation": "静岡大学大学院 理工学研究科 システム科学専攻",
+        "title": "Prototype Learning and Recognition of Three-Dimension Object Towards Generic Object Recognitio",
+        "category": "パターン処理",
+        "keywords": [
+            "3次元物体認識",
+            "プロトタイプの学習"
+        ],
+        "award_date": "1999-12"
+    },
+    {
+        "name": "今井 宏樹",
+        "advisors": [
+            "田中 穂積"
+        ],
+        "affiliation": "東京工業大学 大学院情報理工学研究科 計算工学専攻",
+        "title": "音声認識のためのPGLRパーザに関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "音声認識",
+            "PGLR法",
+            "HMM-LR法",
+            "PGLR+言語モデル",
+            "接続契約",
+            "perplexity"
+        ],
+        "award_date": "1999-12"
+    },
+    {
+        "name": "伊藤 穣",
+        "advisors": [
+            "近藤 弘樹"
+        ],
+        "affiliation": "佐賀大学 大学院工学系研究科 システム生産科学専攻",
+        "title": "WWWクライアント上で動作する手書き文字認識モジュールの開発と知的教育システムへの実装",
+        "category": "パターン処理",
+        "keywords": [
+            "知的教育システム",
+            "知的CAI",
+            "オンライン手書き文字認識",
+            "WWW",
+            "Java"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "佐藤 俊治",
+        "advisors": [
+            "阿曽 弘具"
+        ],
+        "affiliation": "東北大学 大学院工学研究科 電気・通信工学専攻",
+        "title": "階層的パターン統合処理に基づく視覚情報処理モデルに関する研究",
+        "category": "パターン処理",
+        "keywords": [
+            "文字認識",
+            "ネオコグニトロン",
+            "回転パターン",
+            "学習アルゴリズム",
+            "心的回転"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "西村 広光",
+        "advisors": [
+            "中野 康明"
+        ],
+        "affiliation": "信州大学 大学院工学系研究科 システム開発分野",
+        "title": "統合的手法を用いた手書き文字切り出しと認識の研究",
+        "category": "パターン処理",
+        "keywords": [
+            "手書き文字",
+            "オフライン認識",
+            "切り出し",
+            "HMM"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "Santi Saeyor",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 電子情報工学専攻",
+        "title": "Tracking and Viewing Changes in Web Repositories by Information Agent Framework",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "Web beholder",
+            "change monitoring",
+            "cooperative agent",
+            "tracking",
+            "information agent",
+            "Web repository",
+            "World Wide Web."
+        ],
+        "award_date": "1999-09"
+    },
+    {
+        "name": "柴田 史久",
+        "advisors": [
+            "北橋 忠宏"
+        ],
+        "affiliation": "大阪大学 大学院基礎工学研究科 情報数理系",
+        "title": "パターン解釈における観測者依存性を考慮した言語的指示の理解",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "コミュニケーション",
+            "移動ロボットナビゲーション",
+            "地図情報処理",
+            "文脈情報"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "八槙 博史",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学 大学院情報学研究科 社会情報学専攻",
+        "title": "Market-Based Control for Quality of Services in Network Applications",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "市場モデル",
+            "分散資源割当て",
+            "アプリケーションQoS",
+            "生産者-消費者モデル",
+            "現在-未来モデル",
+            "空間的トレードオフ",
+            "時間的トレードオフ",
+            "移動エージェント",
+            "FreeWalk",
+            "QoS Market"
+        ],
+        "award_date": "1999-09"
+    },
+    {
+        "name": "清川 清",
+        "advisors": [
+            "横矢 直和"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報システム学専攻",
+        "title": "共有仮想空間における仮想物体の操作補助手法の研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "人工現実感",
+            "操作補助",
+            "投入型仮想物体モデラ",
+            "協調作業"
+        ],
+        "award_date": "1998-06"
+    },
+    {
+        "name": "香山 瑞恵",
+        "advisors": [
+            "岡本 敏雄"
+        ],
+        "affiliation": "電気通信大学 大学院情報システム（※原文表記のまま）",
+        "title": "自己組織化特徴地図に基づくハイパー空間での情報探索支援システム",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "ナビゲーション",
+            "探索活動支援",
+            "ニューラルネットワーク",
+            "自己組織化特徴地図",
+            "ユーザモデル"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "山田 剛一",
+        "advisors": [
+            "森 辰則"
+        ],
+        "affiliation": "横浜国立大学 大学院工学研究科 電子情報工学専攻",
+        "title": "マルチメディア情報検索に関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "メディア統合",
+            "マルチメディア解析",
+            "マルチメディアコンテンツ生成",
+            "機械学習",
+            "写真ニュース",
+            "新聞記事"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "大隈 隆史",
+        "advisors": [
+            "横矢 直和"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報システム学専攻",
+        "title": "3次元ユーザインタフェースと拡張現実感を用いた情報ブラウジング手法に関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "3次元ユーザインタフェース",
+            "情報視覚化",
+            "拡張現実感",
+            "実時間カメラパラメータ推定"
+        ],
+        "award_date": "1999-03"
+    },
+    {
+        "name": "石樽 康雄",
+        "advisors": [
+            "臼井 文朗"
+        ],
+        "affiliation": "豊橋技術科学大学大学院 工学研究科 電子・情報工学専攻",
+        "title": "バーチャルフレームを用いた立体表示法に関する研究",
+        "category": "ヒューマンインタフェースとコミュニケーション",
+        "keywords": [
+            "立休画像",
+            "画枠",
+            "奥行き知覚",
+            "画枠ひずみ",
+            "バーチャルフレーム"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "吉見 隆洋",
+        "advisors": [
+            "新井 民夫"
+        ],
+        "affiliation": "東京大学 大学院工学系研究科 精密機械工学専攻",
+        "title": "設計過程において注視点を制御する知識の研究—分類子システムの拡張とその応用",
+        "category": "問題解決",
+        "keywords": [
+            "機械設計",
+            "注視点",
+            "分類子システム (Classifier Systerm)",
+            "遺伝的アルゴリズム",
+            "プロダクションルール",
+            "機械学習"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "新保 仁",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学 大学院工学研究科",
+        "title": "Real-Time Search with Nonstandard Heuristics（非標準的なヒューリスティック評価関数を用いた実時間探索）",
+        "category": "問題解決",
+        "keywords": [
+            "実時間探索",
+            "ビューリステイソク評価関数"
+        ],
+        "award_date": "2000-03"
+    },
+    {
+        "name": "飯田 栄治",
+        "advisors": [
+            "下平 博"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "人間の持つ解決戦略を利用した問題解決システムの構築およびその設計に関する研究",
+        "category": "問題解決",
+        "keywords": [
+            "問題解決システム",
+            "意思決定システム",
+            "実時間探索"
+        ],
+        "award_date": "1999-09"
+    }
+]

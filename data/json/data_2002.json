@@ -1,0 +1,354 @@
+[
+    {
+        "name": "伊藤 一之",
+        "advisors": [
+            "松野 文俊"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+        "title": "GA主導型Q学習による冗長ロボットの制御",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "強化学習",
+            "Q学習",
+            "遺伝的プログラミング",
+            "冗長多自由度ロボット",
+            "探索空間の動的生成"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "寺邊 正大",
+        "advisors": [
+            "元田 浩"
+        ],
+        "affiliation": "大阪大学大学院工学研究科",
+        "title": "大量データのためのコミッティ・マイニング手法に関する研究",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "データマイニング",
+            "機械学習",
+            "属性生成",
+            "コミッティ学習"
+        ],
+        "award_date": "2001-11"
+    },
+    {
+        "name": "小山 聡",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科社会情報学専攻",
+        "title": "Query Refinement for Domain-Specific Web Search（ドメイン指向Web検索のための質問の精錬）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "Web検索",
+            "データマイニング",
+            "機械学習"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "新美 礼彦",
+        "advisors": [
+            "田崎 栄一郎"
+        ],
+        "affiliation": "桐蔭横浜大学大学院工学研究科制御システム工学専攻",
+        "title": "Classification Learning and Rule Extraction Systems Using Extended Genetic Programming for Data Mining（データマイニングを目的とした遺伝的プログラミングの拡張による分類学習システムとルール生成システム）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "データマイニング",
+            "遺伝的プログラミング",
+            "決定木学習",
+            "相関ルール分析",
+            "組合せ学習"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "古崎 晃司",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学大学院工学研究科電子工学専攻",
+        "title": "ロール・関係概念理論に基づくオントロジー記述環境の開発と利用に関する研究",
+        "category": "オントロジー・設計支援",
+        "keywords": [
+            "オントロジー",
+            "ロール概念",
+            "関係概念",
+            "構築環境"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "章 志華",
+        "advisors": [
+            "長澤 勲"
+        ],
+        "affiliation": "九州工業大学大学院情報工学研究科情報システム専攻",
+        "title": "溶接製缶品の製作設計支援のための設計対象モデルに関する研究",
+        "category": "オントロジー・設計支援",
+        "keywords": [
+            "設計対象モデル",
+            "設計プロセス",
+            "知識情報処理",
+            "知的設計支援システム",
+            "溶接製缶"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "野間口 大",
+        "advisors": [
+            "冨山 哲男"
+        ],
+        "affiliation": "東京大学大学院工学系研究科",
+        "title": "CADのための設計知識管理の研究",
+        "category": "オントロジー・設計支援",
+        "keywords": [
+            "CAD",
+            "設計",
+            "設計文書",
+            "設計者の思考過程",
+            "知識管理"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "浪岡 保男",
+        "advisors": [
+            "薦田 憲久"
+        ],
+        "affiliation": "大阪大学大学院工学研究科情報システム工学専攻",
+        "title": "知識処理アプローチによるシーケンス制御プログラムならびに電源系統の設計自動化に関する研究",
+        "category": "オントロジー・設計支援",
+        "keywords": [
+            "知識処理",
+            "シーケンス制御プログラム",
+            "電源系統",
+            "プランニング問題",
+            "ドメイン・オントロジー",
+            "視覚的環境",
+            "自動設計"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "関本 義秀",
+        "advisors": [
+            "柴崎 亮介"
+        ],
+        "affiliation": "東京大学大学院工学系研究科",
+        "title": "多様なデータを用いた実世界変化の再構成手法に関する基礎的研究",
+        "category": "知覚・認識",
+        "keywords": [
+            "GIS",
+            "時空間データ",
+            "再構成",
+            "知識",
+            "多様なデータ",
+            "不確実性"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "十河 卓司",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Localization of Sensors and Objects in Distributed Omnidirectional Vision（分散全方位視覚におけるセンサと物体の位置決め）",
+        "category": "知覚・認識",
+        "keywords": [
+            "分散視覚",
+            "全方位視覚",
+            "全方位ステレオ",
+            "定性的位置推定",
+            "移動ロボットの誘導",
+            "実時間追跡"
+        ],
+        "award_date": "2001-09"
+    },
+    {
+        "name": "鄭 文皓",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学大学院工学研究科電子制御機械専攻",
+        "title": "Hand Gesture Recognition Based on Coupled Switching Linear Model",
+        "category": "知覚・認識",
+        "keywords": [
+            "Hand Gesture",
+            "Recognition",
+            "Switching Linear Model",
+            "Tracking"
+        ],
+        "award_date": "2002-05"
+    },
+    {
+        "name": "小野 智司",
+        "advisors": [
+            "西原 清一"
+        ],
+        "affiliation": "筑波大学大学院工学研究科電子・情報工学専攻",
+        "title": "知識処理における事例ベース推論とその応用に関する研究",
+        "category": "推論・論理プログラミング",
+        "keywords": [
+            "事例ベース推論",
+            "ルールベース推論",
+            "制約充足問題",
+            "日本語点字翻訳",
+            "レイアウト変更計画"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "松尾 豊",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院工学系研究科",
+        "title": "仮説推論法と文書主題抽出法に関する研究",
+        "category": "推論・論理プログラミング",
+        "keywords": [
+            "仮説推論",
+            "数理計画法",
+            "重要語抽出",
+            "small world"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "尾崎 知伸",
+        "advisors": [
+            "古川 康一"
+        ],
+        "affiliation": "慶應義塾大学大学院政策・メディア研究科",
+        "title": "Efficient Search Algorithms for Inductive Logic Programming Based on the Most Specific Hypothesis（最弱仮説に基づく帰納論理プログラミングの効率的探索アルゴリズム）",
+        "category": "推論・論理プログラミング",
+        "keywords": [
+            "帰納論理プログラミング",
+            "最弱仮説",
+            "探索アルゴリズム",
+            "分類問題",
+            "データマイニング"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "網代 育大",
+        "advisors": [
+            "上田 和紀"
+        ],
+        "affiliation": "早稲田大学大学院理工学研究科",
+        "title": "Automated Programming Framework Using Constraint-Based Static Analysis（制約充足に基づく静的解析手法を用いたプログラミングの自動化に関する研究）",
+        "category": "推論・論理プログラミング",
+        "keywords": [
+            "concurrent logic programming",
+            "automated programming",
+            "debugging",
+            "static analysis",
+            "types",
+            "modes",
+            "constraint satisfaction",
+            "GHC"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "林 久志",
+        "advisors": [
+            "Murray Shanahan"
+        ],
+        "affiliation": "Imperial College of Science, Technology and Medicine, University of London",
+        "title": "Computing with Changing Logic Programs",
+        "category": "推論・論理プログラミング",
+        "keywords": [
+            "logic programming"
+        ],
+        "award_date": "2001-10"
+    },
+    {
+        "name": "高橋 徹",
+        "advisors": [
+            "木戸出 正繼"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学情報科学研究科",
+        "title": "オンラインコミュニティにおける擬人化メディア",
+        "category": "コミュニケーション・e-Learning",
+        "keywords": [
+            "オンラインコミュニティ",
+            "知識コミュニティ",
+            "擬人化インタフェース",
+            "アバター",
+            "アウェアネス",
+            "社会的対話"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "斎藤 一",
+        "advisors": [
+            "大内 東"
+        ],
+        "affiliation": "北海道大学 大学院工学研究科 システム情報工学専攻",
+        "title": "キーワード地図構造モデリングによる個別学習支援に関する研究",
+        "category": "コミュニケーション・e-Learning",
+        "keywords": [
+            "キーワード地図",
+            "構造モデリング",
+            "e-Learning",
+            "個別学習支援"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "小幡 明彦",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 知識科学研究科 知識社会システム学専攻",
+        "title": "組織の知識創造に対して効果的なビデオ画像通信の利用方法に関する研究",
+        "category": "コミュニケーション・e-Learning",
+        "keywords": [
+            "共同作業支援",
+            "ビデオ画像通信",
+            "ユーザビリティ"
+        ],
+        "award_date": "2001-08"
+    },
+    {
+        "name": "倉橋 節也",
+        "advisors": [
+            "寺野 隆雄"
+        ],
+        "affiliation": "筑波大学 大学院経営・政策科学研究科 企業科学専攻",
+        "title": "人工社会ネットワーク社会におけるリーダシップと共同分配規範",
+        "category": "コミュニケーション・e-Learning",
+        "keywords": [
+            "人工社会",
+            "マルチエージェント",
+            "規範",
+            "遺伝的アルゴリズム",
+            "タブー探索"
+        ],
+        "award_date": "2002-03"
+    },
+    {
+        "name": "長谷川 忍",
+        "advisors": [
+            "豊田 順一"
+        ],
+        "affiliation": "大阪大学 大学院基礎工学研究科",
+        "title": "WWWにおける学習用デジタルライブラリの設計・開発",
+        "category": "コミュニケーション・e-Learning",
+        "keywords": [
+            "Web-based Learning",
+            "デジタルライブラリ",
+            "学習リソース",
+            "リソースインデックス",
+            "リソースナビゲーション"
+        ],
+        "award_date": "2002-03"
+    }
+]

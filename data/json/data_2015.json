@@ -1,0 +1,458 @@
+[
+  {
+    "name": "三田村 健史",
+    "advisors": [
+      "吉田 健一"
+    ],
+    "affiliation": "筑波大学大学院ビジネス科学研究科",
+    "title": "DNSクエリデータにもとづくソーシャルメディア利用者の行動分析",
+    "category": "機械学習・データマイニング",
+    "keywords": [
+      "ソーシャルメディア",
+      "DNS",
+      "異なり数",
+      "閲覧者",
+      "投稿者",
+      "行動分析"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "芋野 美紗子",
+    "advisors": [
+      "渡部 広一"
+    ],
+    "affiliation": "同志社大学大学院工学研究科",
+    "title": "語概念連想システムの構築とその応用",
+    "category": "知識の利用と共有・知識ベース",
+    "keywords": [
+      "知識ベース",
+      "概念ベース",
+      "語概念連想",
+      "会話"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "玉川 奨",
+    "advisors": [
+      "山口 高平"
+    ],
+    "affiliation": "慶應義塾大学大学院理工学研究科",
+    "title": "日本語Wikipediaオントロジーの自動構築と評価",
+    "category": "知識の利用と共有・オントロジー",
+    "keywords": [
+      "Wikipedia",
+      "ontology",
+      "ontology learning",
+      "linked open data",
+      "property"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "松田 尚子",
+    "advisors": [
+      "松尾 豊"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 技術経営戦略学専攻",
+    "title": "起業家及びベンチャー経営者と人的ネットワークに関する研究",
+    "category": "知識の利用と共有・知識共有",
+    "keywords": [
+      "ソーシャルネットワーク",
+      "知識伝播",
+      "社会関係資本",
+      "ベンチャー企業",
+      "起業"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "村松 慶一",
+    "advisors": [
+      "松居 辰則"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "感性の共通理解に向けた知識記述基盤の構築 ─色彩科学と学習科学における意識内容のオントロジー記述─",
+    "category": "知識の利用と共有・オントロジー",
+    "keywords": [
+      "オントロジー",
+      "色彩感情",
+      "academic emotions"
+    ],
+    "award_date": "2014-01"
+  },
+  {
+    "name": "榊 剛史",
+    "advisors": [
+      "松尾 豊"
+    ],
+    "affiliation": "東京大学 工学系研究科",
+    "title": "ソーシャルセンサによる観測手法の提案及びその応用に関する研究",
+    "category": "Webインテリジェンス・Webマイニング",
+    "keywords": [
+      "ソーシャルメディア分析",
+      "twitter"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "朱 成敏 (ジュ ソンミン)",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "参加者の議論能力に基づくオンライン議論の分析と支援に関する研究",
+    "category": "Webインテリジェンス・Webコミュニティ",
+    "keywords": [
+      "オンライン議論",
+      "オンラインコミュニケーション",
+      "オンラインコミュニティのモデル化"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "周 暁康 (シュウ ギョウコウ)",
+    "advisors": [
+      "金 群"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "Unified Modeling and Analyzing of Personal Data and Behaviors for Individualized Information Utilization",
+    "category": "Webインテリジェンス・Webマイニング",
+    "keywords": [
+      "personal data mining",
+      "information behavior analysis",
+      "social networking analysis",
+      "user modeling",
+      "information seeking and recommendation"
+    ],
+    "award_date": "2014-07"
+  },
+  {
+    "name": "服部 俊一",
+    "advisors": [
+      "高間 康史"
+    ],
+    "affiliation": "首都大学東京大学院システムデザイン研究科",
+    "title": "価値観に基づくユーザモデルを用いた情報推薦システムに関する研究",
+    "category": "Webインテリジェンス・Webマイニング",
+    "keywords": [
+      "情報推薦システム",
+      "ユーザモデリング",
+      "価値観",
+      "cold-start問題"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "水田 孝信",
+    "advisors": [
+      "和泉 潔"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 システム創成学専攻",
+    "title": "人工市場シミュレーションを用いた金融市場の規制・制度の分析",
+    "category": "エージェント・マルチエージェントシステム",
+    "keywords": [
+      "人工市場",
+      "マルチエージェントシミュレーション",
+      "金融規制"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "Wenpeng Wei (魏 文鵬)",
+    "advisors": [
+      "木下 哲男"
+    ],
+    "affiliation": "東北大学",
+    "title": "Agent-Based Design Method and Applications in Urban Regional Studies",
+    "category": "エージェント・マルチエージェントシステム",
+    "keywords": [
+      "evolutional system",
+      "multi-agent",
+      "design method"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "裴 岩",
+    "advisors": [
+      "高木 英行"
+    ],
+    "affiliation": "（所属記載ページに準拠）",
+    "title": "進化計算の効率的探索に関する研究",
+    "category": "ソフトコンピューティング（その他）",
+    "keywords": [
+      "進化計算",
+      "対話型進化計算",
+      "適応度景観近似",
+      "フーリエ解析",
+      "カオス進化"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "宮西 大樹",
+    "advisors": [
+      "上原 邦昭"
+    ],
+    "affiliation": "神戸大学大学院システム情報学研究科 計算科学専攻",
+    "title": "Time-Aware Information Retrieval in Social Networks",
+    "category": "自然言語処理・情報検索",
+    "keywords": [
+      "時間を考慮した情報検索",
+      "ソーシャルネットワーク",
+      "Twitter",
+      "マイクロブログ"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "森田 一",
+    "advisors": [
+      "奥村 学",
+      "高村 大也"
+    ],
+    "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+    "title": "Enhanced Models for Query-Oriented Extractive Summarization",
+    "category": "自然言語処理・要約",
+    "keywords": [
+      "クエリ指向部分木抽出要約",
+      "劣モジュラ最大化"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "石野 亜耶",
+    "advisors": [
+      "竹澤 寿幸",
+      "難波 英嗣"
+    ],
+    "affiliation": "広島市立大学大学院情報科学研究科",
+    "title": "ソーシャルメディアを利用した観光支援システムの自動構築",
+    "category": "自然言語処理・情報検索・抽出・分類",
+    "keywords": [
+      "観光情報処理",
+      "旅行ブログ",
+      "情報抽出",
+      "情報拡張"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "Rui Shen (沈 睿)",
+    "advisors": [
+      "菊池 英明"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "Automatic Estimation of Speaking Style in Speech Corpora",
+    "category": "自然言語処理・その他",
+    "keywords": [
+      "speaking style",
+      "speech corpora",
+      "corpus search",
+      "transcription",
+      "automatic estimation"
+    ],
+    "award_date": "2014-07"
+  },
+  {
+    "name": "林部 祐太",
+    "advisors": [
+      "松本 裕治"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+    "title": "Japanese Predicate Argument Structure Analysis Based on Positional Relations between Predicates and Arguments",
+    "category": "自然言語処理・自然言語理解",
+    "keywords": [
+      "predicate argument structure analysis",
+      "positional relations between predicates and arguments",
+      "selection-then-classification model",
+      "tournament model"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "井上 中順",
+    "advisors": [
+      "篠田 浩一"
+    ],
+    "affiliation": "東京工業大学大学院情報理工学研究科 計算工学専攻",
+    "title": "Efficient and Effective Semantic Indexing for Large-Scale Video Resources",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "映像検索",
+      "セマンティクス",
+      "マルチメディアコンテンツ",
+      "動画像処理"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "吉野 幸一郎",
+    "advisors": [
+      "河原 達也"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Spoken Dialogue System for Information Navigation based on Statistical Learning of Semantic and Dialogue Structure",
+    "category": "画像・音声・音声対話",
+    "keywords": [
+      "spoken dialogue system",
+      "semantic structure",
+      "dialogue structure",
+      "automatic speech recognition",
+      "partially observable Markov decision process"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "粂 秀行",
+    "advisors": [
+      "横矢 直和"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+    "title": "Camera Pose Estimation for an Image Sequence with External References",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "camera pose estimation",
+      "structure-form-motion",
+      "bundle adjustment",
+      "GPS",
+      "aerial image",
+      "3D point database"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "三上 剛",
+    "advisors": [
+      "山本 雅人"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "Analysis of Upper Airway MRIs and Snoring Sounds for Automatic Classification of Obstructive Sleep Apnea Syndrome",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "医用画像工学",
+      "生体信号解析"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "太田 健吾",
+    "advisors": [
+      "中川 聖一"
+    ],
+    "affiliation": "豊橋技術科学大学大学院工学研究科",
+    "title": "話し言葉特有の現象の統計的モデリングに関する研究",
+    "category": "画像・音声・音声認識・理解",
+    "keywords": [
+      "音声認識",
+      "音声対話",
+      "言語モデル",
+      "話し言葉",
+      "フィラー",
+      "ポーズ"
+    ],
+    "award_date": "2013-12"
+  },
+  {
+    "name": "大川 学",
+    "advisors": [
+      "吉田 健一"
+    ],
+    "affiliation": "筑波大学大学院システム情報工学研究科",
+    "title": "可視・赤外画像中の筆圧情報を用いたオフライン筆者照合の研究",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "オフライン筆者照合",
+      "バイオメトリクス認証",
+      "筆圧",
+      "コスト参考型学習",
+      "SVM"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "大塚 琢馬",
+    "advisors": [
+      "奥乃 博"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Bayesian Microphone Array Processing",
+    "category": "画像・音声・シーン理解",
+    "keywords": [
+      "マイクロフォンアレイ処理",
+      "音源定位・分離・残響除去",
+      "ノンパラメトリックベイズ",
+      "音環境理解"
+    ],
+    "award_date": "2014-03"
+  },
+  {
+    "name": "中鹿 亘",
+    "advisors": [
+      "滝口 哲也"
+    ],
+    "affiliation": "神戸大学大学院システム情報学研究科 情報科学専攻",
+    "title": "Voice Conversion Based on Deep Learning（深層学習に基づく声質変換）",
+    "category": "画像・音声・音声認識・理解",
+    "keywords": [
+      "声質変換",
+      "深層学習",
+      "restricted Boltzmann machine",
+      "deep belief network",
+      "ニューラルネットワーク"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "高木 輝彦",
+    "advisors": [
+      "田中 健次"
+    ],
+    "affiliation": "電気通信大学大学院情報システム学研究科",
+    "title": "多肢選択式項目の類似度算出手法に関する研究",
+    "category": "ヒューマンインタフェース・教育支援・知的学習支援",
+    "keywords": [
+      "eテスティング",
+      "項目データベース",
+      "類似項目",
+      "類似度"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "松井 哲也",
+    "advisors": [
+      "郡司 幸夫"
+    ],
+    "affiliation": "神戸大学大学院理学研究科",
+    "title": "キャラクターの身体と文脈",
+    "category": "ヒューマンインタフェース・教育支援・ヒューマンコンピュータインタラクション",
+    "keywords": [
+      "ヒューマンインタフェース",
+      "キャラクタ",
+      "イメージ",
+      "ラフ集合",
+      "束論"
+    ],
+    "award_date": "2014-09"
+  },
+  {
+    "name": "大倉 史生",
+    "advisors": [
+      "横矢 直和"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+    "title": "Imaging and Rendering Framework for Photorealistic Mixed-Reality World Exploration",
+    "category": "ヒューマンインタフェース・教育支援・仮想・拡張現実感",
+    "keywords": [
+      "複合現実感",
+      "高ダイナミックレンジ画像",
+      "全方位画像",
+      "写実的レンダリング",
+      "自由視点画像生成"
+    ],
+    "award_date": "2014-03"
+  }
+]

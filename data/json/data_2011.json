@@ -1,0 +1,483 @@
+[
+    {
+        "name": "上田 洋",
+        "advisors": [
+            "辰巳 昭治",
+            "村上 晴美"
+        ],
+        "affiliation": "大阪市立大学大学院工学研究科",
+        "title": "Web上の人物理解のための人物関連情報の抽出",
+        "category": "Webインテリジェンス（Webマイニング）",
+        "keywords": [
+            "Web人物検索",
+            "同姓同名人物問題",
+            "情報抽出"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "Yan, Yulan (顔 玉蘭)",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院情報理工学系研究科電子情報学専攻",
+        "title": "with Linguistic and Web Features（言語分析およびWeb上の情報を用いたコンテンツからの関係の抽出）",
+        "category": "Webインテリジェンス（情報検索・抽出・分類）",
+        "keywords": [
+            "relation extraction",
+            "shallow semantic parser",
+            "linguistic feature",
+            "Web feature",
+            "CDL.nl",
+            "Wikipedia text",
+            "Web context"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "梶並 知記",
+        "advisors": [
+            "高間 康史"
+        ],
+        "affiliation": "首都大学東京大学院システムデザイン研究科",
+        "title": "外的情報検索を伴う意思決定を支援する汎用的情報分析インタフェースに関する研究",
+        "category": "Webインテリジェンス（Webインタラクション）",
+        "keywords": [
+            "情報可視化",
+            "意思決定支援",
+            "ユーザインタフェース",
+            "探索的情報検索"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "Yong Xu (徐 涌)",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "京都大学大学院情報学研究科知能情報学専攻",
+        "title": "Developing Mutually Adaptive Human Agent Interface（相互適応的なヒューマンエージェントインタフェースの開発）",
+        "category": "エージェント（ヒューマンエージェントインタラクション）",
+        "keywords": [
+            "human agent interaction",
+            "mutual adaptation",
+            "human robot interface",
+            "Wizard of OZ"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "西口 純代",
+        "advisors": [
+            "林 良彦",
+            "三藤 博"
+        ],
+        "affiliation": "大阪大学大学院言語文化研究科",
+        "title": "Possessive Disambiguation",
+        "category": "自然言語処理（自然言語理解）",
+        "keywords": [
+            "GL",
+            "Qualia",
+            "referential module",
+            "No."
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "Zhou, Huiping (周 慧薄)",
+        "advisors": [
+            "伊藤 誠"
+        ],
+        "affiliation": "筑波大学大学院システム情報工学研究科",
+        "title": "Lane-Change Intent Inference via Monitoring of Driver's Glances",
+        "category": "自然言語処理（意図・談話理解）",
+        "keywords": [
+            "車線変更",
+            "ドライバ意図検出",
+            "ドライバの視行動",
+            "認知的活動"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "笠 浩一朗",
+        "advisors": [
+            "松原 茂樹"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "同時通訳データの分析に基づく漸進的な英日翻訳に関する研究",
+        "category": "自然言語処理（機械翻訳）",
+        "keywords": [
+            "機械翻訳",
+            "同時翻訳",
+            "依存文法",
+            "話速"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "菅野 亜紀",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学情報科学研究科",
+        "title": "医療文書の自動点字翻訳における精度向上法",
+        "category": "自然言語処理（機械翻訳）",
+        "keywords": [
+            "自動点字翻訳",
+            "辞書",
+            "医療用語",
+            "統計的学習モデル"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "小町 守",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学情報科学研究科",
+        "title": "Graph-Theoretic Approaches to Minimally-Supervised Natural Language Learning",
+        "category": "自然言語処理（情報検索・抽出・分類）",
+        "keywords": [
+            "自然言語処理",
+            "ブートストラッピング",
+            "リンク解析",
+            "半教師あり学習"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "杉木 健二",
+        "advisors": [
+            "松原 茂樹"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "消費者の意見に基づく商品検索に関する研究",
+        "category": "自然言語処理（情報検索・抽出・分類）",
+        "keywords": [
+            "自然言語検索",
+            "商品レビュー",
+            "評判情報",
+            "シソーラス"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "Michal Ptaszynski (ミハウ・プタシンスキ)",
+        "advisors": [
+            "荒木 健治"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科",
+        "title": "Affect Analysis of Textual Input Utterance in Japanese and Its Application in Human–Computer Interaction",
+        "category": "自然言語処理（情報検索・抽出・分類）",
+        "keywords": [
+            "affect analysis",
+            "emotions",
+            "affective computing",
+            "affect sensing from text",
+            "emotional intelligence",
+            "emoticons",
+            "contextual appropriateness of emotion",
+            "conversational agents"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "長谷川 隆明",
+        "advisors": [
+            "奥村 学"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科",
+        "title": "携帯端末への情報提示を指向したテキスト要約に関する研究",
+        "category": "自然言語処理（要約）",
+        "keywords": [
+            "テキスト要約",
+            "重要文抽出",
+            "文短縮",
+            "関係抽出"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "阿部 修也",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学情報科学研究科",
+        "title": "Event Relation Acquisition from Large Text Corpora",
+        "category": "自然言語処理（その他）",
+        "keywords": [
+            "自然言語処理",
+            "知識獲得",
+            "事態知識",
+            "関係知識",
+            "大規模テキスト"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "丸谷 宜史",
+        "advisors": [
+            "美濃 導彦"
+        ],
+        "affiliation": "京都大学大学院情報学研究科知能情報学専攻",
+        "title": "Study on Structure of Classroom Lecture Based on Lecturer's Actions（講師行動に基づく講義室講義の構造化に関する研究）",
+        "category": "画像・音声（パターン認識・理解）",
+        "keywords": [
+            "講義アーカイブ",
+            "行動分析",
+            "状況認識",
+            "映像セグメンテーション"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "安藤 淳",
+        "advisors": [
+            "長尾 智晴"
+        ],
+        "affiliation": "横浜国立大学大学院環境情報学府情報メディア環境学専攻",
+        "title": "多様な実画像に対応した超高速進化的画像処理システムの構築",
+        "category": "画像・音声（その他）",
+        "keywords": [
+            "画像処理",
+            "進化計算法",
+            "general purpose GPU"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "藤井 宏行",
+        "advisors": [
+            "小林 重信"
+        ],
+        "affiliation": "東京工業大学総合理工学研究科知能システム科学専攻",
+        "title": "移動ロボットにおける高次情報の利用と評価",
+        "category": "ロボットと実世界（ロボットの知的処理）",
+        "keywords": [
+            "ロボット",
+            "強化学習",
+            "生態心理学"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "柳瀬 利彦",
+        "advisors": [
+            "伊庭 斉志"
+        ],
+        "affiliation": "東京大学大学院新領域創成科学研究科基盤情報学専攻",
+        "title": "進化計算による自律ロボットのための行為獲得に関する研究",
+        "category": "ロボットと実世界（ロボットの知的処理）",
+        "keywords": [
+            "遺伝的プログラミング",
+            "進化論的多目的最適化",
+            "対話型進化計算",
+            "ヒューマノイドロボット"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "後藤田 中",
+        "advisors": [
+            "矢野 米雄"
+        ],
+        "affiliation": "徳島大学大学院先端技術科学教育部",
+        "title": "センサを活用したランナー訓練コミュニティ環境の研究",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "ヒューマンセンシング",
+            "コミュニティ環境",
+            "運動訓練支援",
+            "サステイナビリティ"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "白井 良成",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学大学院工学系研究科先端学際工学専攻",
+        "title": "履歴情報の外在化とインタラクション",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "履歴情報",
+            "外在化表現",
+            "インタラクションデザイン",
+            "history-enriched environment"
+        ],
+        "award_date": "2010-05"
+    },
+    {
+        "name": "Dybala Pawel (デイバラ パヴェウ)",
+        "advisors": [
+            "荒木 健治"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科メディアネットワーク専攻",
+        "title": "Humor to Facilitate HCI: Implementing a Japanese Pun Generator into a Non-task Oriented Conversational System（ユーモアによるHCIの改善：日本語の駄洒落生成システムの非タスク指向型対話システムへの導入）",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "HCI (human-computer interaction)",
+            "NLP (natural language processing)",
+            "AI (artificial intelligence)",
+            "humor processing",
+            "affect analysis",
+            "conversational systems",
+            "language generation"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "松村 冬子",
+        "advisors": [
+            "三木 光範"
+        ],
+        "affiliation": "同志社大学大学院工学研究科 知識工学専攻",
+        "title": "ユーザとシステムの対話に基づく感性情報の獲得に関する研究",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "感性情報",
+            "感性モデル",
+            "情報推薦",
+            "アバター",
+            "対話型遺伝的アルゴリズム"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "神邊 篤史",
+        "advisors": [
+            "松原 行宏"
+        ],
+        "affiliation": "広島市立大学大学院情報科学研究科",
+        "title": "力覚提示を伴う仮想環境での身体動作を通した学習支援に関する研究",
+        "category": "ヒューマンインタフェース・教育支援（仮想・拡張現実感）",
+        "keywords": [
+            "バーチャルリアリティ",
+            "体験環境",
+            "身体動作",
+            "力覚提示"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "匂坂 智子",
+        "advisors": [
+            "渡辺 成良"
+        ],
+        "affiliation": "電気通信大学大学院",
+        "title": "学習方略と理解度に基づいた診断と学習支援 ―e-Learningへの応用可能性について―",
+        "category": "ヒューマンインタフェース・教育支援（e-ラーニング）",
+        "keywords": [
+            "学習支援",
+            "理解度",
+            "学習方略",
+            "学習者特性",
+            "学習診断",
+            "支援ルール",
+            "プログラミング学習"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "金城 敬太",
+        "advisors": [
+            "相澤 彰子",
+            "市瀬 龍太郎"
+        ],
+        "affiliation": "総合研究大学院大学 複合科学研究科 情報学専攻",
+        "title": "影響変数を伴う関係データの分析と応用についての研究",
+        "category": "AI応用（社会システム）",
+        "keywords": [
+            "時系列データマイニング",
+            "関係データマイニング",
+            "社会への応用"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "Kloetzer Julien (クロエツェー ジュリアン)",
+        "advisors": [
+            "飯田 弘之"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 情報科学研究科",
+        "title": "Monte-Carlo Techniques: Applications to the Game of the Amazons（モンテカルロ木探索とアマゾンへの応用）",
+        "category": "AI応用（ゲーム）",
+        "keywords": [
+            "Monte-Carlo",
+            "Amazons",
+            "game programming",
+            "tree-search algorithms",
+            "reinforcement learning",
+            "UCB",
+            "endgame",
+            "opening-book"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "山本 泰生",
+        "advisors": [
+            "井上 克巳"
+        ],
+        "affiliation": "総合研究大学院大学 複合科学研究科 情報学専攻",
+        "title": "Research on Logic and Computation in Hypothesis Finding",
+        "category": "基礎・理論（論理・推論）",
+        "keywords": [
+            "hypothesis finding",
+            "learning from entailment",
+            "inductive logic programming"
+        ],
+        "award_date": "2010-09"
+    },
+    {
+        "name": "澁谷 長史",
+        "advisors": [
+            "濱上 知樹"
+        ],
+        "affiliation": "横浜国立大学大学院工学府 物理情報工学専攻",
+        "title": "未知環境におけるエージェントの自律的行動獲得に関する研究",
+        "category": "機械学習・データマイニング（強化学習）",
+        "keywords": [
+            "エージェント",
+            "強化学習",
+            "不完全知覚問題",
+            "行動の文脈",
+            "状態空間"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "福井 健一",
+        "advisors": [
+            "沼尾 正行"
+        ],
+        "affiliation": "大阪大学大学院情報科学研究科 情報数理学専攻",
+        "title": "大規模動的データに対する探索的分析法に関する研究",
+        "category": "機械学習・データマイニング（可視化）",
+        "keywords": [
+            "視覚的データマイニング",
+            "自己組織化マップ",
+            "動的クラスタ",
+            "ネットワーク分析",
+            "解釈問題"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "中辻 真",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科 社会情報学専攻",
+        "title": "Modeling and Predicting User Interests based on Taxonomy",
+        "category": "知識の利用と共有（知識共有）",
+        "keywords": [
+            "タクソノミ",
+            "情報推薦"
+        ],
+        "award_date": "2010-09"
+    }
+]

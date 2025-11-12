@@ -1,0 +1,256 @@
+[
+  {
+    "name": "川端 良子",
+    "advisors": [
+      "伝 康晴",
+      "松香 敏彦"
+    ],
+    "affiliation": "千葉大学 大学院融合科学研究科",
+    "title": "課題指向対話における共有信念構築のメカニズムに関する研究",
+    "category": "基礎・理論／意図・談話理解",
+    "keywords": [
+      "課題指向対話",
+      "共有信念",
+      "発話行為",
+      "プランニング",
+      "条件表現"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "Jing Song (宋 静)",
+    "advisors": [
+      "小山 聡"
+    ],
+    "affiliation": "北海道大学 大学院情報科学研究科 情報理工学専攻",
+    "title": "A Study on Causal Discovery Considering Confounders",
+    "category": "機械学習・データマイニング／データマイニング",
+    "keywords": [
+      "causal discovery",
+      "confounders",
+      "crowdsourcing",
+      "open data"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "Kalintha Wasin (カリンタ ワシン)",
+    "advisors": [
+      "福井 健一"
+    ],
+    "affiliation": "大阪大学 大学院情報科学研究科",
+    "title": "Kernelized Evolutionary Distance Metric Learning（カーネル法と進化計算による距離計量学習）",
+    "category": "機械学習・データマイニング",
+    "keywords": [
+      "clustering",
+      "neighbor graph",
+      "cluster validity index",
+      "distance metric learning",
+      "kernelization",
+      "differential evolution"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "三浦 寛也",
+    "advisors": [
+      "平田 圭二"
+    ],
+    "affiliation": "公立はこだて未来大学 システム情報科学研究科",
+    "title": "議論における発言間の階層関係に基づく対話的情報構造化についての研究",
+    "category": "機械学習・データマイニング／知識獲得",
+    "keywords": [
+      "知識表現",
+      "議論構造化",
+      "自動要約",
+      "情報探索システム"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "生田 泰章",
+    "advisors": [
+      "西本 一志"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "知識創造活動過程で揮発する知識断片の収集とその活用に関する研究",
+    "category": "知識の利用と共有／その他",
+    "keywords": [
+      "知識創造活動支援",
+      "知識活用支援",
+      "発想支援",
+      "ヒューマンコンピュータインタラクション"
+    ],
+    "award_date": "2018-12"
+  },
+  {
+    "name": "嘉村 哲郎",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "アートコミュニティ活性化のための芸術情報の収集と分析",
+    "category": "知識の利用と共有／知識共有",
+    "keywords": [
+      "芸術情報",
+      "アートマーケット",
+      "アート価値",
+      "メタデータ",
+      "linked open data"
+    ],
+    "award_date": "2019-09"
+  },
+  {
+    "name": "江上 周作",
+    "advisors": [
+      "川村 隆浩",
+      "大須賀 昭彦"
+    ],
+    "affiliation": "電気通信大学 大学院情報理工学研究科 情報学専攻",
+    "title": "都市問題の分析に向けたナレッジグラフの構築と時間的・空間的・課題横断的な拡充手法の開発",
+    "category": "Webインテリジェンス／セマンティックWeb",
+    "keywords": [
+      "ナレッジグラフ",
+      "Linked Open Data",
+      "欠損補完",
+      "都市問題"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "杉山 歩未",
+    "advisors": [
+      "菅原 俊治"
+    ],
+    "affiliation": "早稲田大学 基幹理工学研究科 情報理工・情報通信専攻",
+    "title": "マルチエージェント巡回問題における協調行動を創発する自律学習と交渉に関する研究",
+    "category": "エージェント／マルチエージェントシステム",
+    "keywords": [
+      "マルチエージェントシステム",
+      "継続協調巡回問題",
+      "協調創発",
+      "自律エージェント"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "Jun Yu",
+    "advisors": [
+      "高木 英行"
+    ],
+    "affiliation": "九州大学 大学院芸術工学府 芸術工学専攻",
+    "title": "Study on Acceleration for Evolutionary Computation",
+    "category": "ソフトコンピューティング／その他",
+    "keywords": [
+      "evolutionary computation",
+      "optimization",
+      "acceleration",
+      "estimation method",
+      "fireworks algorithm",
+      "differential evolution",
+      "vegetation evolution"
+    ],
+    "award_date": "2019-09"
+  },
+  {
+    "name": "柴田 祐樹",
+    "advisors": [
+      "高間 康史"
+    ],
+    "affiliation": "首都大学東京 大学院システムデザイン研究科",
+    "title": "エネルギー関数の形状に応じた焼きなまし法の適用に関する研究",
+    "category": "ソフトコンピューティング／その他",
+    "keywords": [
+      "焼なまし法",
+      "最適化",
+      "推論",
+      "機械学習",
+      "確率空間"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "宮崎 千明",
+    "advisors": [
+      "佐藤 理史"
+    ],
+    "affiliation": "名古屋大学 大学院工学研究科",
+    "title": "Analysis and Automatic Generation of Japanese Characters’ Utterances",
+    "category": "自然言語処理／その他",
+    "keywords": [
+      "発話のキャラクタ性",
+      "発話テキストのスタイル変換",
+      "対話エージェント"
+    ],
+    "award_date": "2019-09"
+  },
+  {
+    "name": "小椋 忠志",
+    "advisors": [
+      "稲邑 哲也"
+    ],
+    "affiliation": "総合研究大学院大学",
+    "title": "身体動作における文脈情報の構成法と文脈を活用した誤認識低減に関する研究",
+    "category": "画像・音声／パターン認識・理解",
+    "keywords": [
+      "身体動作認識",
+      "文脈推定"
+    ],
+    "award_date": "2019-09"
+  },
+  {
+    "name": "山田 雅敏",
+    "advisors": [
+      "竹内 勇剛"
+    ],
+    "affiliation": "静岡大学 創造科学技術大学院 自然科学系教育部 情報科学専攻",
+    "title": "疾走スキルの伝達における選手の認知過程に関する情報学的研究",
+    "category": "ヒューマンインタフェース・教育支援／コミュニケーション支援",
+    "keywords": [
+      "身体知",
+      "伝達",
+      "言語化",
+      "疾走",
+      "集団語"
+    ],
+    "award_date": "2019-03"
+  },
+  {
+    "name": "松本 和宏",
+    "advisors": [
+      "田中 茂信",
+      "田中 賢治",
+      "佐山 敬洋"
+    ],
+    "affiliation": "京都大学 大学院工学研究科 都市社会工学専攻",
+    "title": "流出解析分野における数理最適化に関する研究",
+    "category": "AI応用（社会システム）",
+    "keywords": [
+      "流出解析",
+      "数理最適化",
+      "洪水予測シミュレーション",
+      "連続最適化",
+      "多目的最適化",
+      "組合せ最適化"
+    ],
+    "award_date": "2019-07"
+  },
+  {
+    "name": "岡田 伊策",
+    "advisors": [
+      "稗方 和夫"
+    ],
+    "affiliation": "東京大学 新領域創成科学研究科 人間環境学専攻",
+    "title": "ボトムアップアプローチモデリングとシステム・ダイナミックスを用いた経営意思決定支援手法に関する研究",
+    "category": "AI応用",
+    "keywords": [
+      "システムダイナミクス",
+      "ボトムアップアプローチモデリング",
+      "ビルドアップアプローチモデリング",
+      "AIビジネス実務適用",
+      "意思決定",
+      "共通認識形成"
+    ],
+    "award_date": "2019-09"
+  }
+]

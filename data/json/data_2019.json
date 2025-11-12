@@ -1,0 +1,201 @@
+[
+  {
+    "name": "酒井 達弘",
+    "advisors": [
+      "竹澤 寿幸",
+      "田村 慶一"
+    ],
+    "affiliation": "広島市立大学大学院情報科学研究科",
+    "title": "ソーシャルメディアに対する時空間データマイニングに関する研究",
+    "category": "機械学習・データマイニング（データマイニング）",
+    "keywords": [
+      "ソーシャルメディア",
+      "時空間データマイニング",
+      "密度に基づくクラスタリング",
+      "DBSCAN",
+      "深層学習",
+      "マルチモーダルデータ"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "神辺 圭一",
+    "advisors": [
+      "田中 健次",
+      "栗原 聡"
+    ],
+    "affiliation": "電気通信大学大学院情報システム学研究科",
+    "title": "共同利用施設における利用研究成果の最大化に向けた評価指標の分析",
+    "category": "機械学習・データマイニング（可視化）",
+    "keywords": [
+      "特定先端大型研究施設",
+      "研究成果分析",
+      "ランダムフォレスト",
+      "複雑ネットワーク",
+      "クラスタ分析",
+      "SPring-8"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "橋本 守人",
+    "advisors": [
+      "倉橋 節也"
+    ],
+    "affiliation": "筑波大学大学院ビジネス科学研究科 企業科学専攻",
+    "title": "金融機関の破綻連鎖とシステミックリスク指標の研究",
+    "category": "エージェント（エージェントシミュレーション）",
+    "keywords": [
+      "agent-based modeling",
+      "systemic risk",
+      "financial risk analysis",
+      "network theory",
+      "machine learning"
+    ],
+    "award_date": "2018-03"
+  },
+  {
+    "name": "池田 圭佑",
+    "advisors": [
+      "栗原 聡"
+    ],
+    "affiliation": "電気通信大学大学院情報システム学研究科 社会知能情報学専攻",
+    "title": "エージェントモデルを用いた情報拡散メカニズム解明と拡散制御手法の構築",
+    "category": "エージェント（エージェントシミュレーション）",
+    "keywords": [
+      "Twitter",
+      "エージェントモデル",
+      "情報拡散",
+      "デマ情報"
+    ],
+    "award_date": "2018-03"
+  },
+  {
+    "name": "永井 秀幸",
+    "advisors": [
+      "倉橋 節也"
+    ],
+    "affiliation": "筑波大学大学院システム情報工学研究科 リスク工学専攻",
+    "title": "Urban Dynamics Modeling Scheme Considering Residents’ Daily Travel and Street Activeness（居住者の交通行動と街のにぎわいを考慮した都市動態モデリング手法）",
+    "category": "エージェント（エージェントシミュレーション）",
+    "keywords": [
+      "マルチエージェントシミュレーション",
+      "土地利用・交通相互作用モデル",
+      "都市計画",
+      "コンパクトシティ"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "高瀬 朝海",
+    "advisors": [
+      "栗原 正仁"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "ニューラルネットワークの効果的な訓練のための探索と収束の制御",
+    "category": "ソフトコンピューティング（ニューラルネットワーク）",
+    "keywords": [
+      "ニューラルネットワーク",
+      "ディープラーニング",
+      "機械学習",
+      "教師あり学習",
+      "勾配降下法"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "谷中 瞳",
+    "advisors": [
+      "越塚 誠一",
+      "戸次 大介"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "自然演繹に基づく論理推論を用いた文間関連性の評価",
+    "category": "自然言語処理（自然言語理解）",
+    "keywords": [
+      "文間類似度",
+      "含意関係認識",
+      "自然演繹",
+      "論理推論"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "佐々木 彬",
+    "advisors": [
+      "乾 健太郎"
+    ],
+    "affiliation": "東北大学大学院情報科学研究科",
+    "title": "Incorporating Domain Knowledge into Stance Classification",
+    "category": "自然言語処理（情報検索・抽出・分類）",
+    "keywords": [
+      "自然言語処理",
+      "スタンス分類"
+    ],
+    "award_date": "2018-03"
+  },
+  {
+    "name": "梶原 智之",
+    "advisors": [
+      "小町 守"
+    ],
+    "affiliation": "首都大学東京",
+    "title": "Text Simplification without Simplified Corpora",
+    "category": "自然言語処理（機械翻訳）",
+    "keywords": [
+      "テキスト平易化"
+    ],
+    "award_date": "2018-03"
+  },
+  {
+    "name": "渡邉 研斗",
+    "advisors": [
+      "乾 健太郎"
+    ],
+    "affiliation": "東北大学大学院情報科学研究科",
+    "title": "Modeling Discourse Structure of Lyrics",
+    "category": "自然言語処理（その他）",
+    "keywords": [
+      "自然言語処理",
+      "歌詞情報処理",
+      "文書生成",
+      "音楽情報処理",
+      "インタフェース"
+    ],
+    "award_date": "2018-03"
+  },
+  {
+    "name": "Yemane Keleta Tedla",
+    "advisors": [
+      "山本 和英"
+    ],
+    "affiliation": "長岡技術科学大学",
+    "title": "Tigrinya Morphological Segmentation with Bidirectional Long Short-Term Memory Neural Networks and Its Effect on English-Tigrinya Machine Translation",
+    "category": "自然言語処理（その他）",
+    "keywords": [
+      "natural language processing",
+      "Tigrinya",
+      "part-of-speech tagging",
+      "morphological segmentation",
+      "statistical machine translation"
+    ],
+    "award_date": "2018-09"
+  },
+  {
+    "name": "薗頭 元春",
+    "advisors": [
+      "美濃 導彦"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Variational Bayesian Image Restoration with Transformation Parameter Estimation",
+    "category": "画像・音声（動画像処理）",
+    "keywords": [
+      "image restoration",
+      "variational Bayes",
+      "multiframe denoising",
+      "deblurring",
+      "devignetting"
+    ],
+    "award_date": "2018-03"
+  }
+]

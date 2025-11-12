@@ -1,0 +1,427 @@
+[
+    {
+        "name": "Gokhan Ince (ギョカン・インジェ)",
+        "advisors": [
+            "Jun-ichi Imura",
+            "Kazuhiro Nakadai"
+        ],
+        "affiliation": "東京工業大学大学院情報理工学研究科",
+        "title": "Ego Noise Estimation for Robot Audition（ロボット聴覚を対象とした自己雑音推定）",
+        "category": "ロボットと実世界（環境認識）",
+        "keywords": [
+            "ego noise",
+            "noise reduction",
+            "robot audition",
+            "automatic speech recognition",
+            "missing feature theory",
+            "sound source localization",
+            "microphone array"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "後藤 孝行",
+        "advisors": [
+            "武田 英明"
+        ],
+        "affiliation": "総合研究大学院大学 複合科学研究科 情報学専攻",
+        "title": "関係性に基づく対話的情報構造化手法についての研究",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "メタデータ",
+            "情報構造化",
+            "メタデータ検索",
+            "意味形成",
+            "探索的検索"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "鈴木 優",
+        "advisors": [
+            "三末 和男"
+        ],
+        "affiliation": "筑波大学大学院システム情報工学研究科 コンピュータサイエンス専攻",
+        "title": "併行可能な動作に基づくインタラクション手法に関する研究",
+        "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+        "keywords": [
+            "ペン入力インタフェース",
+            "タッチインタフェース",
+            "入力チャネル",
+            "操作拡張"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "太田 光一",
+        "advisors": [
+            "柏原 昭博"
+        ],
+        "affiliation": "電気通信大学大学院電気通信学研究科 情報通信工学専攻",
+        "title": "ハイパー空間における学習履歴情報を用いた自己調整支援に関する研究",
+        "category": "ヒューマンインタフェース・教育支援（知的学習支援）",
+        "keywords": [
+            "ハイパー空間",
+            "navigational learning",
+            "学習履歴",
+            "データマイニング"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "中村 和晃",
+        "advisors": [
+            "美濃 導彦"
+        ],
+        "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+        "title": "Estimating Learners' Impressions of Difficulty Level for Learning Content from Their Nonverbal Behaviors in e-Learning",
+        "category": "ヒューマンインタフェース・教育支援（コミュニケーション支援）",
+        "keywords": [
+            "心的状態推定",
+            "非言語動作",
+            "e-Learning",
+            "主観的難易度"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "吉川 浩",
+        "advisors": [
+            "小野 哲雄"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科 複合情報学専攻",
+        "title": "宣言的仕様に対する正当なデジタル回路および協調計算システムの自動生成に関する研究",
+        "category": "AI応用（産業システム）",
+        "keywords": [
+            "システム自動生成",
+            "高位合成",
+            "形式仕様",
+            "書換え規則",
+            "プログラム変換"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "白浜 公章",
+        "advisors": [
+            "上原 邦昭"
+        ],
+        "affiliation": "神戸大学大学院工学研究科 情報知能学専攻",
+        "title": "Intelligent Video Processing Using Data Mining Techniques（データマイニング技術を用いた映像の知的処理に関する研究）",
+        "category": "AI応用（マルチメディア）",
+        "keywords": [
+            "video data mining",
+            "sequential pattern mining",
+            "rough set theory",
+            "burst detection",
+            "video ontology"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "糸山 克寿",
+        "advisors": [
+            "奥乃 博"
+        ],
+        "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+        "title": "Source Separation of Musical Instrument Sounds in Polyphonic Musical Audio Signal and Its Application（多重奏音楽音響信号に対する楽器音の分離とその応用）",
+        "category": "AI応用（音楽）",
+        "keywords": [
+            "music",
+            "musical instrument sound",
+            "sound source separation",
+            "harmonic and inharmonic model",
+            "instrument equalizer"
+        ],
+        "award_date": "2010-03"
+    },
+    {
+        "name": "木藤 浩之",
+        "advisors": [
+            "新田 克己"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+        "title": "社会厚生的な妥協案を正当化する実践的議論意味論",
+        "category": "基礎・理論（論理・推論）",
+        "keywords": [
+            "議論",
+            "非単調論理",
+            "Dung意味論",
+            "Pareto最適解",
+            "実践的推論"
+        ],
+        "award_date": "2011-06"
+    },
+    {
+        "name": "宋 剛秀",
+        "advisors": [
+            "井上 克巳"
+        ],
+        "affiliation": "総合研究大学院大学 複合科学研究科 情報学専攻",
+        "title": "Studies on Applying Incremental SAT Solving to Optimization and Enumeration Problems",
+        "category": "基礎・理論（論理・推論）",
+        "keywords": [
+            "SAT技術",
+            "組合せ最適化問題",
+            "列挙問題",
+            "システム生物学"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "Dittaya Wanvarie",
+        "advisors": [
+            "奥村 学",
+            "高村 大也"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+        "title": "Active Learning with Partially Annotated Sequence",
+        "category": "機械学習・データマイニング（その他：アノテーション）",
+        "keywords": [
+            "能動学習",
+            "シーケンスアノテーション",
+            "部分的アノテーション"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "陳 泓",
+        "advisors": [
+            "金 群"
+        ],
+        "affiliation": "早稲田大学大学院人間科学研究科 教育コミュニケーション情報科学専攻",
+        "title": "個人化情報ポータルとしてのユビキタス・パーソナル・スタディの提案と試作",
+        "category": "知識の利用と共有（知識共有）",
+        "keywords": [
+            "social stream",
+            "life log",
+            "information aggregation",
+            "stream mining",
+            "personal information management",
+            "knowledge sharing"
+        ],
+        "award_date": "2011-07"
+    },
+    {
+        "name": "太田 衛",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学大学院工学研究科 電気電子情報工学専攻",
+        "title": "オントロジー構築・利用環境「法造」の実用化に関する研究",
+        "category": "知識の利用と共有（オントロジー）",
+        "keywords": [
+            "オントロジー",
+            "オントロジー構築ツール",
+            "オントロジー評価"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "垂見 晋也",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学大学院工学研究科 電気電子情報工学専攻",
+        "title": "機能・性質概念理論に基づく材料設計支援システムの開発",
+        "category": "知識の利用と共有（オントロジー）",
+        "keywords": [
+            "ontology",
+            "design support system",
+            "quality-attribute-property theory",
+            "nano-materials"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "西村 一彦",
+        "advisors": [
+            "大須賀 昭彦"
+        ],
+        "affiliation": "電気通信大学大学院情報システム学研究科 社会知能情報学専攻",
+        "title": "階層プランニング技術を適用した適応型ソフトウェアの構築に関する研究",
+        "category": "エージェント（エージェント設計）",
+        "keywords": [
+            "プランニング",
+            "エージェント",
+            "自律コンピューティング",
+            "ソフトウェア開発"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "藤田 桂英",
+        "advisors": [
+            "伊藤 孝行"
+        ],
+        "affiliation": "名古屋工業大学大学院情報工学専攻",
+        "title": "Automated Multi-Agent Negotiation Protocols for Highly Nonlinear Utility Space（高度非線形な効用空間のための自動マルチエージェント交渉プロトコル）",
+        "category": "エージェント（マルチエージェントシステム）",
+        "keywords": [
+            "複数論点交渉問題",
+            "自動交渉機構",
+            "非線形効用"
+        ],
+        "award_date": "2011-06"
+    },
+    {
+        "name": "丹治 信",
+        "advisors": [
+            "伊庭 斉志"
+        ],
+        "affiliation": "東京大学大学院工学系研究科 電気系専攻",
+        "title": "ノンパラメトリックな確率モデルを用いたプログラム進化",
+        "category": "ソフトコンピューティング（遺伝的プログラミング）",
+        "keywords": [
+            "遺伝的プログラミング",
+            "確率モデルGP"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "Alena Neviarouskaya (ネビアロスカヤ アレナ)",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院情報理工学系研究科 電子情報学専攻",
+        "title": "Compositional Approach for Automatic Recognition of Fine-Grained Affect, Judgment, and Appreciation in Text（テキスト中の感情・判断・評価認識のための構成的アプローチ）",
+        "category": "自然言語処理（その他：感情センシング）",
+        "keywords": [
+            "affective user interfaces",
+            "compositional linguistic approach",
+            "fine-grained emotions",
+            "sentiment lexicon",
+            "textual attitude analysis"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "岩倉 友哉",
+        "advisors": [
+            "奥村 学"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+        "title": "Machine Learning-Based Sequential Labeling for Large-Scale Text Processing",
+        "category": "自然言語処理（情報検索・抽出・分類）",
+        "keywords": [
+            "自然言語処理",
+            "系列ラベリング",
+            "機械学習"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "仲村 哲明",
+        "advisors": [
+            "坂本 真樹"
+        ],
+        "affiliation": "電気通信大学大学院電気通信学研究科 人間コミュニケーション学専攻",
+        "title": "歌詞と色彩の関係に着目した経験基盤主義的感性情報処理による楽曲検索システム",
+        "category": "自然言語処理（情報検索・抽出・分類）",
+        "keywords": [
+            "楽曲検索",
+            "音楽",
+            "歌詞",
+            "色彩",
+            "意味空間"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "田中 克幸",
+        "advisors": [
+            "有木 康雄"
+        ],
+        "affiliation": "神戸大学大学院工学研究科 情報知能学専攻",
+        "title": "Bag of Grammarを用いたドメイン依存性の少ない Why型テキストセグメント識別器の自動構築",
+        "category": "自然言語処理（質問応答システム）",
+        "keywords": [
+            "non-factoid型質問応答",
+            "情報検索"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "大山 潤爾",
+        "advisors": [
+            "渡邊 克巳"
+        ],
+        "affiliation": "東京大学大学院工学系研究科 先端学際工学専攻",
+        "title": "動的な視覚情報における文脈情報処理とその学習に関する研究",
+        "category": "画像・音声（シーン理解）",
+        "keywords": [
+            "視覚情報処理",
+            "映像解析",
+            "時系列文脈",
+            "知覚",
+            "記憶",
+            "学習"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "西村 良太",
+        "advisors": [
+            "中川 聖一"
+        ],
+        "affiliation": "豊橋技術科学大学大学院工学研究科 電子・情報工学専攻",
+        "title": "人間同士の対話現象を組み入れた音声対話システムの研究",
+        "category": "画像・音声（音声対話）",
+        "keywords": [
+            "音声対話システム",
+            "応答タイミング",
+            "韻律制御",
+            "あいづち",
+            "バージイン"
+        ],
+        "award_date": "2010-12"
+    },
+    {
+        "name": "秋葉 将和",
+        "advisors": [
+            "長尾 智晴"
+        ],
+        "affiliation": "横浜国立大学大学院環境情報学府 情報メディア環境学専攻",
+        "title": "顔の人種・性別認知と顔印象特徴の抽出に関する研究",
+        "category": "画像・音声（視聴覚心理モデル）",
+        "keywords": [
+            "顔",
+            "人種",
+            "印象",
+            "特徴抽出",
+            "PCA"
+        ],
+        "award_date": "2011-03"
+    },
+    {
+        "name": "中村 友昭",
+        "advisors": [
+            "長井 隆行"
+        ],
+        "affiliation": "電気通信大学大学院電気通信学研究科 電子工学専攻",
+        "title": "統計的クラスタリングに基づく物体のマルチモーダルカテゴリゼーション ―ロボットによる物体の概念形成と理解のための工学的アプローチ―",
+        "category": "ロボットと実世界（ロボットの知的処理）",
+        "keywords": [
+            "クラスタリング",
+            "マルチモーダル",
+            "教師なし学習"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "田中 一晶",
+        "advisors": [
+            "岡 夏樹"
+        ],
+        "affiliation": "京都工芸繊維大学大学院工芸科学研究科 設計工学専攻",
+        "title": "人−ロボット教示インタラクションにおける「間」の有効利用に関する研究",
+        "category": "ロボットと実世界（ヒューマンロボットインタラクション）",
+        "keywords": [
+            "ヒューマンロボットインタラクション",
+            "非言語情報",
+            "間",
+            "学習"
+        ],
+        "award_date": "2011-03"
+    }
+]

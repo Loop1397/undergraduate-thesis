@@ -1,0 +1,562 @@
+[
+    {
+        "name": "原田 恵雨",
+        "advisors": [
+            "古川 正志"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科 複合情報学専攻",
+        "title": "Extracting Many-to-Many Related Communities in Bipartite Graph（二部グラフにおける多対多に関係するコミュニティの抽出）",
+        "category": "基礎・理論",
+        "keywords": [
+            "二部グラフ",
+            "コミュニティ",
+            "多対多"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "Bin Tong (ドウ ビン)",
+        "advisors": [
+            "鈴木 英之進"
+        ],
+        "affiliation": "九州大学大学院システム生命科学府 システム生命科学専攻",
+        "title": "Dimensionality Reduction with Semi-Supervised Learning and Transfer Learning（半教師付き学習と転移学習を用いる次元削減）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "dimensionality reduction",
+            "semi-supervised learning",
+            "transfer learning"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "周 秉慧",
+        "advisors": [
+            "鈴木 英之進"
+        ],
+        "affiliation": "九州大学大学院システム情報科学府 情報理学専攻",
+        "title": "Discovering Overlapping Communities by Identifying Community-Connecting Nodes（コミュニティ連結ノードの検出に基づく重複コミュニティ発見）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "community detection",
+            "graph clustering",
+            "overlapping communities"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "日高 徹司",
+        "advisors": [
+            "三村 昌泰"
+        ],
+        "affiliation": "明治大学大学院先端数理科学研究科 現象数理学専攻",
+        "title": "Detection of Changes in Non-Linear Dynamics and Its Application to Marketing（非線形ダイナミクスの変化検出とそのマーケティングへの応用）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "非線形時系列解析",
+            "変化点検出",
+            "時系列クラスタリング"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "Nguyen Huy Thach (グエン ヒ テアク)",
+        "advisors": [
+            "鈴木 英之進"
+        ],
+        "affiliation": "九州大学大学院システム生命科学府 システム生命科学専攻",
+        "title": "Extended Information Distance and Manifold Learning for Cross-task Learning Problems without Proper Features（適切な属性群がないタスク間学習問題のための拡張情報距離と多様体学習）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "universal dissimilarity measure",
+            "multi-task clustering",
+            "Kolmogorov complexity",
+            "cross-task clustering"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "邵 浩 (ショウ コウ)",
+        "advisors": [
+            "鈴木 英之進"
+        ],
+        "affiliation": "九州大学大学院システム生命科学府 システム生命科学専攻",
+        "title": "Adaptive Transfer Learning for Classification through Minimum Encoding（最小エンコードを用いた分類のための適応型転移学習）",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "data mining",
+            "classification",
+            "transfer learning"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "杉村 博",
+        "advisors": [
+            "松本 一教"
+        ],
+        "affiliation": "神奈川工科大学大学院工学研究科 情報工学専攻",
+        "title": "特徴獲得とアノテーションにもとづくデータマイニング手法の研究",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "時系列データ",
+            "モチーフ発見",
+            "自動改良",
+            "アノテーション",
+            "相関ルール",
+            "機械学習"
+        ],
+        "award_date": "2012-06"
+    },
+    {
+        "name": "杉山 麿人",
+        "advisors": [
+            "山本 章博"
+        ],
+        "affiliation": "京都大学",
+        "title": "Studies on Computational Learning via Discretization",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "machine learning",
+            "classification",
+            "clustering",
+            "discretization",
+            "fractal",
+            "formal concept analysis"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "鈴木 郁美",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+        "title": "少数サンプルと高次元データへの確率とグラフに基づくアプローチ",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "ハブ",
+            "ラプラシアンカーネル",
+            "高次元データ",
+            "マイクロアレイ",
+            "min-maxモデル選択"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "竹内 広宜",
+        "advisors": [
+            "山口 高平"
+        ],
+        "affiliation": "慶應義塾大学大学院理工学研究科 開放環境科学専攻",
+        "title": "局所化指向テキストマイニングの実践と評価",
+        "category": "機械学習・データマイニング",
+        "keywords": [
+            "テキストマイニング",
+            "分析観点",
+            "辞書"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "Raul Ernesto Menendez-Mora",
+        "advisors": [
+            "市瀬 龍太郎"
+        ],
+        "affiliation": "総合研究大学院大学",
+        "title": "Improving Semantic Similarity Measures for Word Pair Comparison",
+        "category": "知識の利用と共有",
+        "keywords": [
+            "WordNet",
+            "semantic similarity measures",
+            "information content",
+            "knowledge"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "馬場 雪乃",
+        "advisors": [
+            "本位田 真一"
+        ],
+        "affiliation": "東京大学大学院情報理工学系研究科",
+        "title": "ソーシャルタギングからのことばが指し示す実世界対象の表現獲得",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "webマイニング",
+            "ソーシャルタギング"
+        ],
+        "award_date": "2012-06"
+    },
+    {
+        "name": "Nguyen Minh The",
+        "advisors": [
+            "大須賀 昭彦"
+        ],
+        "affiliation": "電気通信大学大学院情報システム学研究科",
+        "title": "実世界行動マイニングによる時系列行動ネットワークの構築 ～震災時の迅速な避難情報の共有に向けて～",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "linked data",
+            "web mining",
+            "twitter analysis",
+            "evacuation",
+            "earthquake"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "Nguyen Tuan Duc (グェン トアン ドゥク)",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院情報理工学系研究科",
+        "title": "Latent Relational Web Search Engine Based on the Relational Similarity between Entity Pairs（エンティティペア間の関係類似度を利用するWeb潜在関係検索エンジン）",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "潜在関係検索",
+            "アナロジー検索",
+            "言語横断型検索",
+            "関係類似度",
+            "潜在意味解析"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "大西 可奈子",
+        "advisors": [
+            "小林 一郎"
+        ],
+        "affiliation": "お茶の水女子大学大学院人間文化創成科学研究科",
+        "title": "構造化知識の利用による情報抽出",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "linked data",
+            "セマンティックWeb",
+            "知識検索"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "朱 依水 (Zhu Yishui)",
+        "advisors": [
+            "金 群"
+        ],
+        "affiliation": "早稲田大学大学院人間科学研究科",
+        "title": "An Adaptively and Dynamically Reconfigurable Service Model in Ubiquitous Cloud Environments",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "reconfigurable service model",
+            "adaptive mechanism",
+            "context-aware",
+            "service integration"
+        ],
+        "award_date": "2012-07"
+    },
+    {
+        "name": "小林 知巳",
+        "advisors": [
+            "寺野 隆雄"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+        "title": "エージェントシミュレーションを用いた組織の効用と振る舞いに関する研究",
+        "category": "エージェント",
+        "keywords": [
+            "エージェントシミュレーション",
+            "組織体逸脱",
+            "NKモデル"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "宮澤 幸希",
+        "advisors": [
+            "菊池 英明"
+        ],
+        "affiliation": "早稲田大学大学院人間科学研究科 人間科学専攻",
+        "title": "人の対話戦略に基づく音声インタラクションシステムの発話生成",
+        "category": "エージェント",
+        "keywords": [
+            "インタラクション",
+            "音声対話システム",
+            "継続",
+            "受諾",
+            "印象"
+        ],
+        "award_date": "2012-01"
+    },
+    {
+        "name": "岩館 健司",
+        "advisors": [
+            "古川 正志",
+            "山本 雅人",
+            "鈴木 育男"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科",
+        "title": "Behavior Emergence of Virtual Creature with Neuro-Evolution and Central Pattern Generator for Animation",
+        "category": "ソフトコンピューティング",
+        "keywords": [
+            "進化学習",
+            "人工生命",
+            "artificial neural network",
+            "central pattern generator",
+            "optimization algorithm"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "岩瀬 雄祐",
+        "advisors": [
+            "有田 隆也",
+            "鈴木 麗璽"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "外界との相互作用に基づく自律分散系の自己組織化の理解と応用",
+        "category": "ソフトコンピューティング",
+        "keywords": [
+            "セルオートマトン",
+            "外乱",
+            "自己組織化",
+            "遺伝的アルゴリズム",
+            "人工生命"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "蓑谷 顕一",
+        "advisors": [
+            "有田 隆也",
+            "鈴木 麗璽"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "A Constructive Approach for Investigating the Emergence of the Primitive Functions of Mind",
+        "category": "ソフトコンピューティング",
+        "keywords": [
+            "人工生命",
+            "人工知能",
+            "プランニング",
+            "心の理論",
+            "協調",
+            "コミュニケーション"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "中井 淳一",
+        "advisors": [
+            "有田 隆也"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "共進化に基づく先行評価の実進化システムへの導入",
+        "category": "ソフトコンピューティング",
+        "keywords": [
+            "進化ロボティクス",
+            "実進化",
+            "先行評価",
+            "二足歩行ロボット",
+            "共進化",
+            "遺伝的アルゴリズム"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "加納 史子",
+        "advisors": [
+            "Hanne Erdman Thomsen"
+        ],
+        "affiliation": "コペンハーゲンビジネススクール（Copenhagen Business School, Denmark）",
+        "title": "Bridging Remote Cultures: Cross-lingual Concept Mapping based on the Information Receiver's Prior-knowledge",
+        "category": "自然言語処理",
+        "keywords": [
+            "cross-cultural concept mapping",
+            "ontology alignment",
+            "terminology",
+            "similarity measure",
+            "bayesian model of generalization",
+            "infinite relational model"
+        ],
+        "award_date": "2012-10"
+    },
+    {
+        "name": "大森 信行",
+        "advisors": [
+            "森 辰則"
+        ],
+        "affiliation": "横浜国立大学大学院環境情報学府 情報メディア環境学専攻",
+        "title": "実体性判断に基づく製品に生じた不具合の因果関係抽出に関する研究",
+        "category": "自然言語処理",
+        "keywords": [
+            "信頼性評価",
+            "製品不具合",
+            "因果関係抽出",
+            "情報抽出"
+        ],
+        "award_date": "2012-06"
+    },
+    {
+        "name": "小澤 俊介",
+        "advisors": [
+            "松原 茂樹"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "大規模テキストからの手続き型知識の自動獲得に関する研究",
+        "category": "自然言語処理",
+        "keywords": [
+            "テキストマイニング",
+            "手続き型知識",
+            "ノウハウ",
+            "用途情報",
+            "アドバイス"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "吉川克正",
+        "advisors": [
+            "松本 裕治"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+        "title": "Probabilistic Logic Approach to Event Structure Analysis",
+        "category": "自然言語処理",
+        "keywords": [
+            "Markov logic",
+            "述語項構造解析",
+            "事象抽出",
+            "時間的順序関係推定",
+            "共参照解析",
+            "推移律"
+        ],
+        "award_date": "2011-09"
+    },
+    {
+        "name": "森村吉貴",
+        "advisors": [
+            "美濃 導彦"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Content Distribution with Traceability and Quality Control for Internet Video Broadcasting",
+        "category": "画像・音声",
+        "keywords": [
+            "ビデオストリーミング",
+            "DRM",
+            "電子透かし",
+            "QoS"
+        ],
+        "award_date": "2012-07"
+    },
+    {
+        "name": "Natapon Pantuwong",
+        "advisors": [
+            "杉本 雅則"
+        ],
+        "affiliation": "東京大学大学院工学系研究科",
+        "title": "A Novel Computer Animation System for Nonprofessional Users",
+        "category": "画像・音声",
+        "keywords": [
+            "computer animation",
+            "automatic rigging",
+            "motion editing",
+            "motion concatenation"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "長谷川 大",
+        "advisors": [
+            "荒木 健治"
+        ],
+        "affiliation": "北海道大学大学院情報科学研究科",
+        "title": "A Study on Applying Language Acquisition Ability to a Dialog Robot（言語獲得能力の対話ロボットへの応用に関する研究）",
+        "category": "ロボットと実世界",
+        "keywords": [
+            "ロボットにおける言語獲得",
+            "擬人性",
+            "インタラクションデザイン",
+            "言語理解",
+            "記号設置問題"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "城殿 清澄",
+        "advisors": [
+            "三浦 純"
+        ],
+        "affiliation": "豊橋技術科学大学大学院 電子・情報工学専攻",
+        "title": "車載センサを用いた走行環境における歩行者認識",
+        "category": "ロボットと実世界",
+        "keywords": [
+            "歩行者検出",
+            "高解像度レーザレーダ",
+            "画像処理",
+            "センサフュージョン"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "奥野 敬丞",
+        "advisors": [
+            "稲邑 哲也"
+        ],
+        "affiliation": "総合研究大学院大学 複合科学研究科",
+        "title": "Cooperation and Interaction between Human and Humanoid Robots through Integration of Symbolic Expressions and Sensorimotor Patterns（感覚運動情報とシンボル表現の統合による人とヒューマノイドロボット間の協調と対話に関する研究）",
+        "category": "ロボットと実世界",
+        "keywords": [
+            "motion coaching",
+            "imitation learning",
+            "HRI"
+        ],
+        "award_date": "2012-09"
+    },
+    {
+        "name": "陳 夢 (ちん む)",
+        "advisors": [
+            "新田 克己"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科",
+        "title": "The Investigation of Online Negotiation Based on Haptic Interaction",
+        "category": "ヒューマンインタフェース・教育支援",
+        "keywords": [
+            "haptic interaction",
+            "online negotiation",
+            "nonverbal information",
+            "interface"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "林 佑樹",
+        "advisors": [
+            "渡邉 豊英"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科 社会システム情報学専攻",
+        "title": "協調学習のための対話支援インタフェースに関する研究",
+        "category": "ヒューマンインタフェース・教育支援",
+        "keywords": [
+            "CSCL",
+            "アウェアネス",
+            "コミュニケーション支援",
+            "学習空間"
+        ],
+        "award_date": "2012-03"
+    },
+    {
+        "name": "北島 創",
+        "advisors": [
+            "稲垣 敏之",
+            "伊藤 誠"
+        ],
+        "affiliation": "筑波大学大学院情報工学研究科 リスク工学専攻",
+        "title": "追突リスク実態調査に基づくドライバの追突危険状態の検出と回避支援策の研究",
+        "category": "ヒューマンインタフェース・教育支援",
+        "keywords": [
+            "交通安全",
+            "追突事故予防",
+            "映像記録型ドライブレコーダ",
+            "運転支援",
+            "衝突余裕度",
+            "状況認識"
+        ],
+        "award_date": "2012-03"
+    }
+]

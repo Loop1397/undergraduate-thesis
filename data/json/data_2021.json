@@ -1,0 +1,366 @@
+[
+  {
+    "name": "栗田 和宏",
+    "advisors": [
+      "有村 博紀"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科 情報理工学専攻",
+    "title": "Efficient Enumeration of Substructures in Sparse Graph",
+    "category": "基礎・理論／グラフ理論",
+    "keywords": [
+      "graph algorithms",
+      "subgraph enumeration",
+      "constant amortized time enumeration"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "二見 太",
+    "advisors": [
+      "杉山 将"
+    ],
+    "affiliation": "東京大学大学院新領域創成科学研究科",
+    "title": "Robust and Computationally-Efficient Approximate Bayesian Inference（ロバストで計算効率の良い近似ベイズ推論に関する研究）",
+    "category": "基礎・理論／ベイズ推論",
+    "keywords": [
+      "ベイズ推論"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "Guanhong Li (李 冠宏)",
+    "advisors": [
+      "橋本 敬"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学系",
+    "title": "Mirroring in Humans for Symbolic Communication: Evidence from an EEG Study",
+    "category": "基礎・理論／認知科学",
+    "keywords": [
+      "mirroring",
+      "symbolic communication",
+      "electroencephalography",
+      "experimental semiotics",
+      "communicative coordination game",
+      "mu-suppression"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "渡邉 裕亮",
+    "advisors": [
+      "池谷 裕二"
+    ],
+    "affiliation": "東京大学大学院薬学系研究科",
+    "title": "機械学習による海馬リップルの検出と評価",
+    "category": "機械学習／半教師あり学習",
+    "keywords": [
+      "convolutional neural network",
+      "Gaussian mixture model clustering",
+      "confident learning",
+      "hippocampus",
+      "ripple"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "田中 佑典",
+    "advisors": [
+      "田中 利幸"
+    ],
+    "affiliation": "京都大学大学院情報学研究科 システム科学専攻",
+    "title": "Probabilistic Models for Spatially Aggregated Data（空間集約データのための確率モデル）",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "確率モデル",
+      "確率推論",
+      "集約データ",
+      "ガウス過程",
+      "collective graphical models"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "堀田 竜士",
+    "advisors": [
+      "伊藤 孝行"
+    ],
+    "affiliation": "名古屋工業大学大学院工学研究科 情報工学専攻",
+    "title": "研究者と市民の共創支援に関する研究",
+    "category": "知識の利用と共有／知識獲得・発見",
+    "keywords": [
+      "共創",
+      "ワークショップ",
+      "ソーシャルメディア",
+      "市民共創知研究会"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "飯野 なみ",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "楽器演奏における知識の構築と実践的な活用",
+    "category": "知識の利用と共有／知識ベース",
+    "keywords": [
+      "オントロジー",
+      "知識構築",
+      "楽器演奏"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "Nguyen Tri Phuc",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学（SOKENDAI）",
+    "title": "Semantic Tabular Data Annotation with Knowledge Bases for Data Interoperability",
+    "category": "Web Intelligence／Semantic Web Technology",
+    "keywords": [
+      "open data",
+      "semantic annotation",
+      "knowledge graph"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "佐藤 政寛",
+    "advisors": [
+      "延原 肇"
+    ],
+    "affiliation": "筑波大学 システム情報工学研究科 知能機能システム専攻",
+    "title": "Optimization and Explanation of Recommenders to Increase the Causal Effect of Recommendations",
+    "category": "Webインテリジェンス／情報推薦",
+    "keywords": [
+      "情報推薦",
+      "因果推論",
+      "説明性"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "奥原 俊",
+    "advisors": [
+      "伊藤 孝行"
+    ],
+    "affiliation": "名古屋工業大学大学院工学研究科 情報工学専攻",
+    "title": "エージェントの説明可能な交渉・協調モデルとその応用に関する研究",
+    "category": "エージェント／意思決定・合意形成",
+    "keywords": [
+      "自動交渉",
+      "妥協",
+      "譲歩"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "上野 史",
+    "advisors": [
+      "髙玉 圭樹"
+    ],
+    "affiliation": "電気通信大学大学院情報理工学研究科",
+    "title": "静的・動的環境における通信なしマルチエージェント強化学習の協調行動を導く合理的目的設定",
+    "category": "エージェント／マルチエージェント",
+    "keywords": [
+      "マルチエージェントシステム",
+      "強化学習",
+      "動的環境",
+      "通信なし",
+      "報酬設計"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "伊藤 友貴",
+    "advisors": [
+      "和泉 潔"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "Development of Interpretable Neural Networks for Document-level Sentiment Analysis",
+    "category": "言語メディア処理／テキストマイニング",
+    "keywords": [
+      "interpretable neural network",
+      "sentiment analysis",
+      "support system"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "寺西 裕紀",
+    "advisors": [
+      "渡辺 太郎"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 先端科学技術研究科",
+    "title": "Neural Network Approaches to Coordination Disambiguation",
+    "category": "言語メディア処理／その他",
+    "keywords": [
+      "並列構造解析",
+      "構文解析"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "品川 政太朗",
+    "advisors": [
+      "中村 哲"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+    "title": "A Conversational System for Interactive Image Editing",
+    "category": "画像音声メディア処理／画像生成",
+    "keywords": [
+      "image generation",
+      "image editing",
+      "natural language interface",
+      "dialogue system",
+      "adversarial learning"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "Marc A. Kastner (カストナー マーク アウレル)",
+    "advisors": [
+      "村瀬 洋",
+      "井手 一郎",
+      "出口 大輔"
+    ],
+    "affiliation": "名古屋大学大学院情報学研究科",
+    "title": "Quantifying the Mental Image of Visual Concepts（視覚的概念がもつ心像性の定量化）",
+    "category": "画像音声メディア処理／マルチモーダル処理",
+    "keywords": [
+      "セマンティックギャップ",
+      "計算心理言語学",
+      "統合メディア"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "岡村 和男",
+    "advisors": [
+      "山田 誠二"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科 情報工学専攻",
+    "title": "Adaptive Trust Calibration in Human-AI Cooperation",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "trust calibration",
+      "trust management"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "坂本 孝丈",
+    "advisors": [
+      "竹内 勇剛"
+    ],
+    "affiliation": "静岡大学 創造科学技術大学院 自然科学系教育部 情報科学専攻",
+    "title": "2次元の動因に基づく対人的コミュニケーションのモデルの検証",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "human-agent interaction",
+      "対人的コミュニケーション",
+      "身体的インタラクション",
+      "認知的インタラクション",
+      "接近行動"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "Briane Paul V. Samson",
+    "advisors": [
+      "角 康之"
+    ],
+    "affiliation": "公立はこだて未来大学",
+    "title": "Motivational Techniques that Aid Drivers to Choose Unselfish Routes（運転手に非利己的経路の選択を促す動機付け技術）",
+    "category": "ヒューマンインタフェース／ヒューマンコンピュータインタラクション",
+    "keywords": [
+      "navigation applications",
+      "driving navigation",
+      "self-determination theory",
+      "critical mass",
+      "valence",
+      "unselfish routes"
+    ],
+    "award_date": "2020-09"
+  },
+  {
+    "name": "大西 裕也",
+    "advisors": [
+      "中西 英之"
+    ],
+    "affiliation": "大阪大学大学院工学研究科",
+    "title": "ビデオ会議映像の部分的ロボット化による空間連続性創出と存在感伝達",
+    "category": "ヒューマンインタフェース／ヒューマンコンピュータインタラクション",
+    "keywords": [
+      "ビデオ会議",
+      "ロボット",
+      "ソーシャルテレプレゼンス",
+      "存在感"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "仲道 隆史",
+    "advisors": [
+      "伊藤 毅志"
+    ],
+    "affiliation": "電気通信大学大学院情報理工学研究科",
+    "title": "熟達度に着目した将棋プログラムに対する不自然さの研究",
+    "category": "AI応用／芸術・エンタテイメント応用",
+    "keywords": [
+      "ゲームプログラミング",
+      "ヒューマンエージェントインタラクション"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "藤田 正典",
+    "advisors": [
+      "山村 雅幸",
+      "寺野 隆雄"
+    ],
+    "affiliation": "東京工業大学大学院総合理工学研究科",
+    "title": "科学技術文献データベースから構成される共著ネットワークを用いたプロジェクト型研究活動の分析 ～ h-Index先行指標としての媒介中心性に注目して～",
+    "category": "AI応用／計算社会学",
+    "keywords": [
+      "学術文献",
+      "ネットワーク分析",
+      "共著ネットワーク",
+      "媒介中心性"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "アイエドゥン エマヌエル",
+    "advisors": [
+      "瀬田 和久",
+      "林 佑樹"
+    ],
+    "affiliation": "大阪府立大学大学院 人間社会システム科学研究科",
+    "title": "第二言語コミュニケーション意欲を高める会話エージェントに関する研究",
+    "category": "AI応用／教育応用",
+    "keywords": [
+      "アニメーション型会話エージェント",
+      "第二言語コミュニケーション意欲",
+      "知的学習支援システム"
+    ],
+    "award_date": "2020-03"
+  },
+  {
+    "name": "Thomas James Tiam-Lee",
+    "advisors": [
+      "角 薫"
+    ],
+    "affiliation": "公立はこだて未来大学",
+    "title": "Affective Modelling and Feedback in Programming Practice Systems",
+    "category": "AI応用／教育応用",
+    "keywords": [
+      "affective computing",
+      "intelligent tutoring system",
+      "programming",
+      "education"
+    ],
+    "award_date": "2020-03"
+  }
+]

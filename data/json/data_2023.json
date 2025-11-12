@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Nguyen Quoc Tuan",
+    "advisors": [
+      "井上 克巳"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "On Linear Algebraic Computation for Logic Programming",
+    "category": "基礎・理論／探索・論理・推論アルゴリズム",
+    "keywords": [
+      "linear algebraic",
+      "logic programming",
+      "deduction",
+      "abduction",
+      "sparse representation"
+    ],
+    "award_date": "2022-09"
+  },
+  {
+    "name": "竹村 彰浩",
+    "advisors": [
+      "井上 克巳"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "Knowledge Representation Methods for Bridging Machine Learning and Logical Reasoning",
+    "category": "基礎・理論／探索・論理・推論アルゴリズム",
+    "keywords": [
+      "機械学習",
+      "説明可能性",
+      "論理プログラミング"
+    ],
+    "award_date": "2022-09"
+  },
+  {
+    "name": "松波 夏樹",
+    "advisors": [
+      "加藤 昇平",
+      "伊藤 孝行"
+    ],
+    "affiliation": "名古屋工業大学大学院工学研究科情報工学専攻",
+    "title": "マルチエージェント強化学習におけるチーミング機構に関する研究─連携を促進する組織構造と報酬メカニズムの設計─",
+    "category": "機械学習／強化学習",
+    "keywords": [
+      "multiagent reinforcement learning",
+      "mechanism design",
+      "Vickrey-Clarke-Groves mechanism"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "宮下 恵",
+    "advisors": [
+      "近藤 敏之"
+    ],
+    "affiliation": "東京農工大学大学院工学府情報工学専攻",
+    "title": "Mirror Descent Algorithms for the Reinforcement Learning Problems under a Non-Markov Decision Process Assumption",
+    "category": "機械学習／強化学習",
+    "keywords": [
+      "強化学習",
+      "ブラックボックス最適化",
+      "鏡像降下法"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "安藤 雅行",
+    "advisors": [
+      "砂山 渡"
+    ],
+    "affiliation": "滋賀県立大学大学院工学研究科先端工学専攻",
+    "title": "深層学習の重みネットワークを用いたテキスト分類パターンの解釈支援",
+    "category": "機械学習／深層学習",
+    "keywords": [
+      "テキストマイニング",
+      "深層学習",
+      "情報可視化"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "松江 清高",
+    "advisors": [
+      "杉山 麿人"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+    "title": "A Study on Unsupervised Feature Extraction for Multivariate Time Series",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "特徴抽出",
+      "テンソル分解",
+      "カーネル法",
+      "多変量時系列",
+      "教師なし学習",
+      "外れ値検出",
+      "クラスタリング"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "南山 泰之",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学複合科学研究科",
+    "title": "Analysis and Formalization of Data Curation Process for Open Science",
+    "category": "知識の利用と共有／知識共有・管理",
+    "keywords": [
+      "data curation",
+      "ontology",
+      "research data reuse",
+      "open science"
+    ],
+    "award_date": "2022-09"
+  },
+  {
+    "name": "Gu Wen (谷 文)",
+    "advisors": [
+      "加藤 昇平",
+      "Fenghui Ren",
+      "Guoxin Su",
+      "伊藤 孝行"
+    ],
+    "affiliation": "名古屋工業大学，ウロンゴン大学",
+    "title": "Towards Intelligent Automated Online Forum Facilitation",
+    "category": "Webインテリジェンス／集合知",
+    "keywords": [
+      "online forum facilitation support",
+      "case-based reasoning",
+      "decision-making support",
+      "influential user detection"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "佐々木 千尋",
+    "advisors": [
+      "中山 功一"
+    ],
+    "affiliation": "佐賀大学大学院工学系研究科",
+    "title": "意思決定の場における多様な意見を把握するための議論支援に関する研究",
+    "category": "エージェント／意思決定・合意形成",
+    "keywords": [
+      "ファシリテータ",
+      "discussion board system",
+      "合意形成"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "田中 克明",
+    "advisors": [
+      "堀 浩一"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "時間の経過に着目した蓄積文書集合処理の研究",
+    "category": "言語メディア処理／その他",
+    "keywords": [
+      "時系列文書処理",
+      "設計支援",
+      "テキストマイニング"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "水澤 悟",
+    "advisors": [
+      "清 雄一"
+    ],
+    "affiliation": "電気通信大学大学院情報学研究科情報学専攻",
+    "title": "Stacked U-NetによるCT再構成",
+    "category": "画像音声メディア処理／画像生成",
+    "keywords": [
+      "deep learning",
+      "reconstruction",
+      "inverse problem",
+      "computed tomography"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "Nitchan Jianwattanapaisarn",
+    "advisors": [
+      "角 薫"
+    ],
+    "affiliation": "公立はこだて未来大学システム情報科学研究科システム情報科学専攻",
+    "title": "Human Gait Analysis of Different Emotions in Real-time Video Viewing",
+    "category": "画像音声メディア処理／動画像処理",
+    "keywords": [
+      "affective computing",
+      "emotion recognition",
+      "gait analysis",
+      "motion capturing",
+      "smart glasses",
+      "non-straight walking behavior",
+      "emotion induction",
+      "watching video while walking"
+    ],
+    "award_date": "2022-09"
+  },
+  {
+    "name": "窪田 智徳",
+    "advisors": [
+      "石黒 浩"
+    ],
+    "affiliation": "大阪大学大学院基礎工学研究科",
+    "title": "Studies on Cooperation between Tele/Para-Operatable Semi-Autonomous Robots and Their Operators（遠隔／近接操作可能な半自律ロボットと操作者の協調に関する研究）",
+    "category": "ロボットと実世界／ヒューマンロボットインタラクション",
+    "keywords": [
+      "ヒューマンロボットインタラクション",
+      "対話ロボット",
+      "半自律ロボット",
+      "近接操作ロボット"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "布施 陽太郎",
+    "advisors": [
+      "徳丸 正孝"
+    ],
+    "affiliation": "関西大学",
+    "title": "Group Norm-Aware Robot That Obeys Implicit Rules in Human Groups",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "sociable robot",
+      "human-agent interaction",
+      "human-robot interaction",
+      "navigation robot"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "宮本 友樹",
+    "advisors": [
+      "片上 大輔"
+    ],
+    "affiliation": "東京工芸大学大学院工学研究科",
+    "title": "対話システムにおける言語的配慮戦略の 受容性に関する研究",
+    "category": "ヒューマンインタフェース／ヒューマンエージェントインタラクション",
+    "keywords": [
+      "ヒューマンエージェントインタラクション",
+      "対話システム",
+      "言語的配慮（ポライトネス）"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "伊原 滉也",
+    "advisors": [
+      "加藤 昇平"
+    ],
+    "affiliation": "名古屋工業大学",
+    "title": "群知能を用いた建設・物流業務の最適化に関する研究",
+    "category": "AI応用／産業応用",
+    "keywords": [
+      "群知能",
+      "離散最適化",
+      "組合せ最適化",
+      "シールド工法"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "清水 仁",
+    "advisors": [
+      "安本 慶一"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学",
+    "title": "避難所に着目した効率的な避難誘導と運営計画に関する研究",
+    "category": "AI応用／数理・アルゴリズム応用",
+    "keywords": [
+      "災害シミュレーション",
+      "整数線形計画問題",
+      "避難所計画問題"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "金森 憲太朗",
+    "advisors": [
+      "有村 博紀"
+    ],
+    "affiliation": "北海道大学大学院情報科学院",
+    "title": "Studies on Explainable Machine Learning Based on Integer Linear Optimization（整数計画法に基づく説明可能な機械学習）",
+    "category": "AIと社会／AI説明可能性",
+    "keywords": [
+      "機械学習",
+      "説明可能性",
+      "解釈可能性",
+      "反実仮想説明",
+      "決定木",
+      "公平性",
+      "混合整数線形計画法"
+    ],
+    "award_date": "2022-03"
+  },
+  {
+    "name": "水上 拓哉",
+    "advisors": [
+      "佐倉 統"
+    ],
+    "affiliation": "東京大学大学院学際情報学府",
+    "title": "ソーシャルロボットの倫理の基礎づけ─道徳的行為者性の虚構的解釈による人間中心的枠組みの構築─",
+    "category": "AIと社会／AI倫理",
+    "keywords": [
+      "ロボット倫理学",
+      "ソーシャルロボット",
+      "対話システム",
+      "道徳的行為者性",
+      "評価手法"
+    ],
+    "award_date": "2022-02"
+  },
+  {
+    "name": "関口 海良",
+    "advisors": [
+      "堀 浩一",
+      "矢入 健久"
+    ],
+    "affiliation": "東京大学大学院工学系研究科システム創成学専攻",
+    "title": "人工物を倫理的側面まで拡張して扱う設計に関する研究",
+    "category": "AIと社会／AI倫理",
+    "keywords": [
+      "人工知能倫理",
+      "設計学",
+      "創造活動支援"
+    ],
+    "award_date": "2022-06"
+  }
+]

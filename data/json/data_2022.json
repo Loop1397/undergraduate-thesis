@@ -1,0 +1,368 @@
+[
+  {
+    "name": "Nicolas Bougie",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "総合研究大学院大学",
+    "title": "Efficient Reinforcement Learning through Improved Cognitive Capabilities",
+    "category": "機械学習／強化学習",
+    "keywords": [
+      "reinforcement learning",
+      "data-efficient reinforcement learning",
+      "cognitive capabilities in agents"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Jiawen Deng (邓 佳文)",
+    "advisors": [
+      "任 福継"
+    ],
+    "affiliation": "徳島大学大学院先端技術科学教育部 システム創生工学専攻",
+    "title": "Research on Textual Emotion Recognition based on Deep Learning Methods",
+    "category": "機械学習／深層学習",
+    "keywords": [
+      "textual emotion recognition",
+      "deep learning",
+      "background knowledge",
+      "label embedding",
+      "emotion correlation learning"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "井田 安俊",
+    "advisors": [
+      "鹿島 久嗣"
+    ],
+    "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+    "title": "Algorithms for Accelerating Machine Learning with Wide and Deep Models（Wide・Deepモデルを用いた機械学習を高速化するためのアルゴリズム）",
+    "category": "機械学習／スパースコーディング",
+    "keywords": [
+      "スパースモデリング",
+      "深層学習",
+      "学習アルゴリズム",
+      "高速化"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "林 勝悟",
+    "advisors": [
+      "鹿島 久嗣"
+    ],
+    "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+    "title": "Information Exploration and Exploitation for Machine Learning with Small Data（小データを用いた機械学習のための情報の探索と活用）",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "小データ学習"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "谷本 啓",
+    "advisors": [
+      "鹿島 久嗣"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Goal-oriented Modeling for Data-driven Decision Making（データ駆動型意思決定のための目的指向モデリング）",
+    "category": "機械学習／統計的学習",
+    "keywords": [
+      "機械学習",
+      "意思決定",
+      "因果推論",
+      "強化学習",
+      "組合せ最適化",
+      "不均衡判別",
+      "サンプル効率性",
+      "特権情報",
+      "推薦"
+    ],
+    "award_date": "2021-09"
+  },
+  {
+    "name": "福馬 智生",
+    "advisors": [
+      "鳥海 不二夫"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 システム創成学専攻",
+    "title": "オンラインプラットフォームにおけるバイアスを考慮したコンテンツの質の定量化",
+    "category": "Webインテリジェンス／集合知",
+    "keywords": [
+      "unbiased learning to rank",
+      "fairness",
+      "recommendation"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "廣中 詩織",
+    "advisors": [
+      "梅村 恭司"
+    ],
+    "affiliation": "豊橋技術科学大学",
+    "title": "居住地推定法に基づいたソーシャルグラフに関わるプロパティの分析",
+    "category": "Webインテリジェンス／ソーシャルメディア",
+    "keywords": [
+      "ソーシャルグラフ",
+      "居住地",
+      "ユーザ属性",
+      "ネットワーク分析"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "三宅 陽一郎",
+    "advisors": [
+      "鳥海 不二夫"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 システム創成学専攻",
+    "title": "デジタルゲームにおける人工知能の動的連携モデルとその実装",
+    "category": "エージェント／分散協調",
+    "keywords": [
+      "デジタルゲーム",
+      "MCS-AI動的連携モデル",
+      "メタAI"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Siyuan Xue (薛 嗣媛)",
+    "advisors": [
+      "任 福継"
+    ],
+    "affiliation": "徳島大学大学院先端技術科学教育部 システム創生工学専攻",
+    "title": "Research on Intention Detection in Dialogue System",
+    "category": "言語メディア処理／会話・談話・意図理解",
+    "keywords": [
+      "intention detection",
+      "neural network",
+      "siamese network",
+      "triplet network",
+      "capsule network"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Wenjie Liu (劉 文傑)",
+    "advisors": [
+      "任 福継"
+    ],
+    "affiliation": "徳島大学大学院先端技術科学教育部 システム創生工学専攻",
+    "title": "Image Classification and Its Applications on Insect Pest Recognition",
+    "category": "画像音声メディア処理／画像認識",
+    "keywords": [
+      "image classification",
+      "feature fusion",
+      "multi-scale",
+      "insect pest",
+      "attention mechanism"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Duo Feng (馮 鐸)",
+    "advisors": [
+      "任 福継"
+    ],
+    "affiliation": "徳島大学大学院先端技術科学教育部 システム創生工学専攻",
+    "title": "Research on Facial Expressions Recognition based on Deep Learning Methods",
+    "category": "画像音声メディア処理／画像認識",
+    "keywords": [
+      "facial expressions recognition",
+      "deep learning",
+      "multi-stream network",
+      "model pruning",
+      "lightweight network"
+    ],
+    "award_date": "2021-09"
+  },
+  {
+    "name": "松﨑 康平",
+    "advisors": [
+      "村瀬 洋"
+    ],
+    "affiliation": "名古屋大学大学院情報学研究科 知能システム学専攻",
+    "title": "移動端末における画像検索と自己位置推定のための大規模特徴データベースの小容量化",
+    "category": "画像音声メディア処理／コンピュータビジョン",
+    "keywords": [
+      "画像検索",
+      "自己位置推定",
+      "移動端末",
+      "DB小容量化"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "西村 仁志",
+    "advisors": [
+      "村瀬 洋"
+    ],
+    "affiliation": "名古屋大学大学院情報学研究科 知能システム学専攻",
+    "title": "広域撮影可能な監視カメラを用いた人物追跡",
+    "category": "画像音声メディア処理／コンピュータビジョン",
+    "keywords": [
+      "人物追跡",
+      "人物検出",
+      "行動認識",
+      "全方位カメラ",
+      "ドローン搭載カメラ"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "岩﨑 雅矢",
+    "advisors": [
+      "中西 英之"
+    ],
+    "affiliation": "大阪大学大学院工学研究科",
+    "title": "エンゲージメントとインタラクション状態遷移に基づく接客ロボットの半自律的制御手法の確立",
+    "category": "ロボットと実世界／ヒューマンロボットインタラクション",
+    "keywords": [
+      "遠隔操作ロボット",
+      "フィールド実験",
+      "マルチモーダル会話分析"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Yutaka Yamaguchi",
+    "advisors": [
+      "中山 功一"
+    ],
+    "affiliation": "佐賀大学大学院工学系研究科",
+    "title": "An Image Search System that Encourages the Idea Generation Using the Autosuggest Function（オートサジェスト機能によるアイデア創出を促す画像検索システムの研究）",
+    "category": "ヒューマンインタフェース／ヒューマンコンピュータインタラクション",
+    "keywords": [
+      "brainstorming",
+      "divergent",
+      "SWISS"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "水門 善之",
+    "advisors": [
+      "和泉 潔"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 システム創成学専攻",
+    "title": "各種金融経済データを用いた機械学習に基づく経済予測モデルの構築",
+    "category": "AI応用／計算社会科学",
+    "keywords": [
+      "機械学習",
+      "経済予測",
+      "金利市場",
+      "オルタナティブデータ"
+    ],
+    "award_date": "2021-09"
+  },
+  {
+    "name": "多胡 輝一",
+    "advisors": [
+      "金 群"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "複合的アプローチによるヘルスデータ分析",
+    "category": "AI応用／医療・ケア応用",
+    "keywords": [
+      "健康情報学",
+      "ヘルスケア",
+      "データサイエンス"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "Shan Junjie",
+    "advisors": [
+      "西原 陽子"
+    ],
+    "affiliation": "立命館大学大学院情報理工学研究科",
+    "title": "Listening and Reading Support for Foreign Language Learning Practice with Daily-Received Multimedia Content（身近なマルチメディアコンテンツを利用する外国語のリスニング・リーディング練習の支援）",
+    "category": "AI応用／教育応用",
+    "keywords": [
+      "e-learning",
+      "foreign language learning",
+      "learning support",
+      "listening skill",
+      "reading skill",
+      "Japanese anime",
+      "Japanimation",
+      "reading comprehension",
+      "question generation"
+    ],
+    "award_date": "2021-09"
+  },
+  {
+    "name": "北井 正嗣",
+    "advisors": [
+      "福井 健一"
+    ],
+    "affiliation": "大阪大学大学院情報科学研究科 情報数理学専攻",
+    "title": "欠陥進展下の転がり軸受を対象とした余寿命評価に関する研究",
+    "category": "AI応用／産業応用",
+    "keywords": [
+      "余寿命予測",
+      "転がり軸受",
+      "convolutional neural network",
+      "階層ベイズ"
+    ],
+    "award_date": "2021-09"
+  },
+  {
+    "name": "平田 勇人",
+    "advisors": [
+      "新田 克己",
+      "山村 雅幸"
+    ],
+    "affiliation": "東京工業大学",
+    "title": "ファクタと法的トポスを用いた議論文書の解析",
+    "category": "AI応用／社会課題応用",
+    "keywords": [
+      "議論スキル",
+      "法的トポス",
+      "ファクタ",
+      "ゴミ屋敷問題",
+      "課税問題",
+      "労働待遇差別問題",
+      "数理議論学",
+      "AF",
+      "BAF",
+      "EAF"
+    ],
+    "award_date": "2021-04"
+  },
+  {
+    "name": "山腰 貴大",
+    "advisors": [
+      "外山 勝彦"
+    ],
+    "affiliation": "名古屋大学大学院情報学研究科",
+    "title": "Coordination Analysis and Term Correction for Statutory Sentences using Machine Learning（機械学習による法令文の並列構造解析及び用語校正）",
+    "category": "AI応用／社会課題応用（法律）",
+    "keywords": [
+      "並列構造解析",
+      "法令用語校正",
+      "法令文"
+    ],
+    "award_date": "2021-03"
+  },
+  {
+    "name": "粕谷 清治",
+    "advisors": [
+      "金 群"
+    ],
+    "affiliation": "早稲田大学大学院人間科学研究科",
+    "title": "ウェルビーイング志向生活支援のためのパーソナルデータ分析",
+    "category": "AIと社会／Well-being Computing",
+    "keywords": [
+      "ウェルビーイング",
+      "生活支援",
+      "パーソナルデータ分析",
+      "位置情報",
+      "思い入れ",
+      "感情分析"
+    ],
+    "award_date": "2021-09"
+  }
+]
