@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Lei Duan",
+    "advisors": [
+      "小山 聡"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "A Study on Crowdsourcing for Multi-Label Affect Annotation",
+    "category": "機械学習・データマイニング（分類学習）",
+    "keywords": [
+      "affect",
+      "multi-label annotation",
+      "crowdsourcing",
+      "quality control",
+      "human computation"
+    ],
+    "award_date": "2016-03"
+  },
+  {
+    "name": "Md Mizanur Rahoman",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "Keyword-based Information Retrieval over Enhanced Linked Data",
+    "category": "知識の利用と共有（ナレッジマネジメント）",
+    "keywords": [
+      "linked data",
+      "information retrieval",
+      "quality assessment"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "Rathachai Chawuthai",
+    "advisors": [
+      "武田 英明"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "Linked Open Data-based Knowledge Management Process for Biodiversity",
+    "category": "知識の利用と共有（ナレッジマネジメント）",
+    "keywords": [
+      "knowledge management",
+      "biodiversity",
+      "linked open data",
+      "change in taxonomy",
+      "linked discovery",
+      "RDF visualization"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "Khai Nguyen",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "Instance Matching for Large Scale Heterogeneous Repositories",
+    "category": "知識の利用と共有（その他）",
+    "keywords": [
+      "instance matching",
+      "semi-structured data",
+      "schema-independent",
+      "heuristic search",
+      "supervised learning",
+      "ranking"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "Corentin Jouault",
+    "advisors": [
+      "瀬田 和久"
+    ],
+    "affiliation": "大阪府立大学 大学院理学系研究科 数理・情報科学専攻",
+    "title": "LOD based Question Generation Framework and Its Application to History Learning in Open Learning Space",
+    "category": "Webインテリジェンス（セマンティックWeb）",
+    "keywords": [
+      "automatic question generation",
+      "linked open data",
+      "semantic open learning space",
+      "adaptive support system"
+    ],
+    "award_date": "2016-03"
+  },
+  {
+    "name": "山田 広明",
+    "advisors": [
+      "橋本 敬"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "地域コミュニティの自発的形成・維持メカニズムとその設計に関する研究",
+    "category": "エージェント（エージェントシミュレーション）",
+    "keywords": [
+      "連帯誘因",
+      "自己効力感",
+      "サードプレイス",
+      "コミュニティデザイン",
+      "エージェントシミュレーション"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "福田 悟志",
+    "advisors": [
+      "竹澤 寿幸",
+      "難波 英嗣"
+    ],
+    "affiliation": "広島市立大学 大学院",
+    "title": "技術文書を統合した動向分析システムの自動構築",
+    "category": "自然言語処理（情報検索・抽出・理解）",
+    "keywords": [
+      "情報抽出",
+      "ドメイン適応",
+      "文書分類",
+      "技術動向分析"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "杉山 弘晃",
+    "advisors": [
+      "中村 哲"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学 情報科学研究科",
+    "title": "Building Open-domain Conversational Agent by Statistical Learning with Various Large-scale Corpora（大規模多種コーパスの統計学習に基づく雑談エージェントの開発）",
+    "category": "自然言語処理（対話処理）",
+    "keywords": [
+      "雑談エージェント",
+      "オープンドメイン",
+      "パーソナリティ質問",
+      "自動評価",
+      "逆強化学習"
+    ],
+    "award_date": "2016-09"
+  },
+  {
+    "name": "松井 勇佑",
+    "advisors": [
+      "相澤 清晴"
+    ],
+    "affiliation": "東京大学 大学院情報理工学系研究科 電子情報学専攻",
+    "title": "Retrieval and Drawing Assistance for Manga",
+    "category": "画像・音声（パターン認識・理解）",
+    "keywords": [
+      "画像検索",
+      "漫画",
+      "スケッチ",
+      "最近傍探索",
+      "お絵かき支援"
+    ],
+    "award_date": "2016-03"
+  },
+  {
+    "name": "笠原 秀一",
+    "advisors": [
+      "美濃 導彦"
+    ],
+    "affiliation": "京都大学 情報学研究科 知能情報学専攻",
+    "title": "Activity Support Based on Human Location Data Analysis with Environmental Factors",
+    "category": "AI応用（社会システム）",
+    "keywords": [
+      "位置情報",
+      "旅行者行動モデル",
+      "環境制約",
+      "スポット推薦",
+      "移動モード推定",
+      "避難支援"
+    ],
+    "award_date": "2016-03"
+  },
+  {
+    "name": "大塚 孝信",
+    "advisors": [
+      "伊藤 孝行"
+    ],
+    "affiliation": "名古屋工業大学大学院 情報工学専攻",
+    "title": "サービス指向ワイヤレスセンサネットワークの理論とその実装に関する研究",
+    "category": "AI応用（社会システム）",
+    "keywords": [
+      "IoT",
+      "wireless sensor networks",
+      "disaster management",
+      "data mining",
+      "machine learning"
+    ],
+    "award_date": "2016-03"
+  },
+  {
+    "name": "一言 正之",
+    "advisors": [
+      "登坂 博行"
+    ],
+    "affiliation": "東京大学 大学院工学系研究科",
+    "title": "ニューラルネットワークと物理型モデルを用いた実時間洪水予測の精度向上に関する研究",
+    "category": "AI応用（その他）",
+    "keywords": [
+      "洪水予測",
+      "防災",
+      "ニューラルネットワーク",
+      "深層学習"
+    ],
+    "award_date": "2016-04"
+  }
+]

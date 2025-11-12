@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Chao Li (李 超)",
+    "advisors": [
+      "植野 真臣"
+    ],
+    "affiliation": "電気通信大学大学院情報システム学研究科",
+    "title": "ベイジアンネットワークにおける確率推論の高速化のための最適三角化アルゴリズムの提案",
+    "category": "基礎・理論（不確実性）",
+    "keywords": [
+      "Bayesian network",
+      "Probabilistic inference",
+      "Optimal triangulation",
+      "Dynamic clique maintenance"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "市川 淳",
+    "advisors": [
+      "三輪 和久"
+    ],
+    "affiliation": "名古屋大学大学院情報科学研究科",
+    "title": "身体スキルの習得における個人特有の運動に関する検討",
+    "category": "基礎・理論（その他）",
+    "keywords": [
+      "身体スキル",
+      "運動計測",
+      "言語報告"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "西垣 貴央",
+    "advisors": [
+      "新田 克己",
+      "小野田 崇"
+    ],
+    "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+    "title": "制約付き独立話題分析に関する研究",
+    "category": "機械学習・データマイニング（テキストマイニング）",
+    "keywords": [
+      "テキストマイニング",
+      "独立成分分析",
+      "制約"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "早矢仕 晃章",
+    "advisors": [
+      "大澤 幸生"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 システム創成学専攻",
+    "title": "データ市場における知識構造化に基づくデータ利活用シナリオ検討プロセスの研究",
+    "category": "知識の利用と共有（ナレッジマネジメント）",
+    "keywords": [
+      "検索システム",
+      "メタデータ",
+      "データジャケット",
+      "知識構造化",
+      "意思決定支援",
+      "データ市場"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "柴田 健一",
+    "advisors": [
+      "桐山 伸也"
+    ],
+    "affiliation": "静岡大学 創造科学技術大学院 自然科学系教育部 情報科学専攻",
+    "title": "認知症ケア向上のための多視点観察情報に基づく状況理解と共学に関する研究",
+    "category": "知識の利用と共有（ナレッジマネジメント）",
+    "keywords": [
+      "認知症ケア支援",
+      "多職種連携",
+      "行動観察",
+      "共学環境"
+    ],
+    "award_date": "2017-09"
+  },
+  {
+    "name": "飯塚 修平",
+    "advisors": [
+      "松尾 豊"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 技術経営戦略学専攻",
+    "title": "ウェブサイト最適化問題の定式化と解法に関する研究",
+    "category": "Webインテリジェンス（Webインタラクション）",
+    "keywords": [
+      "Webサイト最適化",
+      "バンディットアルゴリズム"
+    ],
+    "award_date": "2017-09"
+  },
+  {
+    "name": "Natthawut Kertkeidkachorn",
+    "advisors": [
+      "市瀬 龍太郎"
+    ],
+    "affiliation": "総合研究大学院大学 複合科学研究科",
+    "title": "Knowledge Graph Population from Natural Language Text",
+    "category": "セマンティックWeb、自然言語処理",
+    "keywords": [
+      "Knowledge Graph",
+      "Knowledge Population",
+      "Knowledge Integration",
+      "Heterogeneous Problem and Linked Data"
+    ],
+    "award_date": "2017-09"
+  },
+  {
+    "name": "Jana Cathrin Backhus",
+    "advisors": [
+      "杉本 雅則"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "A Robust Self-Constructing Normalized Gaussian Network for Online Machine Learning",
+    "category": "ソフトコンピューティング（ニューラルネットワーク）",
+    "keywords": [
+      "正規化ガウス関数ネットワーク",
+      "ダイナミックモデル選択",
+      "オンライン学習"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "落合 桂一",
+    "advisors": [
+      "松尾 豊"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "ソーシャルメディアの地理情報との紐付けと行動支援への活用に関する研究",
+    "category": "自然言語処理（情報検索・抽出・分類）",
+    "keywords": [
+      "ソーシャルメディア",
+      "Twitter",
+      "位置情報"
+    ],
+    "award_date": "2017-09"
+  },
+  {
+    "name": "白水 菜々重",
+    "advisors": [
+      "堀 雅洋",
+      "松下 光範"
+    ],
+    "affiliation": "関西大学大学院総合情報学研究科",
+    "title": "個人の体験に基づくコンテンツの生成と受容に関する研究",
+    "category": "ヒューマンインタフェース・教育支援（ヒューマンコンピュータインタラクション）",
+    "keywords": [
+      "コンテンツ生成",
+      "場のデザイン",
+      "行動変容",
+      "インタラクションデザイン",
+      "仕掛学"
+    ],
+    "award_date": "2017-09"
+  },
+  {
+    "name": "芦川 将之",
+    "advisors": [
+      "大須賀 昭彦",
+      "川村 隆浩"
+    ],
+    "affiliation": "電気通信大学大学院情報システム学研究科",
+    "title": "マイクロタスク型クラウドソーシングを用いた大規模データ処理における精度向上手法ならびにシステム開発と運用に関する研究",
+    "category": "ヒューマンインタフェース・教育支援（クラウドソーシング）",
+    "keywords": [
+      "クラウドソーシング",
+      "段階的学習"
+    ],
+    "award_date": "2017-03"
+  },
+  {
+    "name": "布山 美慕",
+    "advisors": [
+      "河添 健"
+    ],
+    "affiliation": "慶應義塾大学大学院政策・メディア研究科",
+    "title": "読者の熱中状態の複数指標の関係性による記述：読者の変化と“忘我”状態の関係の解明に向けて",
+    "category": "AI応用（その他）",
+    "keywords": [
+      "読者",
+      "熱中",
+      "身体状態",
+      "読解処理",
+      "一貫性",
+      "指標間の関係性"
+    ],
+    "award_date": "2017-07"
+  }
+]

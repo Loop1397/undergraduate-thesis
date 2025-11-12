@@ -1,0 +1,715 @@
+[
+    {
+        "name": "羽山 徹彩",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学知識科学研究科",
+        "title": "テキスト情報の理解し易い提示手法に関する研究",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "インタフェース",
+            "テキスト情報提示",
+            "知的活動支援",
+            "理解支援"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "劉 健勤",
+        "advisors": [
+            "片井 修"
+        ],
+        "affiliation": "京都大学大学院情報学研究科システム科学専攻",
+        "title": "Theoretical Biomolecular Computing Inspired by Signaling Pathways of Cells",
+        "category": "バイオインフォマティクス",
+        "keywords": [
+            "生体分子計算",
+            "計算理論",
+            "情報学"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "白井 治彦",
+        "advisors": [
+            "小倉 久和"
+        ],
+        "affiliation": "福井大学大学院工学研究科システム設計工学専攻",
+        "title": "コマンド入力系列から構成するユーザモデルによる個人認証手法の検討 ―ネットワーク環境下における侵入者検出のための認証―",
+        "category": "AI応用",
+        "keywords": [
+            "ユーザモデル",
+            "個人認証",
+            "コマンド連鎖",
+            "遷移確率",
+            "ファジィ測度"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "光吉 俊二",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学工学部",
+        "title": "音声感情認識及び情動の脳生理信号分析システムに関する研究",
+        "category": "AI応用",
+        "keywords": [
+            "basic problem of feelings (emotion)",
+            "cognitive problem of feeling (emotion)",
+            "passive feelings (emotion) evaluation",
+            "active feelings (emotion)",
+            "subjectivity",
+            "introspection",
+            "subject",
+            "drive",
+            "incentive",
+            "fundamental frequency",
+            "mask mike",
+            "fMRI",
+            "VEA"
+        ],
+        "award_date": "2006-09"
+    },
+    {
+        "name": "Ahlem Ben Hassine",
+        "advisors": [
+            "Ho Tu Bao"
+        ],
+        "affiliation": "Japan Advanced Institute of Science and Technology",
+        "title": "Distributed Reinforcement of Local Consistency for General Constraint Network: An Investigation of Meetings Scheduling Problems",
+        "category": "基礎・理論",
+        "keywords": [
+            "constraint satisfaction problem (CSP)",
+            "distributed CSP",
+            "valued CSP",
+            "local consistency",
+            "filtering techniques",
+            "arc consistency",
+            "multi-agent systems",
+            "meeting scheduling problems",
+            "asynchronous backtracking techniques"
+        ],
+        "award_date": "2005-09"
+    },
+    {
+        "name": "須藤 康裕",
+        "advisors": [
+            "栗原 正仁"
+        ],
+        "affiliation": "北海道大学大学院工学研究科",
+        "title": "ファジィ制約充足問題のハイブリッド解法に関する研究",
+        "category": "基礎・理論",
+        "keywords": [
+            "ファジィ制約充足",
+            "ハイブリッド",
+            "最適化"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "吉良 聡",
+        "advisors": [
+            "山村 雅幸"
+        ],
+        "affiliation": "東京工業大学総合理工学研究科知能システム科学専攻",
+        "title": "組換えタンパク質発現解析のためのデータマイニング",
+        "category": "学習と発見",
+        "keywords": [
+            "タンパク質",
+            "生物配列",
+            "機械学習",
+            "データマイニング",
+            "バイオインフォマティクス"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "中田 豊久",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学知識科学研究科",
+        "title": "確率推論を用いた実世界志向データマイニングに関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "確率推論",
+            "実世界志向インタフェース",
+            "データマイニング"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "森田 純哉",
+        "advisors": [
+            "三輪 和久"
+        ],
+        "affiliation": "名古屋大学大学院人間情報学研究科",
+        "title": "日常経験を利用した類推の制約に関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "類推",
+            "構造的類似性",
+            "表層的類似性",
+            "視点取得"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "小倉 加奈代",
+        "advisors": [
+            "西本 一志"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学知識科学研究科",
+        "title": "CMC上でのマルチスレッド対話における発言行動および発言構造分析とその応用に関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "CMC (computer-mediated communication)",
+            "マルチスレッド対話",
+            "会話・雑談分析",
+            "音声コミュニケーションメディア"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "神武 直彦",
+        "advisors": [
+            "徳田 英幸"
+        ],
+        "affiliation": "慶應義塾大学大学院政策・メディア研究科サイバーインフォマティクスプログラム",
+        "title": "Multi-Appliance User Interface for Ubiquitous Computing Environment",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "user interface",
+            "ubiquitous computing",
+            "information appliance",
+            "cognitive load",
+            "self-organization"
+        ],
+        "award_date": "2005-09"
+    },
+    {
+        "name": "木村 直樹",
+        "advisors": [
+            "黒田 千秋"
+        ],
+        "affiliation": "東京工業大学大学院理工学研究科",
+        "title": "持続可能なプロセス情報管理を目指したエージェント指向運転・設計システムに関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "マイクロ化学プロセス",
+            "マルチエージェント",
+            "知識データベース",
+            "運転・設計システム"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "平松 治彦",
+        "advisors": [
+            "上原 邦昭"
+        ],
+        "affiliation": "神戸大学大学院自然科学研究科情報・電子科学専攻",
+        "title": "モバイル環境における位置情報を用いた情報共有と配信手法に関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "モバイル環境",
+            "位置情報",
+            "情報配信",
+            "情報共有",
+            "コミュニケーション",
+            "動的リンク"
+        ],
+        "award_date": "2006-09"
+    },
+    {
+        "name": "胡 海清",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学大学院先端技術科学教育部",
+        "title": "A Study on Question Answering System Using Integrated Retrieval Method",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "question answering system",
+            "web-based",
+            "semantic similarity",
+            "restricted domain"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "南野 朋之",
+        "advisors": [
+            "奥村 学"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+        "title": "繰り返し構造を利用したWebページの構造化とその応用に関する研究",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "構造化",
+            "weblog",
+            "ブログ",
+            "RSS feed"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "小山 祐子",
+        "advisors": [
+            "横尾 真"
+        ],
+        "affiliation": "九州大学大学院システム情報科学府知能システム学専攻",
+        "title": "架空名義入札に頑健なダブルオークションプロトコルの研究",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "インターネットオークション",
+            "メカニズムデザイン",
+            "架空名義入札",
+            "探索アルゴリズム",
+            "勝者決定問題"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "土居 茂雄",
+        "advisors": [
+            "山村 雅幸"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+        "title": "耐障害性を有するAntNetの提案",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "ant colony system",
+            "ネットワーク経路制御",
+            "適応性",
+            "scale-free",
+            "移動制約"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "鳥居 大祐",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Modeling Agents and Interactions for Simulating Social Systems",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "multiagent simulation",
+            "participatory simulation",
+            "machine learning",
+            "agent interaction",
+            "modeling methodology"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "松尾 徳朗",
+        "advisors": [
+            "新谷 虎松"
+        ],
+        "affiliation": "名古屋工業大学大学院工学研究科情報工学専攻",
+        "title": "経済システムの定性的モデリングと計算論的解析に関する研究",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "経済システム",
+            "定性推論",
+            "電子商取引",
+            "コンピュテーショナルなメカニズム設計"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "村上 陽平",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Protocol Design Using Participatory Simulation",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "multiagent simulation",
+            "protocol",
+            "participatory design"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "植村 渉",
+        "advisors": [
+            "辰巳 昭治"
+        ],
+        "affiliation": "大阪市立大学大学院工学研究科",
+        "title": "強化学習における報酬の分配に関する研究",
+        "category": "創発システム",
+        "keywords": [
+            "強化学習",
+            "報酬分配",
+            "信頼度割当問題",
+            "profit sharing"
+        ],
+        "award_date": "2005-09"
+    },
+    {
+        "name": "谷口 忠大",
+        "advisors": [
+            "椹木 哲夫"
+        ],
+        "affiliation": "京都大学大学院工学系研究科",
+        "title": "環境との相互作用に基づく自律適応系の構成論的研究",
+        "category": "創発システム",
+        "keywords": [
+            "双シェマモデル",
+            "記号創発",
+            "自律適応系",
+            "強化学習",
+            "モジュール型学習",
+            "コミュニケーション",
+            "STDP学習則",
+            "複数内部モデル"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "寺井 仁",
+        "advisors": [
+            "三輪 和久"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科メディア科学専攻",
+        "title": "洞察問題解決プロセスに関する認知科学的研究",
+        "category": "創発システム",
+        "keywords": [
+            "洞察",
+            "問題解決",
+            "眼球運動",
+            "計算機モデル"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "中道 義之",
+        "advisors": [
+            "有田 隆也"
+        ],
+        "affiliation": "名古屋大学大学院人間情報学研究科物質・生命情報学専攻",
+        "title": "フェロモン・コミュニケーションの相互作用に関する構成的研究",
+        "category": "創発システム",
+        "keywords": [
+            "フェロモン・コミュニケーション",
+            "群知能",
+            "アントコロニー最適化",
+            "人工生命"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "柳井 孝介",
+        "advisors": [
+            "伊庭 斉志"
+        ],
+        "affiliation": "東京大学大学院新領域創成科学研究科",
+        "title": "プログラムのインタラクションによる情報構造の創発に関する研究",
+        "category": "創発システム",
+        "keywords": [
+            "創発",
+            "プログラムインタラクション",
+            "ランダム性",
+            "進化計算"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "阿辺川 武",
+        "advisors": [
+            "奥村 学"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+        "title": "種々の言語知識を組み入れた統計的構文解析",
+        "category": "自然言語",
+        "keywords": [
+            "構文解析",
+            "係り受け解析",
+            "格解析",
+            "連体修飾"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "越前谷 博",
+        "advisors": [
+            "荒木 健治"
+        ],
+        "affiliation": "北海道大学大学院工学研究科",
+        "title": "コーパスからの翻訳知識の自動獲得手法に関する研究",
+        "category": "自然言語",
+        "keywords": [
+            "学習",
+            "知識獲得",
+            "コーパス",
+            "機械翻訳",
+            "対訳語"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "大須賀 智子",
+        "advisors": [
+            "市川 熹"
+        ],
+        "affiliation": "千葉大学大学院自然科学研究科",
+        "title": "実時間コミュニケーションにおける音声の韻律情報の機能",
+        "category": "自然言語",
+        "keywords": [
+            "音声",
+            "韻律情報",
+            "構文構造",
+            "話者交替"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "小松 雅彦",
+        "advisors": [
+            "菅原 勉"
+        ],
+        "affiliation": "上智大学大学院外国語学研究科 言語学専攻",
+        "title": "Acoustic Constituents of Prosodic Typology（韻律類型論の音響的構成素）",
+        "category": "自然言語",
+        "keywords": [
+            "prosodic typology",
+            "accent",
+            "rhythm",
+            "acoustics",
+            "source-filter model",
+            "language identification"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "柴田 雅博",
+        "advisors": [
+            "冨浦 洋一"
+        ],
+        "affiliation": "九州大学大学院システム情報科学府 知能システム学専攻",
+        "title": "Web上の語の共起性に基づくコロケーション翻訳支援に関する研究",
+        "category": "自然言語",
+        "keywords": [
+            "webコーパス",
+            "機械翻訳",
+            "コロケーション",
+            "共起性"
+        ],
+        "award_date": "2005-10"
+    },
+    {
+        "name": "諏訪 いずみ",
+        "advisors": [
+            "小倉 久和"
+        ],
+        "affiliation": "福井大学大学院工学研究科 システム設計工学専攻",
+        "title": "日本語学習者に対するカタカナ語理解支援システム",
+        "category": "自然言語",
+        "keywords": [
+            "自然言語処理",
+            "音訳",
+            "カタカナ語",
+            "ローマ字表記",
+            "学習支援"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "趙 欣",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学大学院先端技術科学教育部",
+        "title": "Super-Function Based Machine Translation System For Business User",
+        "category": "自然言語",
+        "keywords": [
+            "machine translation",
+            "super-function",
+            "SFBMT",
+            "compound nouns"
+        ],
+        "award_date": "2005-09"
+    },
+    {
+        "name": "中園 薫",
+        "advisors": [
+            "市川 熹"
+        ],
+        "affiliation": "千葉大学大学院自然科学研究科",
+        "title": "手話動画像通信に関する研究",
+        "category": "パターン理解",
+        "keywords": [
+            "福祉工学",
+            "手話",
+            "画像符号化",
+            "品質評価",
+            "テレビ電話"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "山肩 洋子",
+        "advisors": [
+            "美濃 導彦"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Image Recognition of an Object Designated by User's Wording（ユーザの自由な名付けにより指定された物体の画像認識）",
+        "category": "パターン理解",
+        "keywords": [
+            "画像認識",
+            "映像インデキシング",
+            "自然言語理解",
+            "HAI",
+            "調理認識"
+        ],
+        "award_date": "2006-09"
+    },
+    {
+        "name": "Shigueo Nomura",
+        "advisors": [
+            "Osamu Katai"
+        ],
+        "affiliation": "Department of Systems Science, Graduate School of Informatics, Kyoto University",
+        "title": "Novel Advanced Treatments of Morphological Entities in Spatial Information Processing",
+        "category": "パターン理解",
+        "keywords": [
+            "artificial neural networks",
+            "degraded images",
+            "enhancement",
+            "mathematical morphology",
+            "morphological entities",
+            "multiclass categorization",
+            "multilayer perceptron",
+            "orthogonal bipolar vectors",
+            "restoration",
+            "segmentation",
+            "spatial information processing",
+            "target vectors"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "子安 大士",
+        "advisors": [
+            "三浦 純"
+        ],
+        "affiliation": "大阪大学大学院工学研究科 電子制御機械工学専攻",
+        "title": "動的な環境における移動ロボットのナビゲーションに関する研究",
+        "category": "認知と身体性",
+        "keywords": [
+            "移動ロボット",
+            "動的環境",
+            "全方位ステレオ視",
+            "移動量推定",
+            "経路計画"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "高谷 敏彦",
+        "advisors": [
+            "大内 東"
+        ],
+        "affiliation": "北海道大学 工学研究科 システム情報工学専攻",
+        "title": "小型自律飛行船研究プラットホーム開発に関する研究",
+        "category": "認知と身体性",
+        "keywords": [
+            "自律制御",
+            "飛行船",
+            "小型飛行船",
+            "研究プラットホーム",
+            "飛行ロボット"
+        ],
+        "award_date": "2006-09"
+    },
+    {
+        "name": "岡 誠",
+        "advisors": [
+            "櫻井 彰人"
+        ],
+        "affiliation": "慶應義塾大学大学院理工学研究科",
+        "title": "ユーザモデルに基づくヒューマンインタフェイスに関する研究",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "ユーザモデル",
+            "ヒューマンインタフェース"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "神田 智子",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院情報学研究科 社会情報学専攻",
+        "title": "Analysis of the Effects of Lifelike Characters on Computer-mediated Communication（コンピュータを介したコミュニケーションにおける擬人化キャラクタの効果の分析）",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "アバタ",
+            "擬人化インタフェース",
+            "表情",
+            "感性コミュニケーション",
+            "異文化コミュニケーション"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "齋藤 ひとみ",
+        "advisors": [
+            "三輪 和久"
+        ],
+        "affiliation": "名古屋大学大学院人間情報学研究科",
+        "title": "Web情報探索活動の理解と支援",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "Web情報探索活動",
+            "認知プロセス",
+            "リフレクション",
+            "メタ認知",
+            "学習支援システム"
+        ],
+        "award_date": "2006-03"
+    },
+    {
+        "name": "田中 貴紘",
+        "advisors": [
+            "新田 克己"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科 知能システム科学専攻",
+        "title": "事例に基づいたオンライン調停支援システムの研究",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "事例ベース",
+            "オンライン論争",
+            "調停",
+            "対話エージェント",
+            "e-learning"
+        ],
+        "award_date": "2006-09"
+    },
+    {
+        "name": "中池 竜一",
+        "advisors": [
+            "三輪 和久"
+        ],
+        "affiliation": "名古屋大学大学院人間情報学研究科",
+        "title": "仮説形成検証プロセスの学習支援 ーシステム構築とその学習効果の検討ー",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "仮説形成",
+            "仮説検証",
+            "実験計画",
+            "マイクロワールド",
+            "学習支援システム",
+            "グラフ描画"
+        ],
+        "award_date": "2006-03"
+    }
+]

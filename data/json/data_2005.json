@@ -1,0 +1,433 @@
+[
+    {
+        "name": "大島 千佳",
+        "advisors": [
+            "西本 一志"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+        "title": "演奏構築における音楽表情の形成過程に関する研究",
+        "category": "AI応用",
+        "keywords": [
+            "音楽",
+            "演奏分析",
+            "演奏支援システム",
+            "ピアノ連弾",
+            "対話"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "石井 成郎",
+        "advisors": [
+            "三輪 和久"
+        ],
+        "affiliation": "名古屋大学大学院 人間情報学研究科",
+        "title": "創造活動における外界とのインタラクションに関する研究",
+        "category": "その他",
+        "keywords": [
+            "創造性",
+            "認知プロセス",
+            "プロトコル実験",
+            "授業実践"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "越野 亮",
+        "advisors": [
+            "木村 春彦"
+        ],
+        "affiliation": "金沢大学大学院 自然科学研究科 数理情報科学専攻",
+        "title": "ヒューリスティック探索と仮説推論の高速化",
+        "category": "基礎・理論",
+        "keywords": [
+            "ヒューリスティック探索",
+            "仮説推論",
+            "A*アルゴリズム",
+            "実時間探索"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "Khoo Khyou Bun",
+        "advisors": [
+            "Mitsuru Ishizuka"
+        ],
+        "affiliation": "The University of Tokyo",
+        "title": "Topic Trend Detection and Mining in World Wide Web",
+        "category": "学習と発見",
+        "keywords": [
+            "information retrieval",
+            "topic trend",
+            "WWW",
+            "TFPDF",
+            "automatic journalism"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "阿部 秀尚",
+        "advisors": [
+            "山口 高平"
+        ],
+        "affiliation": "静岡大学大学院 理工学研究科 システム工学系（記載に基づく）",
+        "title": "データマイニングアプリケーション開発のメタプロセスに関する研究",
+        "category": "学習と発見",
+        "keywords": [
+            "データマイニング",
+            "機械学習",
+            "メタ学習",
+            "属性選択"
+        ],
+        "award_date": "2004-09"
+    },
+    {
+        "name": "浅井 達哉",
+        "advisors": [
+            "有川 節夫",
+            "有村 博紀"
+        ],
+        "affiliation": "九州大学大学院 システム情報科学府 情報理学専攻",
+        "title": "Efficient Algorithms for Semi-Structured Data Mining",
+        "category": "学習と発見",
+        "keywords": [
+            "semi-structured data",
+            "data mining algorithm",
+            "tree mining",
+            "graph mining",
+            "frequent pattern discovery"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "乾 孝司",
+        "advisors": [
+            "松本 裕治",
+            "乾 健太郎"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "Acquiring Causal Knowledge from Text Using Connective Markers（接続標識に基づく文書集合からの因果関係知識獲得）",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "causal relation",
+            "knowledge acquisition"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "久保田 秀和",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科 電子情報工学専攻",
+        "title": "会話エージェントに媒介されたコンテンツマネジメントシステム",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "会話エージェント",
+            "コンテンツマネジメントシステム",
+            "テキスト表現・会話的表現変換"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "松田 晃一",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "東京大学大学院 工学研究科 電子情報工学専攻",
+        "title": "Design and Evaluations of Personal Agent-Oriented Virtual Society（パーソナルエージェント指向仮想社会の設計と評価）",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "インタフェースエージェント",
+            "コミュニティ支援",
+            "共有仮想環境",
+            "分散システム",
+            "仮想現実 (VR)",
+            "社会的活動",
+            "文化形成",
+            "eコマース"
+        ],
+        "award_date": "2003-12"
+    },
+    {
+        "name": "川端 亮",
+        "advisors": [
+            "伊藤 潔"
+        ],
+        "affiliation": "上智大学大学院 理工学研究科 機械工学専攻",
+        "title": "システム分析のための知識マネージメントの研究",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "システム分析",
+            "知識マネージメント",
+            "knowledge primitive",
+            "協調業務"
+        ],
+        "award_date": "2004-07"
+    },
+    {
+        "name": "網谷 重紀",
+        "advisors": [
+            "堀 浩一"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科",
+        "title": "A Method and a System for Supporting the Process of Knowledge Creation（知識創造活動を支援するための方法とシステムの研究）",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "creativity support",
+            "knowledge creation",
+            "knowledge liquidization & crystallization",
+            "knowledge Nebula Crystallizer"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "友部 博教",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院 情報理工学系研究科 電子情報学専攻",
+        "title": "知識共有システムにおける知識の獲得・加工・管理に関する研究",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "知識共有",
+            "知識表現",
+            "社会ネットワーク"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "梛野 憲克",
+        "advisors": [
+            "山田 誠二"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 知能システム科学専攻",
+        "title": "ユーザの探索戦略を用いたWebでの情報収集支援",
+        "category": "知識情報インフラ",
+        "keywords": [
+            "WWW",
+            "情報収集支援",
+            "ブラウジング",
+            "任意時間制御",
+            "クラシファイアシステム"
+        ],
+        "award_date": "2003-04"
+    },
+    {
+        "name": "高橋 大志",
+        "advisors": [
+            "寺野 隆雄"
+        ],
+        "affiliation": "筑波大学大学院 ビジネス科学研究科",
+        "title": "金融市場における投資家行動と価格変動に関する研究",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "エージェントベースモデル",
+            "計算組織理論",
+            "進化型計算手法",
+            "行動経済学",
+            "ファイナンス",
+            "金融工学"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "服部 宏充",
+        "advisors": [
+            "新谷 虎松"
+        ],
+        "affiliation": "名古屋工業大学大学院 工学研究科 電気情報工学専攻",
+        "title": "マルチエージェントに基づく電子商取引支援に関する研究",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "マルチエージェントシステム",
+            "電子商取引",
+            "オークション",
+            "エージェント間交渉"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "矢吹 太朗",
+        "advisors": [
+            "伊庭 斉志"
+        ],
+        "affiliation": "東京大学 新領域創成科学研究科 基盤情報学専攻",
+        "title": "進化計算による自動プログラミングのための表現の研究",
+        "category": "創発システム",
+        "keywords": [
+            "進化計算",
+            "遺伝的プログラミング",
+            "チューリング完全",
+            "ネットワーク"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "梶 博行",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "東京大学大学院 工学系研究科",
+        "title": "Automatic Construction of Word Sense Association Networks（語義関連ネットワークの自動生成）",
+        "category": "自然言語",
+        "keywords": [
+            "知識獲得",
+            "バイリンガルコーパス",
+            "語義の曖昧性解消"
+        ],
+        "award_date": "2003-12"
+    },
+    {
+        "name": "大塚 裕子",
+        "advisors": [
+            "井佐原 均"
+        ],
+        "affiliation": "神戸大学大学院 自然科学研究科",
+        "title": "自由記述アンケート回答の意図抽出および自動分類に関する研究 ―要求意図を中心に―",
+        "category": "自然言語",
+        "keywords": [
+            "自由記述アンケート",
+            "自由回答",
+            "意図抽出",
+            "テキスト分類",
+            "意見分析",
+            "機械学習",
+            "内容分析"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "難波 康晴",
+        "advisors": [
+            "西田 豊明"
+        ],
+        "affiliation": "東京大学大学院 情報理工学系研究科 電子情報学専攻",
+        "title": "ユーザインタフェースにおける意味利用技術の研究",
+        "category": "自然言語",
+        "keywords": [
+            "自然言語",
+            "マルチモーダル",
+            "ユーザインタフェース",
+            "意味解析",
+            "対話システム"
+        ],
+        "award_date": "2003-12"
+    },
+    {
+        "name": "畑 幸一",
+        "advisors": [
+            "白井 良明"
+        ],
+        "affiliation": "大阪大学大学院 工学研究科",
+        "title": "3次元情報を利用した画像符号化に関する研究",
+        "category": "パターン理解",
+        "keywords": [
+            "画像符号化",
+            "3次元情報",
+            "輪郭",
+            "多視点画像",
+            "エピポーラ幾何"
+        ],
+        "award_date": "2004-07"
+    },
+    {
+        "name": "高嶋 章雄",
+        "advisors": [
+            "中小路 久美代"
+        ],
+        "affiliation": "奈良先端科学技術大学院大学 情報科学研究科 情報処理学専攻",
+        "title": "時間を利用した視覚的表現における情報理解のためのインタラクション",
+        "category": "ヒューマンインタフェース（知的学習支援システム）",
+        "keywords": [
+            "インタラクションデザイン",
+            "概観と詳細",
+            "active watching",
+            "情報可視化"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "湯浅 将英",
+        "advisors": [
+            "新田 克己"
+        ],
+        "affiliation": "東京工業大学大学院 総合理工学研究科 知能システム科学専攻",
+        "title": "オンライン交渉における擬人化エージェントの表情表出",
+        "category": "ヒューマンインタフェース（知的学習支援システム）",
+        "keywords": [
+            "擬人化エージェント",
+            "オンライン交渉",
+            "表情表出",
+            "ベイジアンネット",
+            "ゲーム理論"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "中野 明",
+        "advisors": [
+            "平嶋 宗",
+            "竹内 章"
+        ],
+        "affiliation": "九州工業大学大学院 情報工学研究科 情報科学専攻",
+        "title": "「問題を作ることによる学習」の知的支援環境に関する研究",
+        "category": "ヒューマンインタフェース（知的学習支援システム）",
+        "keywords": [
+            "知的学習支援",
+            "オープン問題",
+            "作問学習",
+            "メタ認知"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "Tadeu Gonsalves (タテウ・コンサルヘス)",
+        "advisors": [
+            "伊藤　潔"
+        ],
+        "affiliation": "上智大学大学院 理工学研究科 機械工学専攻",
+        "title": "A Study on the Methods for Performance Design and Improvement in Collaborative Systems",
+        "category": "AI応用",
+        "keywords": [
+            "collaborative systems",
+            "performance design",
+            "performance evaluation",
+            "performance improvement"
+        ],
+        "award_date": "2004-09"
+    },
+    {
+        "name": "角埜 恭央",
+        "advisors": [
+            "寺野 隆雄"
+        ],
+        "affiliation": "筑波大学大学院ビジネス科学研究科企業科学専攻",
+        "title": "企業経営において ITがもたらす価値：評価と実践の指針",
+        "category": "AI応用",
+        "keywords": [
+            "経営",
+            "IT",
+            "因果構造モデル",
+            "ベンチマーキング",
+            "エージェントベースシミュレーション"
+        ],
+        "award_date": "2004-03"
+    },
+    {
+        "name": "西口 敏司",
+        "advisors": [
+            "美濃 導彦"
+        ],
+        "affiliation": "京都大学大学院情報学研究科知能情報学専攻",
+        "title": "講義アーカイブシステムの構築",
+        "category": "AI応用",
+        "keywords": [
+            "講義アーカイブ",
+            "情報統合",
+            "状況推定",
+            "自動撮影"
+        ],
+        "award_date": "2004-07"
+    }
+]

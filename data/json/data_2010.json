@@ -1,0 +1,439 @@
+[
+  {
+    "name": "美添 一樹",
+    "advisors": [
+      "今井 浩"
+    ],
+    "affiliation": "東京大学大学院 情報理工学系研究科 コンピュータ科学専攻",
+    "title": "分岐因子が一様な探索空間のためのAND-OR木探索アルゴリズム",
+    "category": "基礎・理論",
+    "keywords": [
+      "探索",
+      "AND/OR木",
+      "ゲーム",
+      "囲碁"
+    ],
+    "award_date": "2009-02"
+  },
+  {
+    "name": "石川 大介",
+    "advisors": [
+      "石塚 英弘"
+    ],
+    "affiliation": "筑波大学大学院 図書館情報メディア研究科",
+    "title": "特許文献からの因果関係抽出とそれを用いた類推による仮説生成の研究",
+    "category": "機械学習・データマイニング",
+    "keywords": [
+      "特許",
+      "因果関係",
+      "類推",
+      "仮説"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "ボッレーガラ・ダヌシカ",
+    "advisors": [
+      "石塚 満"
+    ],
+    "affiliation": "東京大学大学院 情報理工学系研究科",
+    "title": "A Study on Attributional and Relational Similarity between Word Pairs on the Web",
+    "category": "Webインテリジェンス",
+    "keywords": [
+      "属性類似性",
+      "関係類似性",
+      "同姓同名分類",
+      "別名抽出",
+      "Webマイニング"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "金 英子",
+    "advisors": [
+      "石塚 満"
+    ],
+    "affiliation": "東京大学 情報理工学系研究科 電子情報学専攻",
+    "title": "Extraction and Application of Social Networks from the World Wide Web",
+    "category": "Webインテリジェンス",
+    "keywords": [
+      "Web mining",
+      "social network analysis",
+      "relation extraction",
+      "ranking learning"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "Roman Y. Shtykh (シュティフ ロマン)",
+    "advisors": [
+      "Qun Jin (金 群)"
+    ],
+    "affiliation": "早稲田大学大学院 人間科学研究科",
+    "title": "Web Information Search and Sharing: A Human-Centric Integrated Approach",
+    "category": "Webインテリジェンス",
+    "keywords": [
+      "コンテキスト指向パーソナライゼーション",
+      "協調型情報検索",
+      "情報共有",
+      "ユーザモデリング"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "田仲 正弘",
+    "advisors": [
+      "石田 亨"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科",
+    "title": "Composing and Supervising Language Services on the Internet",
+    "category": "Webインテリジェンス",
+    "keywords": [
+      "services computing",
+      "Web service composition"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "山下 長義",
+    "advisors": [
+      "沼尾 正行",
+      "栗原 聡"
+    ],
+    "affiliation": "大阪大学大学院 情報科学研究科",
+    "title": "構造同値に基づくWWW解析に関する研究",
+    "category": "Webインテリジェンス",
+    "keywords": [
+      "Webリンクマイニング"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "黄 宏軒",
+    "advisors": [
+      "西田 豊明"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科 知能情報学専攻",
+    "title": "A Generic Framework for Embodied Conversational Agent Development and Its Applications",
+    "category": "エージェント・ヒューマンエージェントインタラクション",
+    "keywords": [
+      "会話エージェント",
+      "ヒューマンエージェントインタラクション",
+      "人工知能",
+      "ヒューマンインタフェース",
+      "情報可視化",
+      "XML"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "中島 悠",
+    "advisors": [
+      "石田 亨"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科 社会情報学専攻",
+    "title": "Outdoor Evacuation Experiment Augmented by Massively Multiagent Simulation",
+    "category": "エージェント",
+    "keywords": [
+      "multiagent simulation",
+      "massively multiagent system",
+      "participatory design"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "安藤 大地",
+    "advisors": [
+      "伊庭 斉志"
+    ],
+    "affiliation": "東京大学大学院 新領域創成科学研究科 基盤情報学専攻",
+    "title": "対話型進化論的計算による作曲支援に関する研究",
+    "category": "ソフトコンピューティング",
+    "keywords": [
+      "進化論的計算",
+      "アート創作支援"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "井上 誠",
+    "advisors": [
+      "高木 英行"
+    ],
+    "affiliation": "九州大学",
+    "title": "進化的計算手法を用いた建築計画に関する研究",
+    "category": "ソフトコンピューティング",
+    "keywords": [
+      "進化的多目的最適化",
+      "対話型進化的計算",
+      "建築計画",
+      "フロアプラン"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "Jan Dolinsky",
+    "advisors": [
+      "Hideyuki Takagi"
+    ],
+    "affiliation": "Kyushu University",
+    "title": "Naturalness Learning and Its Application to the Synthesis of Handwritten Characters",
+    "category": "ソフトコンピューティング",
+    "keywords": [
+      "RNN",
+      "ESN",
+      "handwriting synthesis"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "白川 真一",
+    "advisors": [
+      "長尾 智晴"
+    ],
+    "affiliation": "横浜国立大学大学院 環境情報学府 情報メディア環境学専攻",
+    "title": "グラフ構造表現を用いたプログラムの進化的自動生成に関する研究",
+    "category": "ソフトコンピューティング",
+    "keywords": [
+      "遺伝的プログラミング",
+      "遺伝的アルゴリズム",
+      "進化計算",
+      "画像処理"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "高野 雅典",
+    "advisors": [
+      "有田 隆也"
+    ],
+    "affiliation": "名古屋大学大学院 情報科学研究科 複雑系科学専攻",
+    "title": "社会的相互作用の進化ダイナミクスに関する構成論的アプローチ",
+    "category": "ソフトコンピューティング",
+    "keywords": [
+      "心の理論",
+      "コミュニケーション",
+      "言語進化",
+      "進化",
+      "構成論的手法"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "萩原 正人",
+    "advisors": [
+      "外山 勝彦"
+    ],
+    "affiliation": "名古屋大学",
+    "title": "Modeling and Selection of Context for Better Synonym Acquisition",
+    "category": "自然言語処理",
+    "keywords": [
+      "類義語",
+      "文脈",
+      "分布仮説",
+      "PLSI",
+      "間接依存関係",
+      "素性選択",
+      "教師あり学習"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "石下 円香",
+    "advisors": [
+      "森 辰則"
+    ],
+    "affiliation": "横浜国立大学大学院 環境情報学府",
+    "title": "質問応答における解の適切性に関する研究",
+    "category": "自然言語処理",
+    "keywords": [
+      "質問応答システム",
+      "リスト型質問応答",
+      "non-factoid型質問応答"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "古宮 嘉那子",
+    "advisors": [
+      "小谷 善行"
+    ],
+    "affiliation": "東京農工大学",
+    "title": "自然言語における選択ルール獲得の方法論",
+    "category": "自然言語処理",
+    "keywords": [
+      "決定木",
+      "敬語",
+      "ルール",
+      "知識獲得",
+      "機械翻訳",
+      "語義曖昧性解消",
+      "男言葉女言葉"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "横野 光",
+    "advisors": [
+      "山崎 進"
+    ],
+    "affiliation": "岡山大学大学院 自然科学研究科",
+    "title": "文芸テキストを対象とした事象抽出に関する研究",
+    "category": "自然言語処理",
+    "keywords": [
+      "事象抽出",
+      "報知的要約",
+      "整合性",
+      "人物抽出"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "大澤 博隆",
+    "advisors": [
+      "今井 倫太"
+    ],
+    "affiliation": "慶應義塾大学大学院 理工学研究科",
+    "title": "物体の擬人化を利用した情報提示手法の提案と評価",
+    "category": "ロボットと実世界",
+    "keywords": [
+      "擬人化",
+      "ヒューマンロボットインタラクション",
+      "ヒューマンインタフェース"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "林 勇吾",
+    "advisors": [
+      "三輪 和久"
+    ],
+    "affiliation": "名古屋大学",
+    "title": "異なる視点に基づく協同問題解決に関する研究",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "協同問題解決",
+      "human human interaction",
+      "human agent interaction"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "Seiji Isotani",
+    "advisors": [
+      "溝口 理一郎"
+    ],
+    "affiliation": "大阪大学大学院 工学研究科",
+    "title": "An Ontological Engineering Approach to Computer-Supported Collaborative Learning -From Theory to Practice-",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "Ontological Engineering",
+      "group formation",
+      "CSCL",
+      "intelligent authoring system"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "林 維真",
+    "advisors": [
+      "美濃 導彦"
+    ],
+    "affiliation": "京都大学大学院 情報学研究科",
+    "title": "A Design of Supporting Mechanism To Advance Student Learning in International Distance Education",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "国際遠隔講義",
+      "異文化インタラクション",
+      "CSCL",
+      "インストラクショナルデザイン"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "田中 郁",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学",
+    "title": "映像・音声記録の効果的な提示手法に関する研究",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "会議支援",
+      "多人数インタラクション",
+      "マルチメディアインタフェース",
+      "アノテーション",
+      "自由視点映像"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "東本 崇仁",
+    "advisors": [
+      "平嶋 宗"
+    ],
+    "affiliation": "広島大学",
+    "title": "ICTを用いた教材のインタラクティブ化",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "知的学習支援環境",
+      "問題づくり",
+      "仮想実験環境",
+      "実験",
+      "モデルグラフ"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "豊田 貞光",
+    "advisors": [
+      "國藤 進"
+    ],
+    "affiliation": "北陸先端科学技術大学院大学 知識科学研究科",
+    "title": "中国オフショア開発におけるプロジェクト知育成支援モデルに関する研究",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "SECIモデル",
+      "オフショア開発",
+      "ブリッジSE",
+      "経験知",
+      "WBT型集合教育"
+    ],
+    "award_date": "2009-03"
+  },
+  {
+    "name": "宇田 隆幸",
+    "advisors": [
+      "木下 哲男"
+    ],
+    "affiliation": "東北大学大学院 情報科学研究科",
+    "title": "擬似投票方式に基づくハイブリッド型情報推薦システムに関する研究",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "情報推薦システム",
+      "フィルタリング",
+      "網羅率",
+      "擬似投票方式",
+      "予測精度",
+      "予測計算量"
+    ],
+    "award_date": "2009-09"
+  },
+  {
+    "name": "柳田 拓人",
+    "advisors": [
+      "野中 秀俊"
+    ],
+    "affiliation": "北海道大学大学院 情報科学研究科",
+    "title": "User Interface Architecture with Abstract Interaction Description",
+    "category": "ヒューマンインタフェース・教育支援",
+    "keywords": [
+      "model-based user interface design",
+      "multi-modalities",
+      "graphical user interfaces",
+      "layout problems",
+      "fuzzy constraint satisfaction problems"
+    ],
+    "award_date": "2009-03"
+  }
+]

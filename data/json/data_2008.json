@@ -1,0 +1,350 @@
+[
+    {
+        "name": "砂川 英一",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学工学研究科電子工学専攻",
+        "title": "分散開発フレームワークとロール概念組織化理論に基づくオントロジー構築支援環境に関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "オントロジー",
+            "オントロジー構築",
+            "分散開発",
+            "ロール概念"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "森 純一郎",
+        "advisors": [
+            "石塚 満"
+        ],
+        "affiliation": "東京大学大学院情報理工学系研究科",
+        "title": "Entity Information Extraction from the Web Using Search Engine: Methodology and Application",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "情報抽出",
+            "Webマイニング",
+            "社会ネットワーク"
+        ],
+        "award_date": "2007-09"
+    },
+    {
+        "name": "沼 晃介",
+        "advisors": [
+            "武田 英明"
+        ],
+        "affiliation": "総合研究大学院大学複合科学研究科情報学専攻",
+        "title": "人のつながりと行動に着目した情報共有支援",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "Weblog",
+            "ソーシャルネットワーク",
+            "体験共有",
+            "振返り",
+            "コンテンツ記述支援"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "西原 陽子",
+        "advisors": [
+            "谷内田 正彦"
+        ],
+        "affiliation": "大阪大学大学院基礎工学研究科",
+        "title": "創造活動におけるアイデア創発プロセスの支援",
+        "category": "Webインテリジェンス",
+        "keywords": [
+            "創造活動支援",
+            "アイデア創発支援",
+            "Web"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "山口 大輔",
+        "advisors": [
+            "高橋 宗雄"
+        ],
+        "affiliation": "桐蔭横浜大学大学院工学研究科制御システム工学専攻",
+        "title": "Study on Autonomous Learning System Based on Intelligent Multiagent Techniques and Its Applications（インテリジェント・マルチエージェント技術に基づく自律学習システムとその応用に関する研究）",
+        "category": "エージェント・分散人工知能",
+        "keywords": [
+            "エージェント",
+            "自律学習システム",
+            "ニューラルネットワーク",
+            "協調最適化手法",
+            "遺伝的プログラミング",
+            "セルオートマトン"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "永吉 雅人",
+        "advisors": [
+            "上原 邦昭"
+        ],
+        "affiliation": "神戸大学大学院自然科学研究科情報・電子科学専攻",
+        "title": "強化学習における状態フィルタの適応的獲得手法に関する研究",
+        "category": "創発システム",
+        "keywords": [
+            "強化学習",
+            "状態空間構成",
+            "状態フィルタ",
+            "電動車いす"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "David Brian Bracewell",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学大学院ソシオテクノサイエンス研究部",
+        "title": "A Foundation for Japanese-English Cross-Lingual Information Retrieval and Knowledge Acquisition from News",
+        "category": "自然言語",
+        "keywords": [
+            "cross-lingual information retrieval",
+            "knowledge discovery & acquisition",
+            "news"
+        ],
+        "award_date": "2007-09"
+    },
+    {
+        "name": "Jiajun Yan",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学大学院ソシオテクノサイエンス研究部",
+        "title": "Chinese Semantic Dependency Analysis and Its Applications",
+        "category": "自然言語",
+        "keywords": [
+            "semantic dependency analysis",
+            "probabilistic classification",
+            "rule-based correction",
+            "emotion predicates",
+            "Chinese"
+        ],
+        "award_date": "2007-09"
+    },
+    {
+        "name": "Mohamed Abdel Fattah",
+        "advisors": [
+            "任 福継"
+        ],
+        "affiliation": "徳島大学大学院ソシオテクノサイエンス研究部",
+        "title": "Speaker Recognition & Natural Language Processing in Mobile Communication Systems",
+        "category": "自然言語",
+        "keywords": [
+            "speaker recognition",
+            "speaker identification",
+            "speaker verification",
+            "natural language processing",
+            "sentence alignment",
+            "Gaussian mixture model",
+            "probabilistic neural network"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "本木 実",
+        "advisors": [
+            "冨浦 洋一"
+        ],
+        "affiliation": "九州大学大学院システム情報科学府",
+        "title": "記号表現ベクトル学習型ニューラルネットに関する研究",
+        "category": "自然言語",
+        "keywords": [
+            "意味処理",
+            "ニューラルネット",
+            "FGREPモジュール",
+            "記号表現ベクトル"
+        ],
+        "award_date": "2006-11"
+    },
+    {
+        "name": "高橋 和子",
+        "advisors": [
+            "奥村 学"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科",
+        "title": "機械学習を用いた自由回答分類の高度化に関する研究",
+        "category": "自然言語",
+        "keywords": [
+            "文書分類",
+            "サポートベクターマシン",
+            "クラス所属確率",
+            "分類支援システム",
+            "ルールベース手法"
+        ],
+        "award_date": "2007-09"
+    },
+    {
+        "name": "伊藤 英明",
+        "advisors": [
+            "石田 亨"
+        ],
+        "affiliation": "京都大学大学院清報学研究科",
+        "title": "大規模公共施設における位置に基づく遠隔指示方式",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "超越型コミュニケーション",
+            "仮想空間",
+            "マルチエージェント",
+            "参加型設計"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "鈴木 聡",
+        "advisors": [
+            "新田 克己",
+            "武田 英明"
+        ],
+        "affiliation": "東京工業大学大学院総合理工学研究科知能システム科学専攻",
+        "title": "ユーザによる身体化エージェント視点の自発的取得の促進方略",
+        "category": "ヒューマンインタフェース・知的学習支援システム",
+        "keywords": [
+            "身体化エージェント",
+            "視点取得",
+            "身体性",
+            "ヒューマンエージェントインタラクション"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "米澤 朋子",
+        "advisors": [
+            "間瀬 健二"
+        ],
+        "affiliation": "名古屋大学大学院情報科学研究科",
+        "title": "Multimodal Representation of Personified Media with Expressive Strengths of Voice and Gesture（擬人的媒体の音声・身体動作によるマルチモーダル表現の表情強度に関する研究）",
+        "category": "マルチメディア",
+        "keywords": [
+            "マルチモダリティ",
+            "擬人的媒体",
+            "音声",
+            "身体動作",
+            "クロスモダリティ"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "池田 利昭",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学知識科学研究科",
+        "title": "知的障害養護学校における創造性開発に関する研究",
+        "category": "AI応用",
+        "keywords": [
+            "知のユニバーサルデザイン",
+            "遠隔支援"
+        ],
+        "award_date": "2006-12"
+    },
+    {
+        "name": "柴原 一友",
+        "advisors": [
+            "小谷 善行"
+        ],
+        "affiliation": "東京農工大学大学院工学府情報工学専攻",
+        "title": "2人ゲームの最適戦略の構築",
+        "category": "基礎・理論",
+        "keywords": [
+            "ゲーム木探索",
+            "評価関数設計",
+            "解探索"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "鹿島 久嗣",
+        "advisors": [
+            "阿久津 達也"
+        ],
+        "affiliation": "京都大学大学院情報学研究科",
+        "title": "Machine Learning Approaches for Structured Data（構造データ解析のための機械学習法）",
+        "category": "学習と発見",
+        "keywords": [
+            "機械学習",
+            "構造データ",
+            "カーネル法",
+            "リンク予測"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "中山 浩太郎",
+        "advisors": [
+            "西尾 章治郎",
+            "原 隆浩"
+        ],
+        "affiliation": "大阪大学大学院情報科学研究科",
+        "title": "リンク構造解析に基づく大規模Webコンテンツからの知識獲得に関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "Webマイニング",
+            "リンク解析",
+            "Wikipedia",
+            "シソーラス辞書構築",
+            "オントロジー構築"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "澤井 進",
+        "advisors": [
+            "國藤 進"
+        ],
+        "affiliation": "北陸先端科学技術大学院大学",
+        "title": "3項組知識表現〈“動画知”，“自然言語知”，“メタデータ”〉とその知識創造支援活動への応用",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "動画知",
+            "自然言語知",
+            "メタデータ",
+            "暗黙知",
+            "形式知",
+            "LOM",
+            "潜在的問題分析",
+            "構造オントロジー",
+            "潜在的意味インデキシング",
+            "サポートベクトルマシン"
+        ],
+        "award_date": "2006-12"
+    },
+    {
+        "name": "武内 雅宇",
+        "advisors": [
+            "溝口 理一郎"
+        ],
+        "affiliation": "大阪大学大学院工学研究科",
+        "title": "ドメイン適用可能な組織知の創造・継承支援環境の構築に関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "オントロジー",
+            "協調学習",
+            "ナレッジマネジメント",
+            "設計知識"
+        ],
+        "award_date": "2007-03"
+    },
+    {
+        "name": "幸島 明男",
+        "advisors": [
+            "小谷 善行"
+        ],
+        "affiliation": "東京農工大学大学院工学府電子情報工学専攻",
+        "title": "実世界指向のサービス連携のためのマルチエージェントアーキテクチャに関する研究",
+        "category": "知識情報インフラストラクチャ",
+        "keywords": [
+            "マルチエージェントアーキテクチャ",
+            "オントロジー",
+            "コンテキストアウェアネス",
+            "ユビキタスコンピューティング"
+        ],
+        "award_date": "2007-03"
+    }
+]

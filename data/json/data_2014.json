@@ -1,0 +1,312 @@
+[
+  {
+    "name": "中津川 実",
+    "advisors": [
+      "矢入 健久"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "不確実性下の製品群異常検出と意思決定支援",
+    "category": "機械学習・データマイニング・分類学習",
+    "keywords": [
+      "時系列データマイニング",
+      "転移学習",
+      "マルコフ決定過程",
+      "リアルオプション"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "Mathieu Blondel",
+    "advisors": [
+      "上原 邦昭"
+    ],
+    "affiliation": "神戸大学大学院システム情報学研究科",
+    "title": "Sparse and Kernel Methods for Practical Machine Learning Applications",
+    "category": "機械学習・データマイニング",
+    "keywords": [
+      "kernel methods",
+      "sparse methods",
+      "text mining"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "竹之内 隆夫",
+    "advisors": [
+      "大須賀 昭彦"
+    ],
+    "affiliation": "電気通信大学",
+    "title": "サービス事業者間データ連携における分散匿名化手法の提案",
+    "category": "機械学習・データマイニング",
+    "keywords": [
+      "k-匿名化",
+      "プライバシ保護型データマイニング",
+      "プライバシ保護型データパブリッシング"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "陳 家煌",
+    "advisors": [
+      "高間 康史"
+    ],
+    "affiliation": "首都大学東京大学院システムデザイン研究科",
+    "title": "Study on Situation-oriented Classification of Sightseeing Images Based on Visual and Metadata Features",
+    "category": "Webインテリジェンス・Webマイニング",
+    "keywords": [
+      "web image classification",
+      "sightseeing spot images",
+      "tourism informatics"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "上野山 勝也",
+    "advisors": [
+      "松尾 豊"
+    ],
+    "affiliation": "東京大学大学院工学系研究科",
+    "title": "企業の社会関係資本の計測と活用に向けたウエブ解析技術の研究",
+    "category": "Webインテリジェンス・Webマイニング",
+    "keywords": [
+      "Webマイニング",
+      "機械学習",
+      "人工知能への応用領域"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "大江 亮介",
+    "advisors": [
+      "古川 正志",
+      "山本 雅人",
+      "鈴木 育男"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "進化的人工ニューラルネットワークによる飛翔行動と汎化能力の獲得",
+    "category": "ソフトコンピューティング・進化学習",
+    "keywords": [
+      "人工ニューラルネットワーク",
+      "進化的人工ニューラルネットワーク",
+      "アンサンブル学習",
+      "汎化能力",
+      "物理エンジン"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "佐藤 圭二",
+    "advisors": [
+      "髙玉 圭樹"
+    ],
+    "affiliation": "電気通信大学",
+    "title": "多目的学習分類子システムによる動的環境にロバストな解の生成と一般化",
+    "category": "ソフトコンピューティング・遺伝的アルゴリズム",
+    "keywords": [
+      "一般化",
+      "学習分類子システム",
+      "ロバスト",
+      "路線網最適化"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "中村 啓太",
+    "advisors": [
+      "古川 正志",
+      "山本 雅人",
+      "鈴木 育男"
+    ],
+    "affiliation": "北海道大学大学院情報科学研究科",
+    "title": "Studies on Emergence of Behavior Intelligence on Artificial Creature in Virtual Fluid Environments",
+    "category": "ソフトコンピューティング・人工生命",
+    "keywords": [
+      "人工生命",
+      "進化学習",
+      "ニューラルネットワーク",
+      "遺伝的アルゴリズム",
+      "エージェントシミュレーション",
+      "最適化"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "進藤 裕之",
+    "advisors": [
+      "松本 裕治"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学",
+    "title": "Statistical Induction of Tree-Generating Grammars for Natural Language Parsing",
+    "category": "自然言語処理・自然言語理解",
+    "keywords": [
+      "natural language processing",
+      "parsing",
+      "grammars",
+      "Bayesian nonparametrics"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "田村 晃裕",
+    "advisors": [
+      "奥村 学"
+    ],
+    "affiliation": "東京工業大学大学院総合理工学研究科 物理情報システム専攻",
+    "title": "特許翻訳のためのバイリンガル知識の獲得に関する研究",
+    "category": "自然言語処理・機械翻訳",
+    "keywords": [
+      "統計的機械翻訳",
+      "特許翻訳",
+      "翻訳対獲得",
+      "品詞導出"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "西川 仁",
+    "advisors": [
+      "松本 裕治"
+    ],
+    "affiliation": "奈良先端科学技術大学院大学",
+    "title": "Automatic Summarization on Various Domains with Combinatorial Optimization and Machine Learning",
+    "category": "自然言語処理・要約",
+    "keywords": [
+      "自然言語処理",
+      "自動要約",
+      "組合せ最適化",
+      "整数計画問題",
+      "構造学習"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "江原 遥",
+    "advisors": [
+      "中川 裕志"
+    ],
+    "affiliation": "東京大学大学院情報理工学系研究科",
+    "title": "A Framework for Applying Language Testing Methods to Support Systems of Second Language Use",
+    "category": "自然言語処理",
+    "keywords": [
+      "ユーザ適応",
+      "機械学習",
+      "言語教育",
+      "項目反応理論",
+      "支援システム"
+    ],
+    "award_date": "2013-09"
+  },
+  {
+    "name": "村田 匡輝",
+    "advisors": [
+      "松原 茂樹"
+    ],
+    "affiliation": "名古屋大学大学院情報科学研究科",
+    "title": "読みやすいテキスト提示のための日本語文の整形に関する研究",
+    "category": "自然言語処理",
+    "keywords": [
+      "文整形",
+      "読点",
+      "改行",
+      "字幕生成"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "横矢 直人",
+    "advisors": [
+      "岩崎 晃"
+    ],
+    "affiliation": "東京大学大学院工学系研究科 航空宇宙工学専攻",
+    "title": "Hyperspectral Data Fusion Based on Unmixing",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "hyperspectral data",
+      "resolution enhancement",
+      "unmixing",
+      "nonnegative matrix factorization",
+      "data fusion"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "川西 康友",
+    "advisors": [
+      "美濃 導彦"
+    ],
+    "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+    "title": "Background Estimation for a Fixed Camera in Dynamically Changing Environments",
+    "category": "画像・音声・パターン認識・理解",
+    "keywords": [
+      "背景モデリング",
+      "背景画像推定",
+      "背景画像予測"
+    ],
+    "award_date": "2012-11"
+  },
+  {
+    "name": "橋本 敦史",
+    "advisors": [
+      "美濃 導彦"
+    ],
+    "affiliation": "京都大学大学院情報学研究科 知能情報学専攻",
+    "title": "Detecting and Tracking Handled-Objects for Progress Management in Food Preparation",
+    "category": "画像・音声・シーン理解",
+    "keywords": [
+      "背景差分",
+      "物体ハンドリング検出",
+      "食材追跡",
+      "食メディア"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "越仲 孝文",
+    "advisors": [
+      "篠田 浩一"
+    ],
+    "affiliation": "東京工業大学大学院情報理工学研究科 計算工学専攻",
+    "title": "音声ドキュメント検索のためのインデクシング技術の研究",
+    "category": "画像・音声・音声認識・理解",
+    "keywords": [
+      "ベイズ推論",
+      "オンライン学習",
+      "クラスタリング",
+      "セグメンテーション",
+      "隠れマルコフモデル"
+    ],
+    "award_date": "2013-03"
+  },
+  {
+    "name": "松原 正樹",
+    "advisors": [
+      "斎藤 博昭"
+    ],
+    "affiliation": "慶應義塾大学",
+    "title": "音楽認知における対話的な学び支援の構成論的研究",
+    "category": "ヒューマンインタフェース・教育支援・知的学習支援",
+    "keywords": [
+      "音楽認知",
+      "学び支援",
+      "メタ認知"
+    ],
+    "award_date": "2013-02"
+  },
+  {
+    "name": "石井 亮",
+    "advisors": [
+      "西田 豊明"
+    ],
+    "affiliation": "京都大学大学院情報学研究科",
+    "title": "Designing Conversational Interfaces for Facilitating Conversation using User’s Gaze Behaviors",
+    "category": "ヒューマンインタフェース・教育支援・コミュニケーション支援",
+    "keywords": [
+      "conversational interface",
+      "gaze behavior",
+      "nonverbal communication",
+      "remote communication",
+      "human-agent interaction"
+    ],
+    "award_date": "2013-09"
+  }
+]
