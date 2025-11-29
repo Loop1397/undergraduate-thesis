@@ -12,7 +12,11 @@ all_data = []
 # 파일 열고 JSON 읽은 후 all_data에 취합
 for json_file in json_files:
     with open(os.path.join(path, json_file), "r", encoding="utf-8") as f:
-        all_data += json.load(f)
+        new_data = json.load(f)
+        # 何年度のデータなのかを記録
+        for data in new_data:
+            data['source_file'] = json_file
+        all_data += new_data
 
 # all_data를 researcher-data.json으로 저장
 with open('./data/researcher-data.json', 'w', encoding='utf-8') as f:
