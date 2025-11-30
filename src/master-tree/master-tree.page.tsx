@@ -13,79 +13,101 @@ function MasterTree() {
 
   type Direction = "ancestors" | "descendants";
 
-  // advisor: [0] -> 師匠がいない
   const data: Researcher[] = [
     {
       id: 1,
-      advisor: [0],
+      advisor: [],
+      advisees: [6]
     },
     {
       id: 2,
-      advisor: [0],
+      advisor: [],
+      advisees: [6]
     },
     {
       id: 3,
-      advisor: [0],
+      advisor: [],
+      advisees: [6]
     },
     {
       id: 4,
-      advisor: [0],
+      advisor: [],
+      advisees: [6]
     },
     {
       id: 5,
-      advisor: [0],
+      advisor: [],
+      advisees: [7]
     },
     {
       id: 6,
       advisor: [1, 2, 3, 4],
+      advisees: [8]
     },
     {
       id: 7,
       advisor: [5],
+      advisees: [8]
     },
     {
       id: 8,
-      advisor: [6, 7],
+      advisor: [6, 7, 100],
+      advisees: [9, 10, 11]
     },
     {
       id: 9,
       advisor: [8, 900],
+      advisees: [12, 13, 14]
     },
     {
       id: 10,
       advisor: [8, 900],
+      advisees: []
     },
     {
       id: 11,
       advisor: [8],
+      advisees: [15, 16]
     },
     {
       id: 12,
       advisor: [9],
+      advisees: []
     },
     {
       id: 13,
       advisor: [9],
+      advisees: []
     },
     {
       id: 14,
       advisor: [9],
+      advisees: []
     },
     {
       id: 15,
       advisor: [11],
+      advisees: []
     },
     {
       id: 16,
       advisor: [11],
+      advisees: []
+    },
+    {
+      id: 100,
+      advisor: [],
+      advisees: [8]
     },
     {
       id: 899,
-      advisor: [0],
+      advisor: [],
+      advisees: [900]
     },
     {
       id: 900,
       advisor: [899],
+      advisees: [9, 10]
     },
   ];
 
@@ -114,18 +136,13 @@ function MasterTree() {
     }
 
     // depth=1のところを初期化する
-    if (direction === "ancestors") {
-      // ancestorsのときにはrootの師匠を探す
-      tree[0].push(rootResearcher.advisor);
-    } else {
-      // descendantsのときにはrootの弟子を探す
-      const advisees = data.filter((d) => d.advisor.includes(rootId)).map((d) => d.id);
-      tree[0].push(advisees);
-    }
+    // ancestorsのときにはrootの1個上の師匠を探す
+    // descendantsのときにはrootの1個下の弟子を探す
+    direction === "ancestors" ? tree[0].push(rootResearcher.advisor) : tree[0].push(rootResearcher.advisees)
 
     // maxColsのmaxを計算するための変数maxCount
-    // 上で検索する研究者の師匠を先に入れたので、maxもそちに合わせて初期化しておく
-    let maxCount = rootResearcher.advisor.length;
+    // 上で検索する研究者の師匠か弟子を先に入れたので、maxもそちに合わせて初期化しておく
+    let maxCount = tree[0].length;
 
     // 検索する研究者の師匠もしくは弟子に基づいてTreeを作っていく
     for (let i = 0; i < maxDepth - 1; i++) {
@@ -138,7 +155,7 @@ function MasterTree() {
           if (direction === "ancestors") {
             const advisor = data.find((d) => d.id === researcherId);
             // もしデータを見つからなかったとき、dummy(空)のデータ(-1)を入れる。
-            const advisorNode = advisor ? advisor.advisor : [0];
+            const advisorNode = advisor ? advisor.advisor : [-1];
             tree[i + 1].push(advisorNode);
             // 師匠の数をcurrentに足していく
             currentRowCount += advisorNode.length;
