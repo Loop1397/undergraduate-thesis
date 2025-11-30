@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
+import { printJsonData } from "./master-tree.util";
 
 const TreeWrapper = styled.div`
   width: 100%;
@@ -232,6 +233,11 @@ function MasterTree() {
 
     return spans;
   };
+
+  // ページローディング時に実行
+  useEffect(() => {
+    printJsonData();
+  }, []);
 
   return (
     <>
