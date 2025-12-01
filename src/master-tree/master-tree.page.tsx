@@ -9,6 +9,7 @@ function MasterTree() {
   type Researcher = {
     id: number;
     advisor: number[];
+    advisees: number[];
   };
 
   type Direction = "ancestors" | "descendants";
@@ -152,18 +153,21 @@ function MasterTree() {
       tree[i].forEach((row) => {
         // 各idを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
-          if (direction === "ancestors") {
-            const advisor = data.find((d) => d.id === researcherId);
-            // もしデータを見つからなかったとき、dummy(空)のデータ(-1)を入れる。
-            const advisorNode = advisor ? advisor.advisor : [-1];
-            tree[i + 1].push(advisorNode);
-            // 師匠の数をcurrentに足していく
-            currentRowCount += advisorNode.length;
-          } else {
-            const advisee = data.filter((d) => d.advisor.includes(researcherId)).map((d) => d.id);
-            tree[i + 1].push(advisee.length !== 0 ? advisee : [-1]);
-            currentRowCount += advisee.length !== 0 ? advisee.length : 1;
-          }
+          // 特定のidを持つ師匠もしくは弟子を探す
+          const nextData = data.find((d) => d.id === researcherId);
+          // その師匠が持つもう1個上の師匠、またはその弟子が持つもう1個下の弟子を探す
+          // もしない場合、[0]を入れる
+          const nextNode = direction === "ancestors" ?
+            nextData ? nextData.advisor : [0] :
+            nextData ? nextData.advisees : [0]
+
+          // nextNodeをツリーに追加
+          tree[i + 1].push(nextNode.length !== 0 ? nextNode : [0]);
+          // nextNodeの数をcurrentRowCountにだしていく
+          currentRowCount += nextNode.length !== 0 ? nextNode.length : 1;
+
+          // TODO
+          // 관계성만 가진 데이터 파일 만들기
         });
       });
       // maxCountとcurrentを比較し、より大きい値をmaxCountに入れる
