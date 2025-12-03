@@ -2,115 +2,18 @@ import { useEffect, useState } from "react";
 import { printJsonData } from "./master-tree.util";
 import { TreeWrapper, AdvisorTree, TreeRow, TreeNode } from "./master-tree.component"
 
-// import JsonData 
+// import data 
 import researcherData from '../../data.json';
+import relationData from '../../relation-data.json';
 
 function MasterTree() {
-  type Researcher = {
-    id: number;
-    advisor: number[];
-    advisees: number[];
-  };
+  // type Researcher = {
+  //   id: number;
+  //   advisor: number[];
+  //   advisees: number[];
+  // };
 
   type Direction = "ancestors" | "descendants";
-
-  const data: Researcher[] = [
-    {
-      id: 1,
-      advisor: [],
-      advisees: [6]
-    },
-    {
-      id: 2,
-      advisor: [],
-      advisees: [6]
-    },
-    {
-      id: 3,
-      advisor: [],
-      advisees: [6]
-    },
-    {
-      id: 4,
-      advisor: [],
-      advisees: [6]
-    },
-    {
-      id: 5,
-      advisor: [],
-      advisees: [7]
-    },
-    {
-      id: 6,
-      advisor: [1, 2, 3, 4],
-      advisees: [8]
-    },
-    {
-      id: 7,
-      advisor: [5],
-      advisees: [8]
-    },
-    {
-      id: 8,
-      advisor: [6, 7, 100],
-      advisees: [9, 10, 11]
-    },
-    {
-      id: 9,
-      advisor: [8, 900],
-      advisees: [12, 13, 14]
-    },
-    {
-      id: 10,
-      advisor: [8, 900],
-      advisees: []
-    },
-    {
-      id: 11,
-      advisor: [8],
-      advisees: [15, 16]
-    },
-    {
-      id: 12,
-      advisor: [9],
-      advisees: []
-    },
-    {
-      id: 13,
-      advisor: [9],
-      advisees: []
-    },
-    {
-      id: 14,
-      advisor: [9],
-      advisees: []
-    },
-    {
-      id: 15,
-      advisor: [11],
-      advisees: []
-    },
-    {
-      id: 16,
-      advisor: [11],
-      advisees: []
-    },
-    {
-      id: 100,
-      advisor: [],
-      advisees: [8]
-    },
-    {
-      id: 899,
-      advisor: [],
-      advisees: [900]
-    },
-    {
-      id: 900,
-      advisor: [899],
-      advisees: [9, 10]
-    },
-  ];
 
   const [advisorTree, setAdvisorTree] = useState<number[][][]>();
   const [advisorMaxCols, setAdvisorMaxCols] = useState<number>(0);
@@ -128,7 +31,7 @@ function MasterTree() {
    * */
   const buildMasterTree = (rootId: number, maxDepth: number, direction: Direction) => {
     const tree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
-    const rootResearcher = data.find((d) => d.id === rootId);
+    const rootResearcher = relationData.find((d) => d.id === rootId);
 
     // 検索する研究者が間違っている時のエラー
     if (!rootResearcher) {
@@ -139,7 +42,7 @@ function MasterTree() {
     // depth=1のところを初期化する
     // ancestorsのときにはrootの1個上の師匠を探す
     // descendantsのときにはrootの1個下の弟子を探す
-    direction === "ancestors" ? tree[0].push(rootResearcher.advisor) : tree[0].push(rootResearcher.advisees)
+    direction === "ancestors" ? tree[0].push(rootResearcher.advisors) : tree[0].push(rootResearcher.advisees)
 
     // maxColsのmaxを計算するための変数maxCount
     // 上で検索する研究者の師匠か弟子を先に入れたので、maxもそちに合わせて初期化しておく
@@ -154,11 +57,11 @@ function MasterTree() {
         // 各idを一つずつ検索し、listに入れていく
         row.forEach((researcherId) => {
           // 特定のidを持つ師匠もしくは弟子を探す
-          const nextData = data.find((d) => d.id === researcherId);
+          const nextData = relationData.find((d) => d.id === researcherId);
           // その師匠が持つもう1個上の師匠、またはその弟子が持つもう1個下の弟子を探す
           // もしない場合、[0]を入れる
           const nextNode = direction === "ancestors" ?
-            nextData ? nextData.advisor : [0] :
+            nextData ? nextData.advisors : [0] :
             nextData ? nextData.advisees : [0]
 
           // nextNodeをツリーに追加
@@ -250,7 +153,7 @@ function MasterTree() {
 
                   return (
                     <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {id}
+                      {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""}
                     </TreeNode>
                   );
                 })}
@@ -283,7 +186,7 @@ function MasterTree() {
 
                   return (
                     <TreeNode key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {id}
+                      {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""}
                     </TreeNode>
                   );
                 })}
