@@ -1,0 +1,6 @@
+/* 연결선은 SVG로 그린다 */
+svg#wires {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}

@@ -6,6 +6,8 @@ import { TreeWrapper, AdvisorTree, TreeRow, TreeNode } from "./master-tree.compo
 import researcherData from '../../data.json';
 import relationData from '../../relation-data.json';
 
+import './master-tree.css';
+
 function MasterTree() {
   // type Researcher = {
   //   id: number;
