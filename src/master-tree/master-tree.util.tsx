@@ -122,27 +122,33 @@ export const renderLines = (tree: number[][][], svg: SVGSVGElement) => {
 
     const array = [...tree];
     array.unshift([[8]]);
-    console.log(array);
 
     for (let i = 0; i < array.length - 1; i++) {
         for (let j = 0; j < array[i].length; j++) {
             console.log(i, j);
             array[i][j].forEach((node, idx) => {
-                console.log(`START!!!!!!!!`);
                 const from = document.getElementById(`node${node}`) as HTMLDivElement | null;;
-                const to: HTMLDivElement[] = array[i + 1][idx]
+                const toArray: HTMLDivElement[] = array[i + 1][idx]
                     .flatMap(n =>
-                        Array.from(document.querySelectorAll<HTMLDivElement>(`#advisee-${i + 1} div.node${n !== 0 ? n : `blank`}`))
+                        Array.from(document.querySelectorAll<HTMLDivElement>(`#advisee-${i} div.node${n !== 0 ? n : `blank`}`))
                     );
 
                 if (!from) return;
 
                 const fromXY = getEdgePoint(from, wrapper, `bottom`);
 
-                console.log(fromXY);
-                drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y + 100}`, svg)
+                drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y + 8}`, svg);
 
-                console.log(`END!!!!!!!!`);
+                console.log(toArray);
+                toArray.forEach((to) => {
+                    console.log(to);
+                    const toXY = getEdgePoint(to, wrapper, `top`);
+                    drawLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y - 8}`, svg)
+                })
+
+                const middleLineLeftXY = getEdgePoint(toArray[0], wrapper, 'top');
+                const middleLineRightXY = getEdgePoint(toArray[toArray.length - 1], wrapper, 'top');
+                drawLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y - 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y - 9}`, svg);
             });
         }
 
