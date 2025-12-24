@@ -1,9 +1,5 @@
 import researcherData from "../../data.json";
 
-export const printJsonData = () => {
-  console.log(researcherData[0].name[0]);
-};
-
 // 各nodeが持つ広さ(span)を求めるためのメッソド
 export const computeTreeSpans = (tree: number[][][], direction: string): number[][] => {
   const spans: number[][] = [];
@@ -78,9 +74,7 @@ export const drawLine = (x1: string, y1: string, x2: string, y2: string, svg: SV
   svg.appendChild(line);
 };
 
-// TODO
-// advisorTree에 대한 작업도 해야함
-export const renderLines = (tree: number[][][], svg: SVGSVGElement, direction: string) => {
+export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGElement, direction: string) => {
   const wrapper = document.getElementById(`treeWrapper`) as HTMLDivElement | null;
 
   if (!wrapper) return;
@@ -88,7 +82,7 @@ export const renderLines = (tree: number[][][], svg: SVGSVGElement, direction: s
   //   const array = [...tree];
   const array = JSON.parse(JSON.stringify(tree));
 
-  array.unshift([[8]]);
+  array.unshift([[searchIdx]]);
   let type = `advisee`;
 
   if (direction === `ancestors`) {
@@ -97,12 +91,9 @@ export const renderLines = (tree: number[][][], svg: SVGSVGElement, direction: s
 
   for (let i = 0; i < array.length - 1; i++) {
     for (let j = 0; j < array[i].length; j++) {
-      console.log(i, j);
       array[i][j].forEach((node: number, idx: number) => {
         const from = document.getElementById(`node${node}`) as HTMLDivElement | null;
         const toArray: HTMLDivElement[] = array[i + 1][idx].flatMap((n: number) => Array.from(document.querySelectorAll<HTMLDivElement>(`#${type}-${i} div.node${n !== 0 ? n : `blank`}`)));
-        console.log(`from = ${from}`);
-        console.log(`toArray = ${toArray}`);
 
         if (!from) return;
 
@@ -111,9 +102,7 @@ export const renderLines = (tree: number[][][], svg: SVGSVGElement, direction: s
 
           drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y + 8}`, svg);
 
-          // console.log(toArray);
           toArray.forEach((to) => {
-            // console.log(to);
             const toXY = getEdgePoint(to, wrapper, `top`);
             drawLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y - 8}`, svg);
           });
@@ -126,9 +115,7 @@ export const renderLines = (tree: number[][][], svg: SVGSVGElement, direction: s
 
           drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y - 8}`, svg);
 
-          // console.log(toArray);
           toArray.forEach((to) => {
-            // console.log(to);
             const toXY = getEdgePoint(to, wrapper, `bottom`);
             drawLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y + 8}`, svg);
           });

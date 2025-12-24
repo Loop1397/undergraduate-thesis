@@ -119,6 +119,10 @@ function MasterTree() {
     },
   ];
 
+  // 検索するindexとdepthを入れるためのstate
+  const [searchIdx, setSearchIdx] = useState<number>(8);
+  const [searchDepth, setSearchDepth] = useState<number>(2);
+
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
 
@@ -220,14 +224,14 @@ function MasterTree() {
     if (!svgRef.current) return;
     if (!adviseeTree) return;
 
-    renderLines(adviseeTree, svgRef.current, "descendants");
+    renderLines(adviseeTree, searchIdx, svgRef.current, "descendants");
   }, [adviseeTree]);
 
   useLayoutEffect(() => {
     if (!svgRef.current) return;
     if (!advisorTree) return;
 
-    renderLines([...advisorTree].reverse(), svgRef.current, "ancestors");
+    renderLines([...advisorTree].reverse(), searchIdx, svgRef.current, "ancestors");
   }, [advisorTree]);
 
   return (
@@ -242,20 +246,12 @@ function MasterTree() {
             svg.removeChild(svg.firstChild);
           }
 
-          buildMasterTree(8, 2, "ancestors");
-          buildMasterTree(8, 2, "descendants");
+          buildMasterTree(searchIdx, searchDepth, "ancestors");
+          buildMasterTree(searchIdx, searchDepth, "descendants");
         }}
       >
         test1
       </button>
-      {/* <button
-        onClick={() => {
-          if (!svgRef.current || !adviseeTree) return;
-          renderLines(adviseeTree, svgRef.current);
-        }}
-      >
-        test3
-      </button> */}
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
       <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
         {/* canvas */}
@@ -304,7 +300,7 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node8`} className={"idx"} key={`searchIdx`} $start={1} $end={-1}>
+            <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
               idx
             </TreeNode>
           </TreeRow>
