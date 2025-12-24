@@ -1,15 +1,14 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { computeTreeSpans, renderLines, drawLine } from "./master-tree.util";
-import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode } from "./master-tree.component"
+import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode } from "./master-tree.component";
 
-// import data 
-import researcherData from '../../data.json';
-import relationData from '../../relation-data.json';
+// import data
+import researcherData from "../../data.json";
+import relationData from "../../relation-data.json";
 
-import './master-tree.css';
+import "./master-tree.css";
 
 function MasterTree() {
-
   type Direction = "ancestors" | "descendants";
   type Researcher = {
     id: number;
@@ -26,103 +25,102 @@ function MasterTree() {
     {
       id: 1,
       advisors: [],
-      advisees: [6]
+      advisees: [6],
     },
     {
       id: 2,
       advisors: [],
-      advisees: [6]
+      advisees: [6],
     },
     {
       id: 3,
       advisors: [],
-      advisees: [6]
+      advisees: [6],
     },
     {
       id: 4,
       advisors: [],
-      advisees: [6]
+      advisees: [6],
     },
     {
       id: 5,
       advisors: [],
-      advisees: [7]
+      advisees: [7],
     },
     {
       id: 6,
       advisors: [1, 2, 3, 4],
-      advisees: [8]
+      advisees: [8],
     },
     {
       id: 7,
       advisors: [5],
-      advisees: [8]
+      advisees: [8],
     },
     {
       id: 8,
       advisors: [6, 7, 100],
-      advisees: [9, 10, 11]
+      advisees: [9, 10, 11],
     },
     {
       id: 9,
       advisors: [8, 900],
-      advisees: [12, 13, 14]
+      advisees: [12, 13, 14],
     },
     {
       id: 10,
       advisors: [8, 900],
-      advisees: []
+      advisees: [],
     },
     {
       id: 11,
       advisors: [8],
-      advisees: [15, 16]
+      advisees: [15, 16],
     },
     {
       id: 12,
       advisors: [9],
-      advisees: []
+      advisees: [],
     },
     {
       id: 13,
       advisors: [9],
-      advisees: []
+      advisees: [],
     },
     {
       id: 14,
       advisors: [9],
-      advisees: []
+      advisees: [],
     },
     {
       id: 15,
       advisors: [11],
-      advisees: []
+      advisees: [],
     },
     {
       id: 16,
       advisors: [11],
-      advisees: []
+      advisees: [],
     },
     {
       id: 100,
       advisors: [],
-      advisees: [8]
+      advisees: [8],
     },
     {
       id: 899,
       advisors: [],
-      advisees: [900]
+      advisees: [900],
     },
     {
       id: 900,
       advisors: [899],
-      advisees: [9, 10]
+      advisees: [9, 10],
     },
   ];
 
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
-
 
   const [advisorTree, setAdvisorTree] = useState<number[][][]>();
   const [advisorMaxCols, setAdvisorMaxCols] = useState<number>(0);
@@ -151,7 +149,7 @@ function MasterTree() {
     // depth=1のところを初期化する
     // ancestorsのときにはrootの1個上の師匠を探す
     // descendantsのときにはrootの1個下の弟子を探す
-    direction === "ancestors" ? tree[0].push(rootResearcher.advisors) : tree[0].push(rootResearcher.advisees)
+    direction === "ancestors" ? tree[0].push(rootResearcher.advisors) : tree[0].push(rootResearcher.advisees);
 
     // maxColsのmaxを計算するための変数maxCount
     // 上で検索する研究者の師匠か弟子を先に入れたので、maxもそちに合わせて初期化しておく
@@ -169,22 +167,17 @@ function MasterTree() {
           const nextData = data.find((d) => d.id === researcherId);
           // その師匠が持つもう1個上の師匠、またはその弟子が持つもう1個下の弟子を探す
           // もしない場合、[0]を入れる
-          const nextNode = direction === "ancestors" ?
-            nextData ? nextData.advisors : [0] :
-            nextData ? nextData.advisees : [0]
+          const nextNode = direction === "ancestors" ? (nextData ? nextData.advisors : [0]) : nextData ? nextData.advisees : [0];
 
           // nextNodeをツリーに追加
           tree[i + 1].push(nextNode.length !== 0 ? nextNode : [0]);
           // nextNodeの数をcurrentRowCountにだしていく
           currentRowCount += nextNode.length !== 0 ? nextNode.length : 1;
-
         });
       });
       // maxCountとcurrentを比較し、より大きい値をmaxCountに入れる
       maxCount = Math.max(maxCount, currentRowCount);
     }
-
-    console.log(tree)
 
     // direction === 'ancestors'の場合、Treeをreverseさせる
     if (direction === "ancestors") {
@@ -198,15 +191,10 @@ function MasterTree() {
       setAdviseeTree(tree);
       setAdviseeSpans(computeTreeSpans(tree, direction));
     }
-
-    if (svgRef.current) {
-      renderLines(tree, svgRef.current);
-    }
   };
 
   // ページローディング時に実行
-  useEffect(() => {
-  }, []);
+  useEffect(() => {}, []);
 
   useLayoutEffect(() => {
     const updateSize = () => {
@@ -214,15 +202,15 @@ function MasterTree() {
       const rect = treeWrapperRef.current.getBoundingClientRect();
       setWrapperSize({
         width: rect.width,
-        height: rect.height
+        height: rect.height,
       });
-    }
+    };
 
     updateSize();
 
     // ブラウザの大きさが変わるたびにupdateSizeを実行
-    window.addEventListener('resize', updateSize);
-    return () => window.removeEventListener('resize', updateSize);
+    window.addEventListener("resize", updateSize);
+    return () => window.removeEventListener("resize", updateSize);
   }, []);
 
   // TODO
@@ -232,19 +220,44 @@ function MasterTree() {
     if (!svgRef.current) return;
     if (!adviseeTree) return;
 
-    renderLines(adviseeTree, svgRef.current);
+    renderLines(adviseeTree, svgRef.current, "descendants");
   }, [adviseeTree]);
+
+  useLayoutEffect(() => {
+    if (!svgRef.current) return;
+    if (!advisorTree) return;
+
+    renderLines([...advisorTree].reverse(), svgRef.current, "ancestors");
+  }, [advisorTree]);
 
   return (
     <>
-      <button onClick={() => buildMasterTree(8, 2, "ancestors")}>test1</button>
-      <button onClick={() => buildMasterTree(8, 2, "descendants")}>test2</button>
-      <button onClick={() => {
-        if (!svgRef.current || !adviseeTree) return;
-        renderLines(adviseeTree, svgRef.current)
-      }}>test3</button>
+      <button
+        onClick={() => {
+          // SVG初期化
+          const svg = svgRef.current;
+          if (!svg) return;
+
+          while (svg.firstChild) {
+            svg.removeChild(svg.firstChild);
+          }
+
+          buildMasterTree(8, 2, "ancestors");
+          buildMasterTree(8, 2, "descendants");
+        }}
+      >
+        test1
+      </button>
+      {/* <button
+        onClick={() => {
+          if (!svgRef.current || !adviseeTree) return;
+          renderLines(adviseeTree, svgRef.current);
+        }}
+      >
+        test3
+      </button> */}
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
-      <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: 'relative' }}>
+      <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
         {/* canvas */}
         <svg
           id="wires"
@@ -254,7 +267,7 @@ function MasterTree() {
           height={wrapperSize.height}
           viewBox={`0 0 ${wrapperSize.width} ${wrapperSize.height}`}
           style={{
-            position: 'absolute'
+            position: "absolute",
           }}
         />
 
@@ -269,7 +282,7 @@ function MasterTree() {
 
             let curStart = 1;
             return (
-              <TreeRow id={`advisor-${rowIdx}`} key={`advisor-${rowIdx}`}>
+              <TreeRow id={`advisor-${advisorTree.length - 1 - rowIdx}`} key={`advisor-${advisorTree.length - 1 - rowIdx}`}>
                 {row.flat().map((id: any, idx: number) => {
                   // nodeが始まるところ
                   const start = curStart;
@@ -279,7 +292,7 @@ function MasterTree() {
                   curStart += spansForNodes[idx];
 
                   return (
-                    <TreeNode id={`node${id !== 0 ? id : 'blank'}`} className={`node${id !== 0 ? id : 'blank'}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
                       {/* {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""} */}
                       {id}
                     </TreeNode>
@@ -291,7 +304,7 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node8`} className={'idx'} key={`searchIdx`} $start={1} $end={-1}>
+            <TreeNode id={`node8`} className={"idx"} key={`searchIdx`} $start={1} $end={-1}>
               idx
             </TreeNode>
           </TreeRow>
@@ -313,7 +326,7 @@ function MasterTree() {
                   curStart += spansForNodes[idx];
 
                   return (
-                    <TreeNode id={`node${id !== 0 ? id : 'blank'}`} className={`node${id !== 0 ? id : 'blank'}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
+                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
                       {/* {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""} */}
                       {id}
                     </TreeNode>
