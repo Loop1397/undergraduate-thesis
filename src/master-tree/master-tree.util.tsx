@@ -90,11 +90,20 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
   }
 
   for (let i = 0; i < array.length - 1; i++) {
+    let idx = 0;
     for (let j = 0; j < array[i].length; j++) {
-      array[i][j].forEach((node: number, idx: number) => {
+      console.log(`array[${i}][${j}] = ${array[i][j]}`);
+      for (const node of array[i][j].values()) {
         const from = document.getElementById(`node${node}`) as HTMLDivElement | null;
+        console.log(`i = ${i}, idx = ${idx}`);
+        console.log(`node = ${node}`);
+        console.log(array[i + 1][idx].every((node: number) => node === 0));
+        console.log(array[i + 1][idx]);
+        if (array[i + 1][idx].every((node: number) => node === 0)) continue;
+
         const toArray: HTMLDivElement[] = array[i + 1][idx].flatMap((n: number) => Array.from(document.querySelectorAll<HTMLDivElement>(`#${type}-${i} div.node${n !== 0 ? n : `blank`}`)));
 
+        idx += 1;
         if (!from) return;
 
         if (direction === `descendants`) {
@@ -124,7 +133,7 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
           const middleLineRightXY = getEdgePoint(toArray[toArray.length - 1], wrapper, "bottom");
           drawLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y + 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y + 9}`, svg);
         }
-      });
+      }
     }
   }
 };

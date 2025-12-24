@@ -276,6 +276,9 @@ function MasterTree() {
             // ただし、rowIdx===0のときのnodeの大きさは全て1にする
             const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : advisorSpans![rowIdx - 1].slice();
 
+            // rowの全ての中身が0の場合、何も出力しない
+            if (row.flat().every((node: number) => node === 0)) return;
+
             let curStart = 1;
             return (
               <TreeRow id={`advisor-${advisorTree.length - 1 - rowIdx}`} key={`advisor-${advisorTree.length - 1 - rowIdx}`}>
@@ -286,6 +289,9 @@ function MasterTree() {
                   const end = start + spansForNodes[idx];
                   // 次のnodeが始まるところ
                   curStart += spansForNodes[idx];
+
+                  // advisorがいない場合、何も出力しない
+                  if (id === 0) return <div></div>;
 
                   return (
                     <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
@@ -313,6 +319,9 @@ function MasterTree() {
           {adviseeTree?.map((row, rowIdx) => {
             const spansForNodes = rowIdx === adviseeTree.length - 1 ? row.flat().map(() => 1) : adviseeSpans![rowIdx + 1].slice();
 
+            // rowの全ての中身が0の場合、何も出力しない
+            if (row.flat().every((node: number) => node === 0)) return;
+
             let curStart = 1;
             return (
               <TreeRow id={`advisee-${rowIdx}`} key={`advisee-${rowIdx}`}>
@@ -320,6 +329,9 @@ function MasterTree() {
                   const start = curStart;
                   const end = start + spansForNodes[idx];
                   curStart += spansForNodes[idx];
+
+                  // adviseeがいない場合、何も出力しない
+                  if (id === 0) return <div></div>;
 
                   return (
                     <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
