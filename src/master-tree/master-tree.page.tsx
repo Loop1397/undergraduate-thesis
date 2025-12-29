@@ -123,6 +123,8 @@ function MasterTree() {
   const [searchIdx, setSearchIdx] = useState<number>(8);
   const [searchDepth, setSearchDepth] = useState<number>(2);
 
+  const [inputValue, setInputValue] = useState<string>("");
+
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
 
@@ -248,16 +250,30 @@ function MasterTree() {
 
   return (
     <>
-      <div>
+      <div id="input-wrapper">
         {/* TODO
           현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
         */}
-        <input
-          type="text"
-          onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-            if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            cursor: "pointer",
           }}
-        />
+          onClick={() => {
+            setSearchIdx(Number(inputValue));
+          }}
+        >
+          <input
+            type="text"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+            onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
+              if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
+            }}
+          />
+          <div>⌕</div>
+        </div>
         <input
           type="range"
           min={1}

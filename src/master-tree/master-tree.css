@@ -4,9 +4,16 @@ svg#wires {
   pointer-events: none;
 }
 
+#input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
 input[type="range"] {
   -webkit-appearance: none;
-  width: 100px;
+  width: 80px;
   height: 4px;
   background: #ddd;
   border-radius: 2px;
