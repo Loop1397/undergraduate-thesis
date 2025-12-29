@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { computeTreeSpans, renderLines, drawLine } from "./master-tree.util";
 import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode } from "./master-tree.component";
 
@@ -249,7 +249,15 @@ function MasterTree() {
   return (
     <>
       <div>
-        <input></input>
+        {/* TODO
+          현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
+        */}
+        <input
+          type="text"
+          onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
+            if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
+          }}
+        />
         <input
           type="range"
           min={1}
@@ -261,22 +269,6 @@ function MasterTree() {
           }}
         />
       </div>
-      <button
-        onClick={() => {
-          // SVG初期化
-          const svg = svgRef.current;
-          if (!svg) return;
-
-          while (svg.firstChild) {
-            svg.removeChild(svg.firstChild);
-          }
-
-          buildMasterTree(searchIdx, searchDepth, "ancestors");
-          buildMasterTree(searchIdx, searchDepth, "descendants");
-        }}
-      >
-        test1
-      </button>
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
       <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
         {/* canvas */}
