@@ -217,8 +217,20 @@ function MasterTree() {
     return () => window.removeEventListener("resize", updateSize);
   }, []);
 
-  // TODO
-  // advisorTree와 관련된 작업도 진행해야함
+  // searchIdxやsearchDepthが変えられたらMasterTreeを更新
+  useLayoutEffect(() => {
+    // SVG初期化
+    const svg = svgRef.current;
+    if (!svg) return;
+
+    while (svg.firstChild) {
+      svg.removeChild(svg.firstChild);
+    }
+
+    buildMasterTree(searchIdx, searchDepth, "ancestors");
+    buildMasterTree(searchIdx, searchDepth, "descendants");
+  }, [searchIdx, searchDepth]);
+
   // adviseeTreeが変わり、新しいnode達がレンダリングされたら実行
   useLayoutEffect(() => {
     if (!svgRef.current) return;
@@ -236,6 +248,19 @@ function MasterTree() {
 
   return (
     <>
+      <div>
+        <input></input>
+        <input
+          type="range"
+          min={1}
+          max={3}
+          step={1}
+          value={searchDepth}
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+            setSearchDepth(Number(e.target.value));
+          }}
+        />
+      </div>
       <button
         onClick={() => {
           // SVG初期化
