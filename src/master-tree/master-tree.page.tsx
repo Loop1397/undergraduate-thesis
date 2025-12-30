@@ -210,6 +210,16 @@ function MasterTree() {
         width: rect.width,
         height: rect.height,
       });
+
+      const svg = svgRef.current;
+      if (!svg) return;
+
+      while (svg.firstChild) {
+        svg.removeChild(svg.firstChild);
+      }
+
+      buildMasterTree(searchIdx, searchDepth, "ancestors");
+      buildMasterTree(searchIdx, searchDepth, "descendants");
     };
 
     updateSize();
