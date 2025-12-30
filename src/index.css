@@ -1,21 +1,22 @@
 :root {
-    --node-w: 260px;
-    --node-px: 14px;
-    --row-gap: 80px;
-    --column-gap: 28px;
-    --bg: #e0e0e0;
-    --line: #c9c9c9;
+  --node-w: 260px;
+  --node-px: 14px;
+  --row-gap: 80px;
+  --column-gap: 28px;
+  --bg: #e0e0e0;
+  --line: #c9c9c9;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0px;
+  box-sizing: border-box;
+  margin: 0px;
 }
 
 html,
 body {
-    margin: 0;
-    height: 100%;
-    background: #fff;
-    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Nanum Gothic", "Malgun Gothic", sans-serif;
+  margin: 0;
+  height: 100%;
+  background: #fff;
+  font-family: "Montserrat", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Nanum Gothic",
+    "Malgun Gothic", sans-serif;
 }
