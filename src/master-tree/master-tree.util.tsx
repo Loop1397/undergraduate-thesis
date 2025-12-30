@@ -61,7 +61,6 @@ export const getEdgePoint = (element: HTMLDivElement, container: HTMLDivElement,
  */
 export const drawLine = (x1: string, y1: string, x2: string, y2: string, svg: SVGSVGElement) => {
   // 직선 스타일
-  const stroke = "#c9c9c9";
   const sw = `2`;
 
   const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
@@ -69,13 +68,12 @@ export const drawLine = (x1: string, y1: string, x2: string, y2: string, svg: SV
   line.setAttribute("y1", y1);
   line.setAttribute("x2", x2);
   line.setAttribute("y2", y2);
-  line.setAttribute("stroke", stroke);
   line.setAttribute("stroke-width", sw);
   svg.appendChild(line);
 };
 
 export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGElement, direction: string) => {
-  const wrapper = document.getElementById(`treeWrapper`) as HTMLDivElement | null;
+  const wrapper = document.getElementById(`tree-wrapper`) as HTMLDivElement | null;
 
   if (!wrapper) return;
 

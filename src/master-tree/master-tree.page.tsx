@@ -123,7 +123,7 @@ function MasterTree() {
   const [searchIdx, setSearchIdx] = useState<number>(8);
   const [searchDepth, setSearchDepth] = useState<number>(2);
 
-  const [inputValue, setInputValue] = useState<string>("");
+  const [inputValue, setInputValue] = useState<string>("8");
 
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
@@ -254,14 +254,12 @@ function MasterTree() {
         {/* TODO
           현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
         */}
+        <p id="input-wrapper-title">Search query</p>
         <div
+          id="query-input-wrapper"
           style={{
             display: "flex",
             flexDirection: "row",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            setSearchIdx(Number(inputValue));
           }}
         >
           <input
@@ -272,8 +270,18 @@ function MasterTree() {
               if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
             }}
           />
-          <div>⌕</div>
+          <div
+            style={{
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              setSearchIdx(Number(inputValue));
+            }}
+          >
+            <p id="magnifier">⌕</p>
+          </div>
         </div>
+        <p id="input-wrapper-title">Depth</p>
         <input
           type="range"
           min={1}
@@ -285,8 +293,9 @@ function MasterTree() {
           }}
         />
       </div>
+      <div className="horizon"></div>
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
-      <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
+      <TreeWrapper id={`tree-wrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
         {/* canvas */}
         <svg
           id="wires"

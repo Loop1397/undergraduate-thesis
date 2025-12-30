@@ -16,7 +16,7 @@ header div {
   align-items: center;
 }
 
-p {
+header p {
   display: flex;
   align-items: center;
   font-size: 28px;

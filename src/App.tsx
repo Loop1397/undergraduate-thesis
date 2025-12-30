@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./index.css";
 import "./App.css";
 import MasterTree from "./master-tree/master-tree.page";
 import Header from "./header/header.page";
@@ -9,8 +10,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div style={{ width: "100%", height: "1px", backgroundColor: "#eeeeee" }}></div>
-      <div className="container" style={{ backgroundColor: "#F3F7F9" }}>
+      <div className="horizon"></div>
+      <div className="container">
         <MasterTree />
       </div>
     </>

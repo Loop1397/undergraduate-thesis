@@ -1,6 +1,13 @@
 .container {
   min-height: 100vh;
-  padding: 40px;
+  /* padding: 40px; */
+  background-color: #f3f7f9;
+}
+
+.horizon {
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
 }
 
 .parent {
