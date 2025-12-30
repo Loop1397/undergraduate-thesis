@@ -1,0 +1,29 @@
+svg#wires {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+#input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 4px;
+  background: #ddd;
+  border-radius: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #333333;
+  border-radius: 50%;
+  cursor: pointer;
+}
