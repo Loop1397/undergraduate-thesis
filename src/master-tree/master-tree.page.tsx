@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { computeTreeSpans, renderLines, drawLine } from "./master-tree.util";
-import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode } from "./master-tree.component";
+import { computeTreeSpans, renderLines, createLine, getResearcherInfo } from "./master-tree.util";
+import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./master-tree.component";
 
 // import data
 import researcherData from "../../data.json";
@@ -64,12 +64,12 @@ function MasterTree() {
     },
     {
       id: 9,
-      advisors: [8, 900],
+      advisors: [8, 500],
       advisees: [12, 13, 14],
     },
     {
       id: 10,
-      advisors: [8, 900],
+      advisors: [8, 500],
       advisees: [],
     },
     {
@@ -108,13 +108,13 @@ function MasterTree() {
       advisees: [8],
     },
     {
-      id: 899,
+      id: 499,
       advisors: [],
-      advisees: [900],
+      advisees: [500],
     },
     {
-      id: 900,
-      advisors: [899],
+      id: 500,
+      advisors: [499],
       advisees: [9, 10],
     },
   ];
@@ -123,7 +123,7 @@ function MasterTree() {
   const [searchIdx, setSearchIdx] = useState<number>(8);
   const [searchDepth, setSearchDepth] = useState<number>(2);
 
-  const [inputValue, setInputValue] = useState<string>("");
+  const [inputValue, setInputValue] = useState<string>("8");
 
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
@@ -254,14 +254,12 @@ function MasterTree() {
         {/* TODO
           현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
         */}
+        <p id="input-wrapper-title">Search query</p>
         <div
+          id="query-input-wrapper"
           style={{
             display: "flex",
             flexDirection: "row",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            setSearchIdx(Number(inputValue));
           }}
         >
           <input
@@ -272,8 +270,18 @@ function MasterTree() {
               if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
             }}
           />
-          <div>⌕</div>
+          <div
+            style={{
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              setSearchIdx(Number(inputValue));
+            }}
+          >
+            <p id="magnifier">⌕</p>
+          </div>
         </div>
+        <p id="input-wrapper-title">Depth</p>
         <input
           type="range"
           min={1}
@@ -285,8 +293,9 @@ function MasterTree() {
           }}
         />
       </div>
+      <div className="horizon"></div>
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
-      <TreeWrapper id={`treeWrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
+      <TreeWrapper id={`tree-wrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
         {/* canvas */}
         <svg
           id="wires"
@@ -328,8 +337,16 @@ function MasterTree() {
 
                   return (
                     <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {/* {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""} */}
-                      {id}
+                      {(() => {
+                        const researcherInfo = getResearcherInfo(Number(id));
+                        return (
+                          <>
+                            <HumanIcon />
+                            <p>{researcherInfo[`name`][0]}</p>
+                            <p>{researcherInfo[`affiliation`]}</p>
+                          </>
+                        );
+                      })()}
                     </TreeNode>
                   );
                 })}
@@ -340,7 +357,16 @@ function MasterTree() {
           {/* 検索を行った研究者のrow */}
           <TreeRow>
             <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
-              idx
+              {(() => {
+                const researcherInfo = getResearcherInfo(Number(searchIdx));
+                return (
+                  <>
+                    <HumanIcon />
+                    <p>{researcherInfo[`name`][0]}</p>
+                    <p>{researcherInfo[`affiliation`]}</p>
+                  </>
+                );
+              })()}
             </TreeNode>
           </TreeRow>
         </AcademicLineageTree>
@@ -368,8 +394,16 @@ function MasterTree() {
 
                   return (
                     <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {/* {id - 1 >= 0 ? researcherData[id - 1].name[0] : ""} */}
-                      {id}
+                      {(() => {
+                        const researcherInfo = getResearcherInfo(Number(id));
+                        return (
+                          <>
+                            <HumanIcon />
+                            <p>{researcherInfo[`name`][0]}</p>
+                            <p>{researcherInfo[`affiliation`]}</p>
+                          </>
+                        );
+                      })()}
                     </TreeNode>
                   );
                 })}
