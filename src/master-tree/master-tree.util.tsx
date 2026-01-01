@@ -106,7 +106,10 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
         console.log(`node = ${node}`);
         console.log(array[i + 1][idx].every((node: number) => node === 0));
         console.log(array[i + 1][idx]);
-        if (array[i + 1][idx].every((node: number) => node === 0)) continue;
+        if (array[i + 1][idx].every((node: number) => node === 0)) {
+          idx += 1;
+          continue;
+        }
 
         const toArray: HTMLDivElement[] = array[i + 1][idx].flatMap((n: number) => Array.from(document.querySelectorAll<HTMLDivElement>(`#${type}-${i} div.node${n !== 0 ? n : `blank`}`)));
 
