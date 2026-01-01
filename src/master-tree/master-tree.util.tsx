@@ -1,5 +1,14 @@
 import researcherData from "../../data.json";
 
+/**
+ * 入力されたIDを持っている研究者のデータを返すメッソド
+ * @param researcherId(Number): 研究者のID
+ * @returns
+ */
+export const getResearcherInfo = (researcherId: number) => {
+  return researcherData[researcherId - 1];
+};
+
 // 各nodeが持つ広さ(span)を求めるためのメッソド
 export const computeTreeSpans = (tree: number[][][], direction: string): number[][] => {
   const spans: number[][] = [];
@@ -32,7 +41,7 @@ export const computeTreeSpans = (tree: number[][][], direction: string): number[
 };
 
 /**
- * コンテナ(container)内の特定の要素(element)の特定の辺の中央座標値を求める関数
+ * コンテナ(container)内の特定の要素(element)の特定の辺の中央座標値を求めるメッソド
  * element: 座標を求める要素
  * containter: elementが含まれているコンテナ
  * side: 上下左右の辺
@@ -53,15 +62,14 @@ export const getEdgePoint = (element: HTMLDivElement, container: HTMLDivElement,
 };
 
 /**
- * 入力された座標を元に線を描く関数
+ * 入力された座標を元に線を描くメッソド
  * x1 : 始点のx座標
  * y1 : 始点のy座標
  * x2 : 終点のx座標
  * y2 : 終点のy座標
  */
-export const drawLine = (x1: string, y1: string, x2: string, y2: string, svg: SVGSVGElement) => {
+export const createLine = (x1: string, y1: string, x2: string, y2: string, svg: SVGSVGElement) => {
   // 직선 스타일
-  const stroke = "#c9c9c9";
   const sw = `2`;
 
   const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
@@ -69,13 +77,12 @@ export const drawLine = (x1: string, y1: string, x2: string, y2: string, svg: SV
   line.setAttribute("y1", y1);
   line.setAttribute("x2", x2);
   line.setAttribute("y2", y2);
-  line.setAttribute("stroke", stroke);
   line.setAttribute("stroke-width", sw);
   svg.appendChild(line);
 };
 
 export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGElement, direction: string) => {
-  const wrapper = document.getElementById(`treeWrapper`) as HTMLDivElement | null;
+  const wrapper = document.getElementById(`tree-wrapper`) as HTMLDivElement | null;
 
   if (!wrapper) return;
 
@@ -109,29 +116,29 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
         if (direction === `descendants`) {
           const fromXY = getEdgePoint(from, wrapper, `bottom`);
 
-          drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y + 8}`, svg);
+          createLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y + 8}`, svg);
 
           toArray.forEach((to) => {
             const toXY = getEdgePoint(to, wrapper, `top`);
-            drawLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y - 8}`, svg);
+            createLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y - 8}`, svg);
           });
 
           const middleLineLeftXY = getEdgePoint(toArray[0], wrapper, "top");
           const middleLineRightXY = getEdgePoint(toArray[toArray.length - 1], wrapper, "top");
-          drawLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y - 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y - 9}`, svg);
+          createLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y - 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y - 9}`, svg);
         } else {
           const fromXY = getEdgePoint(from, wrapper, `top`);
 
-          drawLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y - 8}`, svg);
+          createLine(`${fromXY.x}`, `${fromXY.y}`, `${fromXY.x}`, `${fromXY.y - 8}`, svg);
 
           toArray.forEach((to) => {
             const toXY = getEdgePoint(to, wrapper, `bottom`);
-            drawLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y + 8}`, svg);
+            createLine(`${toXY.x}`, `${toXY.y}`, `${toXY.x}`, `${toXY.y + 8}`, svg);
           });
 
           const middleLineLeftXY = getEdgePoint(toArray[0], wrapper, "bottom");
           const middleLineRightXY = getEdgePoint(toArray[toArray.length - 1], wrapper, "bottom");
-          drawLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y + 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y + 9}`, svg);
+          createLine(`${middleLineLeftXY.x}`, `${middleLineLeftXY.y + 9}`, `${middleLineRightXY.x}`, `${middleLineRightXY.y + 9}`, svg);
         }
       }
     }
