@@ -28,6 +28,7 @@ export const TreeNode = styled.div<{
 }>`
   background-color: #ffffff;
   min-width: 50px;
+  padding: 4px;
   border: solid 1px #eeeeee;
   border-radius: 5px;
   grid-column: ${({ $start, $end, $span }) => {
@@ -35,4 +36,12 @@ export const TreeNode = styled.div<{
     if ($start != null && $span != null) return `${$start} / span ${$span}`;
     return "auto";
   }};
+`;
+
+export const HumanIcon = styled.img.attrs({
+  src: "/humanIcon.png",
+})`
+  width: 28px;
+  height: 28px;
+  color: #6775c9;
 `;
