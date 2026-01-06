@@ -7,15 +7,9 @@ import researcherData from "../../data.json";
 import relationData from "../../relation-data.json";
 
 import "./master-tree.css";
+import type { Researcher, Direction } from "../types/master-tree";
 
 function MasterTree() {
-  type Direction = "ancestors" | "descendants";
-  type Researcher = {
-    id: number;
-    advisors: number[];
-    advisees: number[];
-  };
-
   // TreeWrapperの状態を追跡するためのref
   const treeWrapperRef = useRef<HTMLDivElement | null>(null);
   // SVG elementを入れるためのref

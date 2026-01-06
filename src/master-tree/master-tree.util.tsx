@@ -1,4 +1,6 @@
 import researcherData from "../../data.json";
+import relationData from "../../relation-data.json";
+import type { Direction } from "../types/master-tree";
 
 /**
  * 入力されたIDを持っている研究者のデータを返すメッソド
