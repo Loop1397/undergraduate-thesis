@@ -1,4 +1,6 @@
 import researcherData from "../../data.json";
+import relationData from "../../relation-data.json";
+import type { Direction } from "../types/master-tree.type";
 
 /**
  * 入力されたIDを持っている研究者のデータを返すメッソド
@@ -7,6 +9,63 @@ import researcherData from "../../data.json";
  */
 export const getResearcherInfo = (researcherId: number) => {
   return researcherData[researcherId - 1];
+};
+
+export const getResearcherIdFromName = (researcherName: string) => {
+  const result = researcherData.find((d) => d.name.includes(researcherName));
+
+  if (!result) {
+    throw new Error(`researcher ${researcherName} is not found`);
+  }
+
+  const id = result.id;
+
+  return id;
+};
+
+export const buildMasterTree = (rootId: number, maxDepth: number, direction: Direction) => {
+  const tree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
+  const rootResearcher = relationData.find((d) => d.id === rootId);
+
+  // 検索する研究者が間違っている時のエラー
+  if (!rootResearcher) {
+    throw new Error(`researcher ${rootId} not found`);
+  }
+
+  // depth=1のところを初期化する
+  // ancestorsのときにはrootの1個上の師匠を探す
+  // descendantsのときにはrootの1個下の弟子を探す
+  direction === "ancestors" ? tree[0].push(rootResearcher.advisors) : tree[0].push(rootResearcher.advisees);
+
+  // maxColsのmaxを計算するための変数maxCount
+  // 上で検索する研究者の師匠か弟子を先に入れたので、maxもそちに合わせて初期化しておく
+  let maxCount = tree[0][0].length;
+
+  // 検索する研究者の師匠もしくは弟子に基づいてTreeを作っていく
+  for (let i = 0; i < maxDepth - 1; i++) {
+    // 現在のループのcolsを計算するための変数
+    let currentRowCount = 0;
+
+    tree[i].forEach((row) => {
+      // 各idを一つずつ検索し、listに入れていく
+      row.forEach((researcherId) => {
+        // 特定のidを持つ師匠もしくは弟子を探す
+        const nextData = relationData.find((d) => d.id === researcherId);
+        // その師匠が持つもう1個上の師匠、またはその弟子が持つもう1個下の弟子を探す
+        // もしない場合、[0]を入れる
+        const nextNode = direction === "ancestors" ? (nextData ? nextData.advisors : [0]) : nextData ? nextData.advisees : [0];
+
+        // nextNodeをツリーに追加
+        tree[i + 1].push(nextNode.length !== 0 ? nextNode : [0]);
+        // nextNodeの数をcurrentRowCountにだしていく
+        currentRowCount += nextNode.length !== 0 ? nextNode.length : 1;
+      });
+    });
+    // maxCountとcurrentを比較し、より大きい値をmaxCountに入れる
+    maxCount = Math.max(maxCount, currentRowCount);
+  }
+
+  return { tree, maxCount };
 };
 
 // 各nodeが持つ広さ(span)を求めるためのメッソド
