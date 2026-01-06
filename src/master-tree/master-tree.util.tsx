@@ -11,6 +11,18 @@ export const getResearcherInfo = (researcherId: number) => {
   return researcherData[researcherId - 1];
 };
 
+export const getResearcherIdFromName = (researcherName: string) => {
+  const result = researcherData.find((d) => d.name.includes(researcherName));
+
+  if (!result) {
+    throw new Error(`researcher ${researcherName} is not found`);
+  }
+
+  const id = result.id;
+
+  return id;
+};
+
 export const buildMasterTree = (rootId: number, maxDepth: number, direction: Direction) => {
   const tree: number[][][] = Array.from({ length: maxDepth }, () => [] as number[][]);
   const rootResearcher = relationData.find((d) => d.id === rootId);

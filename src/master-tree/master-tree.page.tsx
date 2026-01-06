@@ -1,10 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { computeTreeSpans, renderLines, createLine, getResearcherInfo, buildMasterTree } from "./master-tree.util";
+import { computeTreeSpans, renderLines, createLine, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
 import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./master-tree.component";
-
-// import data
-import researcherData from "../../data.json";
-import relationData from "../../relation-data.json";
 
 import "./master-tree.css";
 import type { Researcher, Direction } from "../types/master-tree.type";
@@ -15,109 +11,11 @@ function MasterTree() {
   // SVG elementを入れるためのref
   const svgRef = useRef<SVGSVGElement | null>(null);
 
-  const data: Researcher[] = [
-    {
-      id: 1,
-      advisors: [],
-      advisees: [6],
-    },
-    {
-      id: 2,
-      advisors: [],
-      advisees: [6],
-    },
-    {
-      id: 3,
-      advisors: [],
-      advisees: [6],
-    },
-    {
-      id: 4,
-      advisors: [],
-      advisees: [6],
-    },
-    {
-      id: 5,
-      advisors: [],
-      advisees: [7],
-    },
-    {
-      id: 6,
-      advisors: [1, 2, 3, 4],
-      advisees: [8],
-    },
-    {
-      id: 7,
-      advisors: [5],
-      advisees: [8],
-    },
-    {
-      id: 8,
-      advisors: [6, 7, 100],
-      advisees: [9, 10, 11],
-    },
-    {
-      id: 9,
-      advisors: [8, 500],
-      advisees: [12, 13, 14],
-    },
-    {
-      id: 10,
-      advisors: [8, 500],
-      advisees: [],
-    },
-    {
-      id: 11,
-      advisors: [8],
-      advisees: [15, 16],
-    },
-    {
-      id: 12,
-      advisors: [9],
-      advisees: [],
-    },
-    {
-      id: 13,
-      advisors: [9],
-      advisees: [],
-    },
-    {
-      id: 14,
-      advisors: [9],
-      advisees: [],
-    },
-    {
-      id: 15,
-      advisors: [11],
-      advisees: [],
-    },
-    {
-      id: 16,
-      advisors: [11],
-      advisees: [],
-    },
-    {
-      id: 100,
-      advisors: [],
-      advisees: [8],
-    },
-    {
-      id: 499,
-      advisors: [],
-      advisees: [500],
-    },
-    {
-      id: 500,
-      advisors: [499],
-      advisees: [9, 10],
-    },
-  ];
-
   // 検索するindexとdepthを入れるためのstate
-  const [searchIdx, setSearchIdx] = useState<number>(8);
+  const [searchQuery, setSearchQuery] = useState<string>("西田 豊明");
   const [searchDepth, setSearchDepth] = useState<number>(2);
 
-  const [inputValue, setInputValue] = useState<string>("8");
+  const [inputValue, setInputValue] = useState<string>("西田 豊明");
 
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
@@ -183,15 +81,18 @@ function MasterTree() {
       svg.removeChild(svg.firstChild);
     }
 
+    const searchIdx = getResearcherIdFromName(searchQuery);
+
     setMasterTree(searchIdx, searchDepth, "ancestors");
     setMasterTree(searchIdx, searchDepth, "descendants");
-  }, [searchIdx, searchDepth]);
+  }, [searchQuery, searchDepth]);
 
   // adviseeTreeが変わり、新しいnode達がレンダリングされたら実行
   useLayoutEffect(() => {
     if (!svgRef.current) return;
     if (!adviseeTree) return;
 
+    const searchIdx = getResearcherIdFromName(searchQuery);
     renderLines(adviseeTree, searchIdx, svgRef.current, "descendants");
   }, [adviseeTree]);
 
@@ -199,6 +100,7 @@ function MasterTree() {
     if (!svgRef.current) return;
     if (!advisorTree) return;
 
+    const searchIdx = getResearcherIdFromName(searchQuery);
     renderLines([...advisorTree].reverse(), searchIdx, svgRef.current, "ancestors");
   }, [advisorTree]);
 
@@ -221,7 +123,7 @@ function MasterTree() {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-              if (e.key === `Enter`) setSearchIdx(Number(e.currentTarget.value));
+              if (e.key === `Enter`) setSearchQuery(e.currentTarget.value);
             }}
           />
           <div
@@ -229,7 +131,7 @@ function MasterTree() {
               cursor: "pointer",
             }}
             onClick={() => {
-              setSearchIdx(Number(inputValue));
+              setSearchQuery(inputValue);
             }}
           >
             <p id="magnifier">⌕</p>
@@ -310,9 +212,9 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
+            <TreeNode id={`node${searchQuery}`} className={"idx"} key={`node${searchQuery}`} $start={1} $end={-1}>
               {(() => {
-                const researcherInfo = getResearcherInfo(Number(searchIdx));
+                const researcherInfo = getResearcherInfo(getResearcherIdFromName(searchQuery));
                 return (
                   <>
                     <HumanIcon />
