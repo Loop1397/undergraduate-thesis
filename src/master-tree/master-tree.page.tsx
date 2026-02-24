@@ -212,7 +212,7 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node${searchQuery}`} className={"idx"} key={`node${searchQuery}`} $start={1} $end={-1}>
+            <TreeNode id={`node${getResearcherIdFromName(searchQuery)}`} className={"idx"} key={`node${getResearcherIdFromName(searchQuery)}`} $start={1} $end={-1}>
               {(() => {
                 const researcherInfo = getResearcherInfo(getResearcherIdFromName(searchQuery));
                 return (
