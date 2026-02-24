@@ -52,7 +52,7 @@ function MasterTree() {
   };
 
   // ページローディング時に実行
-  useEffect(() => {}, []);
+  useEffect(() => { }, []);
 
   useLayoutEffect(() => {
     const updateSize = () => {
@@ -198,7 +198,7 @@ function MasterTree() {
                         return (
                           <>
                             <HumanIcon />
-                            <p>{researcherInfo[`name`][0]}</p>
+                            <p>{researcherInfo[`names`][0]}</p>
                             <p>{researcherInfo[`affiliation`]}</p>
                           </>
                         );
@@ -218,7 +218,7 @@ function MasterTree() {
                 return (
                   <>
                     <HumanIcon />
-                    <p>{researcherInfo[`name`][0]}</p>
+                    <p>{researcherInfo[`names`][0]}</p>
                     <p>{researcherInfo[`affiliation`]}</p>
                   </>
                 );
@@ -255,7 +255,7 @@ function MasterTree() {
                         return (
                           <>
                             <HumanIcon />
-                            <p>{researcherInfo[`name`][0]}</p>
+                            <p>{researcherInfo[`names`][0]}</p>
                             <p>{researcherInfo[`affiliation`]}</p>
                           </>
                         );

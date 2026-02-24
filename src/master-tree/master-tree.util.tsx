@@ -12,7 +12,7 @@ export const getResearcherInfo = (researcherId: number) => {
 };
 
 export const getResearcherIdFromName = (researcherName: string) => {
-  const result = researcherData.find((d) => d.name.includes(researcherName));
+  const result = researcherData.find((d) => d.names.includes(researcherName));
 
   if (!result) {
     throw new Error(`researcher ${researcherName} is not found`);
