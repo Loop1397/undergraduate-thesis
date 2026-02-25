@@ -120,6 +120,65 @@ function MasterTree() {
     renderLines([...advisorTree].reverse(), searchIdx, svgRef.current, "ancestors");
   }, [advisorTree]);
 
+  const Tree = ({
+    tree,
+    spans,
+    maxCols,
+    direction,
+  }: {
+    tree: number[][][] | undefined;
+    spans: number[][] | undefined;
+    maxCols: number;
+    direction: Direction;
+  }) => (
+    <AcademicLineageTree style={{ ["--cols" as any]: maxCols }}>
+      {tree?.map((row, rowIdx) => {
+        // spansから各nodeのspan(広さ)情報を持ってくる
+        // ただし、rowIdx===0のときのnodeの大きさは全て1にする
+        const spansForNodes =
+          direction === "ancestors"
+            ? rowIdx === 0
+              ? row.flat().map(() => 1)
+              : spans![rowIdx - 1]
+            : rowIdx === tree.length - 1
+              ? row.flat().map(() => 1)
+              : spans![rowIdx + 1];
+
+        // rowの全ての中身が0の場合、何も出力しない
+        if (row.flat().every((node) => node === 0)) return null;
+
+        let curStart = 1;
+        const rowId = direction === "ancestors" ? `advisor-${tree.length - 1 - rowIdx}` : `advisee-${rowIdx}`;
+        return (
+          <TreeRow id={rowId}>
+            {row.flat().map((id, idx) => {
+              // nodeが始まるところ
+              const start = curStart;
+              // nodeが終わるところ(start + span)
+              const end = start + spansForNodes[idx];
+              // 次のnodeが始まるところ
+              curStart += spansForNodes[idx];
+
+              // advisorやadviseeがいない場合の空白を作るための処理
+              if (id === 0) return <div key={`${rowIdx}-${idx}`}></div>;
+
+              return (
+                <TreeNode
+                  id={`node${id !== 0 ? id : "blank"}`}
+                  className={`node${id !== 0 ? id : "blank"}`}
+                  key={`${rowIdx}-${idx}`}
+                  start={start}
+                  end={end}
+                  researcherInfo={getResearcherInfo(Number(id))}
+                />
+              );
+            })}
+          </TreeRow>
+        );
+      })}
+    </AcademicLineageTree>
+  );
+
   return (
     <>
       <SearchControlPanel>
@@ -152,93 +211,22 @@ function MasterTree() {
         {/**
         Adviser tree
         */}
-        <AcademicLineageTree style={{ ["--cols" as any]: advisorMaxCols }}>
-          {advisorTree?.map((row, rowIdx) => {
-            // spansから各nodeのspan(広さ)情報を持ってくる
-            // ただし、rowIdx===0のときのnodeの大きさは全て1にする
-            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : advisorSpans![rowIdx - 1].slice();
-
-            // rowの全ての中身が0の場合、何も出力しない
-            if (row.flat().every((node: number) => node === 0)) return;
-
-            let curStart = 1;
-            return (
-              <TreeRow id={`advisor-${advisorTree.length - 1 - rowIdx}`} key={`advisor-${advisorTree.length - 1 - rowIdx}`}>
-                {row.flat().map((id: any, idx: number) => {
-                  // nodeが始まるところ
-                  const start = curStart;
-                  // nodeが終わるところ(start + span)
-                  const end = start + spansForNodes[idx];
-                  // 次のnodeが始まるところ
-                  curStart += spansForNodes[idx];
-
-                  // advisorがいない場合、何も出力しない
-                  if (id === 0) return <div></div>;
-
-                  return (
-                    <TreeNode
-                      id={`node${id !== 0 ? id : "blank"}`}
-                      className={`node${id !== 0 ? id : "blank"}`}
-                      key={`${rowIdx}-${idx}`}
-                      start={start}
-                      end={end}
-                      researcherInfo={getResearcherInfo(Number(id))}
-                    />
-                  );
-                })}
-              </TreeRow>
-            );
-          })}
-
-          {/* 検索を行った研究者のrow */}
-          <TreeRow>
-            <TreeNode
-              id={`node${searchIdx}`}
-              className={"rootResearcher"}
-              key={`node${searchIdx}`}
-              start={1}
-              end={-1}
-              researcherInfo={getResearcherInfo(Number(searchIdx))}
-            />
-          </TreeRow>
-        </AcademicLineageTree>
-
+        <Tree tree={advisorTree} spans={advisorSpans} maxCols={advisorMaxCols} direction="ancestors" />
+        {/* 検索を行った研究者のrow */}
+        <TreeRow>
+          <TreeNode
+            id={`node${searchIdx}`}
+            className={"rootResearcher"}
+            key={`node${searchIdx}`}
+            start={1}
+            end={-1}
+            researcherInfo={getResearcherInfo(Number(searchIdx))}
+          />
+        </TreeRow>
         {/**
         Advisee tree
         */}
-        <AcademicLineageTree style={{ ["--cols" as any]: adviseeMaxCols, marginTop: "16px" }}>
-          {adviseeTree?.map((row, rowIdx) => {
-            const spansForNodes = rowIdx === adviseeTree.length - 1 ? row.flat().map(() => 1) : adviseeSpans![rowIdx + 1].slice();
-
-            // rowの全ての中身が0の場合、何も出力しない
-            if (row.flat().every((node: number) => node === 0)) return;
-
-            let curStart = 1;
-            return (
-              <TreeRow id={`advisee-${rowIdx}`} key={`advisee-${rowIdx}`}>
-                {row.flat().map((id: any, idx: number) => {
-                  const start = curStart;
-                  const end = start + spansForNodes[idx];
-                  curStart += spansForNodes[idx];
-
-                  // adviseeがいない場合、何も出力しない
-                  if (id === 0) return <div></div>;
-
-                  return (
-                    <TreeNode
-                      id={`node${id !== 0 ? id : "blank"}`}
-                      className={`node${id !== 0 ? id : "blank"}`}
-                      key={`${rowIdx}-${idx}`}
-                      start={start}
-                      end={end}
-                      researcherInfo={getResearcherInfo(Number(id))}
-                    />
-                  );
-                })}
-              </TreeRow>
-            );
-          })}
-        </AcademicLineageTree>
+        <Tree tree={adviseeTree} spans={adviseeSpans} maxCols={adviseeMaxCols} direction="descendants" />
       </TreeWrapper>
     </>
   );

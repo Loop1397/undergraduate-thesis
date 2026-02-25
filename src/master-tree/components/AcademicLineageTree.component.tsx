@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const TreeWrapper = styled.div`
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 `;
 
 // grid=template-columnsにより各rowを何個で分けるかを決める
