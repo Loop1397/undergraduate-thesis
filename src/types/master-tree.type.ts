@@ -1,6 +1,6 @@
 export type Direction = "ancestors" | "descendants";
 
-export type relation = {
+export type Relation = {
   id: number;
   advisors: number[];
   advisees: number[];
@@ -8,11 +8,11 @@ export type relation = {
 
 export type Researcher = {
   id: number;
-  name: string[];
-  advisors: number[];
-  affiliation: string;
-  title: string;
-  category: string;
+  names: string[];
+  advisors: string[];
+  affiliation: string | null;
+  title: string | null;
+  category: string | null;
   keywords: string[];
   award_date: string;
 };

@@ -1,13 +1,17 @@
-import researcherData from "../../data.json";
-import relationData from "../../relation-data.json";
-import type { Direction } from "../types/master-tree.type";
+import Researcherdata from "../../data.json";
+import RelationData from "../../relation-data.json";
+import type { Direction, Researcher, Relation } from "../types/master-tree.type";
+
+// 研究者のデータと関係データのTypeを明示的に指定することで、TypeScriptの型チェックを有効にする
+const researcherData: Researcher[] = Researcherdata;
+const relationData: Relation[] = RelationData;
 
 /**
  * 入力されたIDを持っている研究者のデータを返すメッソド
  * @param researcherId(number): 研究者のID
  * @returns
  */
-export const getResearcherInfo = (researcherId: number) => {
+export const getResearcherInfo = (researcherId: number): Researcher => {
   return researcherData[researcherId - 1];
 };
 
@@ -89,7 +93,7 @@ export const computeTreeSpans = (tree: number[][][], direction: string): number[
 
   for (let r = 1; r < tempTree.length; r++) {
     const prev = spans[r - 1];
-    const groupSizes = tempTree[r].map((group) => group.length); // 이번 행에서 몇 개의 이전 그룹을 합치는가
+    const groupSizes = tempTree[r].map((group) => group.length); // 現在の行の各グループのサイズを取得
     const rowSpans: number[] = [];
 
     let i = 0;
@@ -115,7 +119,7 @@ export const getEdgePoint = (element: HTMLDivElement, container: HTMLDivElement,
   const r = element.getBoundingClientRect();
   const c = container.getBoundingClientRect();
 
-  // element의 중앙 좌표 계산
+  // elementの中央座標を求める
   const x = r.left + r.width / 2 - c.left;
   const y = r.top + r.height / 2 - c.top;
 
@@ -134,7 +138,7 @@ export const getEdgePoint = (element: HTMLDivElement, container: HTMLDivElement,
  * y2 : 終点のy座標
  */
 export const createLine = (x1: string, y1: string, x2: string, y2: string, svg: SVGSVGElement) => {
-  // 직선 스타일
+  // 線の太さ
   const sw = `2`;
 
   const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
@@ -151,7 +155,6 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
 
   if (!wrapper) return;
 
-  //   const array = [...tree];
   const array = JSON.parse(JSON.stringify(tree));
 
   array.unshift([[searchIdx]]);
@@ -167,10 +170,6 @@ export const renderLines = (tree: number[][][], searchIdx: number, svg: SVGSVGEl
       console.log(`array[${i}][${j}] = ${array[i][j]}`);
       for (const node of array[i][j].values()) {
         const from = document.getElementById(`node${node}`) as HTMLDivElement | null;
-        console.log(`i = ${i}, idx = ${idx}`);
-        console.log(`node = ${node}`);
-        console.log(array[i + 1][idx].every((node: number) => node === 0));
-        console.log(array[i + 1][idx]);
         if (array[i + 1][idx].every((node: number) => node === 0)) {
           idx += 1;
           continue;

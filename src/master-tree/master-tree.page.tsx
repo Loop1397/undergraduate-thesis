@@ -1,9 +1,13 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { computeTreeSpans, renderLines, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
-import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./master-tree.component";
+import { TreeWrapper, AcademicLineageTree, TreeRow } from "./components/AcademicLineageTree.component";
 
 import "./master-tree.css";
 import type { Direction } from "../types/master-tree.type";
+import { SearchControlPanel } from "./components/SearchControlPanel.component";
+import { SearchQueryInput } from "./components/SearchQueryInput.component";
+import { DepthSlider } from "./components/DepthSlider.component";
+import { TreeNode } from "./components/TreeNode.component";
 
 function MasterTree() {
   // TreeWrapperの状態を追跡するためのref
@@ -116,51 +120,78 @@ function MasterTree() {
     renderLines([...advisorTree].reverse(), searchIdx, svgRef.current, "ancestors");
   }, [advisorTree]);
 
+  const Tree = ({
+    tree,
+    spans,
+    maxCols,
+    direction,
+  }: {
+    tree: number[][][] | undefined;
+    spans: number[][] | undefined;
+    maxCols: number;
+    direction: Direction;
+  }) => (
+    <AcademicLineageTree style={{ ["--cols" as any]: maxCols }}>
+      {tree?.map((row, rowIdx) => {
+        // spansから各nodeのspan(広さ)情報を持ってくる
+        // ただし、rowIdx===0のときのnodeの大きさは全て1にする
+        const spansForNodes =
+          direction === "ancestors"
+            ? rowIdx === 0
+              ? row.flat().map(() => 1)
+              : spans![rowIdx - 1]
+            : rowIdx === tree.length - 1
+              ? row.flat().map(() => 1)
+              : spans![rowIdx + 1];
+
+        // rowの全ての中身が0の場合、何も出力しない
+        if (row.flat().every((node) => node === 0)) return null;
+
+        let curStart = 1;
+        const rowId = direction === "ancestors" ? `advisor-${tree.length - 1 - rowIdx}` : `advisee-${rowIdx}`;
+        return (
+          <TreeRow id={rowId}>
+            {row.flat().map((id, idx) => {
+              // nodeが始まるところ
+              const start = curStart;
+              // nodeが終わるところ(start + span)
+              const end = start + spansForNodes[idx];
+              // 次のnodeが始まるところ
+              curStart += spansForNodes[idx];
+
+              // advisorやadviseeがいない場合の空白を作るための処理
+              if (id === 0) return <div key={`${rowIdx}-${idx}`}></div>;
+
+              return (
+                <TreeNode
+                  id={`node${id !== 0 ? id : "blank"}`}
+                  className={`node${id !== 0 ? id : "blank"}`}
+                  key={`${rowIdx}-${idx}`}
+                  start={start}
+                  end={end}
+                  researcherInfo={getResearcherInfo(Number(id))}
+                />
+              );
+            })}
+          </TreeRow>
+        );
+      })}
+    </AcademicLineageTree>
+  );
+
   return (
     <>
-      <div id="input-wrapper">
-        {/* TODO
-          현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
-        */}
-        <p id="input-wrapper-title">Search query</p>
-        <div
-          id="query-input-wrapper"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-          }}
-        >
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-              if (e.key === `Enter`) executeSearchBySearchQuery();
-            }}
-          />
-          <div
-            style={{
-              cursor: "pointer",
-            }}
-            onClick={() => {
-              executeSearchBySearchQuery();
-            }}
-          >
-            <p id="magnifier">⌕</p>
-          </div>
-        </div>
-        <p id="input-wrapper-title">Depth</p>
-        <input
-          type="range"
-          min={1}
-          max={3}
-          step={1}
-          value={searchDepth}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setSearchDepth(Number(e.target.value));
-          }}
+      <SearchControlPanel>
+        <SearchQueryInput
+          value={searchQuery}
+          onChange={setSearchQuery}
+          onSubmit={executeSearchBySearchQuery}
         />
-      </div>
+        <DepthSlider
+          value={searchDepth}
+          onChange={setSearchDepth}
+        />
+      </SearchControlPanel>
       <div className="horizon"></div>
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
       <TreeWrapper id={`tree-wrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
@@ -180,105 +211,22 @@ function MasterTree() {
         {/**
         Adviser tree
         */}
-        <AcademicLineageTree style={{ ["--cols" as any]: advisorMaxCols }}>
-          {advisorTree?.map((row, rowIdx) => {
-            // spansから各nodeのspan(広さ)情報を持ってくる
-            // ただし、rowIdx===0のときのnodeの大きさは全て1にする
-            const spansForNodes = rowIdx === 0 ? row.flat().map(() => 1) : advisorSpans![rowIdx - 1].slice();
-
-            // rowの全ての中身が0の場合、何も出力しない
-            if (row.flat().every((node: number) => node === 0)) return;
-
-            let curStart = 1;
-            return (
-              <TreeRow id={`advisor-${advisorTree.length - 1 - rowIdx}`} key={`advisor-${advisorTree.length - 1 - rowIdx}`}>
-                {row.flat().map((id: any, idx: number) => {
-                  // nodeが始まるところ
-                  const start = curStart;
-                  // nodeが終わるところ(start + span)
-                  const end = start + spansForNodes[idx];
-                  // 次のnodeが始まるところ
-                  curStart += spansForNodes[idx];
-
-                  // advisorがいない場合、何も出力しない
-                  if (id === 0) return <div></div>;
-
-                  return (
-                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {(() => {
-                        const researcherInfo = getResearcherInfo(Number(id));
-                        return (
-                          <>
-                            <HumanIcon />
-                            <p>{researcherInfo[`names`][0]}</p>
-                            <p>{researcherInfo[`affiliation`]}</p>
-                          </>
-                        );
-                      })()}
-                    </TreeNode>
-                  );
-                })}
-              </TreeRow>
-            );
-          })}
-
-          {/* 検索を行った研究者のrow */}
-          <TreeRow>
-            <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
-              {(() => {
-                const researcherInfo = getResearcherInfo(searchIdx);
-                return (
-                  <>
-                    <HumanIcon />
-                    <p>{researcherInfo[`names`][0]}</p>
-                    <p>{researcherInfo[`affiliation`]}</p>
-                  </>
-                );
-              })()}
-            </TreeNode>
-          </TreeRow>
-        </AcademicLineageTree>
-
+        <Tree tree={advisorTree} spans={advisorSpans} maxCols={advisorMaxCols} direction="ancestors" />
+        {/* 検索を行った研究者のrow */}
+        <TreeRow>
+          <TreeNode
+            id={`node${searchIdx}`}
+            className={"rootResearcher"}
+            key={`node${searchIdx}`}
+            start={1}
+            end={-1}
+            researcherInfo={getResearcherInfo(Number(searchIdx))}
+          />
+        </TreeRow>
         {/**
         Advisee tree
         */}
-        <AcademicLineageTree style={{ ["--cols" as any]: adviseeMaxCols, marginTop: "16px" }}>
-          {adviseeTree?.map((row, rowIdx) => {
-            const spansForNodes = rowIdx === adviseeTree.length - 1 ? row.flat().map(() => 1) : adviseeSpans![rowIdx + 1].slice();
-
-            // rowの全ての中身が0の場合、何も出力しない
-            if (row.flat().every((node: number) => node === 0)) return;
-
-            let curStart = 1;
-            return (
-              <TreeRow id={`advisee-${rowIdx}`} key={`advisee-${rowIdx}`}>
-                {row.flat().map((id: any, idx: number) => {
-                  const start = curStart;
-                  const end = start + spansForNodes[idx];
-                  curStart += spansForNodes[idx];
-
-                  // adviseeがいない場合、何も出力しない
-                  if (id === 0) return <div></div>;
-
-                  return (
-                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {(() => {
-                        const researcherInfo = getResearcherInfo(Number(id));
-                        return (
-                          <>
-                            <HumanIcon />
-                            <p>{researcherInfo[`names`][0]}</p>
-                            <p>{researcherInfo[`affiliation`]}</p>
-                          </>
-                        );
-                      })()}
-                    </TreeNode>
-                  );
-                })}
-              </TreeRow>
-            );
-          })}
-        </AcademicLineageTree>
+        <Tree tree={adviseeTree} spans={adviseeSpans} maxCols={adviseeMaxCols} direction="descendants" />
       </TreeWrapper>
     </>
   );
