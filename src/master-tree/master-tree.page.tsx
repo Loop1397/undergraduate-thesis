@@ -1,9 +1,12 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { computeTreeSpans, renderLines, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
-import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./master-tree.component";
+import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./components/AcademicLineageTree.component";
 
 import "./master-tree.css";
 import type { Direction } from "../types/master-tree.type";
+import { SearchControlPanel } from "./components/SearchControlPanel.component";
+import { SearchQueryInput } from "./components/SearchQueryInput.component";
+import { DepthSlider } from "./components/DepthSlider.component";
 
 function MasterTree() {
   // TreeWrapperの状態を追跡するためのref
@@ -118,49 +121,17 @@ function MasterTree() {
 
   return (
     <>
-      <div id="input-wrapper">
-        {/* TODO
-          현재는 input을 숫자로 받고 있지만 추후에 문자열(사람 이름)로 input을 받고 검색할 수 있도록 변경해야함
-        */}
-        <p id="input-wrapper-title">Search query</p>
-        <div
-          id="query-input-wrapper"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-          }}
-        >
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-              if (e.key === `Enter`) executeSearchBySearchQuery();
-            }}
-          />
-          <div
-            style={{
-              cursor: "pointer",
-            }}
-            onClick={() => {
-              executeSearchBySearchQuery();
-            }}
-          >
-            <p id="magnifier">⌕</p>
-          </div>
-        </div>
-        <p id="input-wrapper-title">Depth</p>
-        <input
-          type="range"
-          min={1}
-          max={3}
-          step={1}
-          value={searchDepth}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-            setSearchDepth(Number(e.target.value));
-          }}
+      <SearchControlPanel>
+        <SearchQueryInput
+          value={searchQuery}
+          onChange={setSearchQuery}
+          onSubmit={executeSearchBySearchQuery}
         />
-      </div>
+        <DepthSlider
+          value={searchDepth}
+          onChange={setSearchDepth}
+        />
+      </SearchControlPanel>
       <div className="horizon"></div>
       {/* svgのposition:'absolute'のためにposition: 'relative'を付与 */}
       <TreeWrapper id={`tree-wrapper`} ref={treeWrapperRef} style={{ position: "relative" }}>
