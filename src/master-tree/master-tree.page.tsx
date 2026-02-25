@@ -1,9 +1,9 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { computeTreeSpans, renderLines, createLine, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
+import { computeTreeSpans, renderLines, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
 import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./master-tree.component";
 
 import "./master-tree.css";
-import type { Researcher, Direction } from "../types/master-tree.type";
+import type { Direction } from "../types/master-tree.type";
 
 function MasterTree() {
   // TreeWrapperの状態を追跡するためのref
@@ -11,11 +11,12 @@ function MasterTree() {
   // SVG elementを入れるためのref
   const svgRef = useRef<SVGSVGElement | null>(null);
 
-  // 検索するindexとdepthを入れるためのstate
+  // 検索する単語(query)とdepthを入れるためのstate
   const [searchQuery, setSearchQuery] = useState<string>("西田 豊明");
   const [searchDepth, setSearchDepth] = useState<number>(2);
 
-  const [inputValue, setInputValue] = useState<string>("西田 豊明");
+  // queryを基に検索される研究者のid
+  const [searchIdx, setSearchIdx] = useState<number>(getResearcherIdFromName("西田 豊明"));
 
   // TreeWrapperの大きさを入れるためのstate
   const [wrapperSize, setWrapperSize] = useState({ width: 0, height: 0 });
@@ -51,6 +52,20 @@ function MasterTree() {
     }
   };
 
+  // searchQueryを基に検索を行う関数
+  const executeSearchBySearchQuery = () => {
+
+    // 研究者のidを検索する
+    const idx = getResearcherIdFromName(searchQuery);
+    // -1が返ってきたら、研究者が見つからなかったというエラーを出す
+    if (idx === -1) {
+      alert(`研究者"${searchQuery}"が見つかりませんでした！`);
+      return 0;
+    }
+
+    setSearchIdx(idx);
+  };
+
   // ページローディング時に実行
   useEffect(() => { }, []);
 
@@ -71,7 +86,7 @@ function MasterTree() {
     return () => window.removeEventListener("resize", updateSize);
   }, []);
 
-  // searchIdxやsearchDepthが変えられたらMasterTreeを更新
+  // searchIdxもしくはsearchDepthが変えられたらMasterTreeを更新
   useLayoutEffect(() => {
     // SVG初期化
     const svg = svgRef.current;
@@ -81,26 +96,23 @@ function MasterTree() {
       svg.removeChild(svg.firstChild);
     }
 
-    const searchIdx = getResearcherIdFromName(searchQuery);
-
     setMasterTree(searchIdx, searchDepth, "ancestors");
     setMasterTree(searchIdx, searchDepth, "descendants");
-  }, [searchQuery, searchDepth]);
+  }, [searchIdx, searchDepth]);
 
   // adviseeTreeが変わり、新しいnode達がレンダリングされたら実行
   useLayoutEffect(() => {
     if (!svgRef.current) return;
     if (!adviseeTree) return;
 
-    const searchIdx = getResearcherIdFromName(searchQuery);
     renderLines(adviseeTree, searchIdx, svgRef.current, "descendants");
   }, [adviseeTree]);
 
+  // adviseeTreeと同様に、advisorTreeが変わり、新しいnode達がレンダリングされたら実行
   useLayoutEffect(() => {
     if (!svgRef.current) return;
     if (!advisorTree) return;
 
-    const searchIdx = getResearcherIdFromName(searchQuery);
     renderLines([...advisorTree].reverse(), searchIdx, svgRef.current, "ancestors");
   }, [advisorTree]);
 
@@ -120,10 +132,10 @@ function MasterTree() {
         >
           <input
             type="text"
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) => {
-              if (e.key === `Enter`) setSearchQuery(e.currentTarget.value);
+              if (e.key === `Enter`) executeSearchBySearchQuery();
             }}
           />
           <div
@@ -131,7 +143,7 @@ function MasterTree() {
               cursor: "pointer",
             }}
             onClick={() => {
-              setSearchQuery(inputValue);
+              executeSearchBySearchQuery();
             }}
           >
             <p id="magnifier">⌕</p>
@@ -212,9 +224,9 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node${getResearcherIdFromName(searchQuery)}`} className={"idx"} key={`node${getResearcherIdFromName(searchQuery)}`} $start={1} $end={-1}>
+            <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
               {(() => {
-                const researcherInfo = getResearcherInfo(getResearcherIdFromName(searchQuery));
+                const researcherInfo = getResearcherInfo(searchIdx);
                 return (
                   <>
                     <HumanIcon />

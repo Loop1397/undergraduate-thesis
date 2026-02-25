@@ -4,18 +4,24 @@ import type { Direction } from "../types/master-tree.type";
 
 /**
  * 入力されたIDを持っている研究者のデータを返すメッソド
- * @param researcherId(Number): 研究者のID
+ * @param researcherId(number): 研究者のID
  * @returns
  */
 export const getResearcherInfo = (researcherId: number) => {
   return researcherData[researcherId - 1];
 };
 
+/**
+ * 入力された研究者のIDを返すメッソド
+ * @param researcherName(string): 検索する研究者の名前
+ * @returns
+ */
 export const getResearcherIdFromName = (researcherName: string) => {
   const result = researcherData.find((d) => d.names.includes(researcherName));
 
+  // 研究者の名前が見つからなかったときのエラー
   if (!result) {
-    throw new Error(`researcher ${researcherName} is not found`);
+    return -1;
   }
 
   const id = result.id;
