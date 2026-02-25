@@ -20,28 +20,3 @@ export const TreeRow = styled.div`
   grid-column: 1 / -1;
   min-height: 50px;
 `;
-
-export const TreeNode = styled.div<{
-  $start?: number;
-  $end?: number;
-  $span?: number;
-}>`
-  background-color: #ffffff;
-  min-width: 50px;
-  padding: 4px;
-  border: solid 1px #eeeeee;
-  border-radius: 5px;
-  grid-column: ${({ $start, $end, $span }) => {
-    if ($start != null && $end != null) return `${$start} / ${$end}`;
-    if ($start != null && $span != null) return `${$start} / span ${$span}`;
-    return "auto";
-  }};
-`;
-
-export const HumanIcon = styled.img.attrs({
-  src: "/humanIcon.png",
-})`
-  width: 28px;
-  height: 28px;
-  color: #6775c9;
-`;

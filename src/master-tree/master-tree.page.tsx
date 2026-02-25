@@ -1,12 +1,13 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { computeTreeSpans, renderLines, getResearcherInfo, buildMasterTree, getResearcherIdFromName } from "./master-tree.util";
-import { TreeWrapper, AcademicLineageTree, TreeRow, TreeNode, HumanIcon } from "./components/AcademicLineageTree.component";
+import { TreeWrapper, AcademicLineageTree, TreeRow } from "./components/AcademicLineageTree.component";
 
 import "./master-tree.css";
 import type { Direction } from "../types/master-tree.type";
 import { SearchControlPanel } from "./components/SearchControlPanel.component";
 import { SearchQueryInput } from "./components/SearchQueryInput.component";
 import { DepthSlider } from "./components/DepthSlider.component";
+import { TreeNode } from "./components/TreeNode.component";
 
 function MasterTree() {
   // TreeWrapperの状態を追跡するためのref
@@ -175,18 +176,14 @@ function MasterTree() {
                   if (id === 0) return <div></div>;
 
                   return (
-                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {(() => {
-                        const researcherInfo = getResearcherInfo(Number(id));
-                        return (
-                          <>
-                            <HumanIcon />
-                            <p>{researcherInfo[`names`][0]}</p>
-                            <p>{researcherInfo[`affiliation`]}</p>
-                          </>
-                        );
-                      })()}
-                    </TreeNode>
+                    <TreeNode
+                      id={`node${id !== 0 ? id : "blank"}`}
+                      className={`node${id !== 0 ? id : "blank"}`}
+                      key={`${rowIdx}-${idx}`}
+                      start={start}
+                      end={end}
+                      researcherInfo={getResearcherInfo(Number(id))}
+                    />
                   );
                 })}
               </TreeRow>
@@ -195,18 +192,14 @@ function MasterTree() {
 
           {/* 検索を行った研究者のrow */}
           <TreeRow>
-            <TreeNode id={`node${searchIdx}`} className={"idx"} key={`node${searchIdx}`} $start={1} $end={-1}>
-              {(() => {
-                const researcherInfo = getResearcherInfo(searchIdx);
-                return (
-                  <>
-                    <HumanIcon />
-                    <p>{researcherInfo[`names`][0]}</p>
-                    <p>{researcherInfo[`affiliation`]}</p>
-                  </>
-                );
-              })()}
-            </TreeNode>
+            <TreeNode
+              id={`node${searchIdx}`}
+              className={"rootResearcher"}
+              key={`node${searchIdx}`}
+              start={1}
+              end={-1}
+              researcherInfo={getResearcherInfo(Number(searchIdx))}
+            />
           </TreeRow>
         </AcademicLineageTree>
 
@@ -232,18 +225,14 @@ function MasterTree() {
                   if (id === 0) return <div></div>;
 
                   return (
-                    <TreeNode id={`node${id !== 0 ? id : "blank"}`} className={`node${id !== 0 ? id : "blank"}`} key={`${rowIdx}-${idx}`} $start={start} $end={end}>
-                      {(() => {
-                        const researcherInfo = getResearcherInfo(Number(id));
-                        return (
-                          <>
-                            <HumanIcon />
-                            <p>{researcherInfo[`names`][0]}</p>
-                            <p>{researcherInfo[`affiliation`]}</p>
-                          </>
-                        );
-                      })()}
-                    </TreeNode>
+                    <TreeNode
+                      id={`node${id !== 0 ? id : "blank"}`}
+                      className={`node${id !== 0 ? id : "blank"}`}
+                      key={`${rowIdx}-${idx}`}
+                      start={start}
+                      end={end}
+                      researcherInfo={getResearcherInfo(Number(id))}
+                    />
                   );
                 })}
               </TreeRow>
