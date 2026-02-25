@@ -1,13 +1,17 @@
-import researcherData from "../../data.json";
-import relationData from "../../relation-data.json";
-import type { Direction } from "../types/master-tree.type";
+import Researcherdata from "../../data.json";
+import RelationData from "../../relation-data.json";
+import type { Direction, Researcher, Relation } from "../types/master-tree.type";
+
+// 研究者のデータと関係データのTypeを明示的に指定することで、TypeScriptの型チェックを有効にする
+const researcherData: Researcher[] = Researcherdata;
+const relationData: Relation[] = RelationData;
 
 /**
  * 入力されたIDを持っている研究者のデータを返すメッソド
  * @param researcherId(number): 研究者のID
  * @returns
  */
-export const getResearcherInfo = (researcherId: number) => {
+export const getResearcherInfo = (researcherId: number): Researcher => {
   return researcherData[researcherId - 1];
 };
 
