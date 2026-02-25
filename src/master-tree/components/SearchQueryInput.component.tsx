@@ -42,7 +42,11 @@ export const SearchQueryInput = ({
     value,
     onChange,
     onSubmit
-}: { value: string, onChange: (value: string) => void, onSubmit: () => void }) => {
+}: {
+    value: string,
+    onChange: (value: string) => void,
+    onSubmit: () => void
+}) => {
     return (
         <Wrapper>
             <p>Search Query</p>

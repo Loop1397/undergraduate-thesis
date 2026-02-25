@@ -27,7 +27,10 @@ export const RangeInput = styled.input.attrs({ type: "range" })`
 export const DepthSlider = ({
     value,
     onChange
-}: { value: number, onChange: (value: number) => void }) => {
+}: {
+    value: number,
+    onChange: (value: number) => void
+}) => {
     return (
         <Wrapper>
             <p>Depth</p>
